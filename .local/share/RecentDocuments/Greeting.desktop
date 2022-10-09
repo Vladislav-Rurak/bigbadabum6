@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=inode-directory
+Name=Greeting
+Type=Link
+URL[$e]=file:$HOME/snap/react-app/src/components/Greeting
+X-KDE-LastOpenedWith=

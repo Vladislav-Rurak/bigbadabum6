@@ -1,0 +1,12 @@
+{
+  "workbench.colorTheme": "Default Dark+",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "files.autoSave": "onFocusChange",
+  "editor.tabSize": 2,
+  "prettier.printWidth": 40,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "workbench.iconTheme": "mosmmy-icons-vscode",
+  "window.zoomLevel": 1
+}

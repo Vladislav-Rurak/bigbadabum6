@@ -1,0 +1,132 @@
+[2022-08-19 17:27:21.321] [renderer1] [warning] [CloudStudio.github-authentication]: Невозможно зарегистрировать "github-enterprise.uri". Это свойство уже зарегистрировано.
+[2022-08-19 17:27:21.458] [renderer1] [error] [CloudStudio.github-authentication]: Идентификатор проверки подлинности "github" уже зарегистрирован.
+[2022-08-19 17:27:21.458] [renderer1] [error] [CloudStudio.github-authentication]: Идентификатор проверки подлинности "github-enterprise" уже зарегистрирован.
+[2022-08-19 17:27:36.267] [renderer1] [error] [Extension Host] BadRequestError: Bad Request
+    at SendStream.error (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/send/index.js:270:31)
+    at SendStream.pipe (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/send/index.js:520:10)
+    at /home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/live-server/index.js:135:5
+    at call (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/connect/index.js:239:7)
+    at next (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/connect/index.js:183:5)
+    at cors (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/cors/lib/index.js:188:7)
+    at /home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/cors/lib/index.js:224:17
+    at originCallback (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/cors/lib/index.js:214:15)
+    at /home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/cors/lib/index.js:219:13
+    at optionsCallback (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/cors/lib/index.js:199:9)
+    at corsMiddleware (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/cors/lib/index.js:204:7)
+    at call (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/connect/index.js:239:7)
+    at next (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/connect/index.js:183:5)
+    at logger (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/morgan/index.js:144:5)
+    at call (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/connect/index.js:239:7)
+    at next (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/connect/index.js:183:5)
+    at Function.handle (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/connect/index.js:186:3)
+    at Server.app (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/connect/index.js:51:37)
+    at Server.emit (node:events:402:35)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+[2022-08-19 17:27:36.294] [renderer1] [error] [Extension Host] BadRequestError: Bad Request
+    at SendStream.error (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/send/index.js:270:31)
+    at SendStream.pipe (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/send/index.js:520:10)
+    at /home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/live-server/index.js:135:5
+    at call (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/connect/index.js:239:7)
+    at next (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/connect/index.js:183:5)
+    at cors (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/cors/lib/index.js:188:7)
+    at /home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/cors/lib/index.js:224:17
+    at originCallback (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/cors/lib/index.js:214:15)
+    at /home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/cors/lib/index.js:219:13
+    at optionsCallback (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/cors/lib/index.js:199:9)
+    at corsMiddleware (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/cors/lib/index.js:204:7)
+    at call (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/connect/index.js:239:7)
+    at next (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/connect/index.js:183:5)
+    at logger (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/morgan/index.js:144:5)
+    at call (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/connect/index.js:239:7)
+    at next (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/connect/index.js:183:5)
+    at Function.handle (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/connect/index.js:186:3)
+    at Server.app (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/connect/index.js:51:37)
+    at Server.emit (node:events:402:35)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+[2022-08-19 17:27:45.423] [renderer1] [info] UNRESPONSIVE extension host: starting to profile NOW
+[2022-08-19 17:27:47.321] [renderer1] [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+[2022-08-19 17:27:47.785] [renderer1] [warning] UNRESPONSIVE extension host: 'vscode.git' took 53% of 2160.724ms, saved PROFILE here: 'file:///tmp/exthost-488467.cpuprofile' [{"id":"gc","total":161117,"percentage":7},{"id":"program","total":1847,"percentage":0},{"id":"self","total":853586,"percentage":40},{"id":"vscode.git","total":1143595,"percentage":53},{"id":"vscode.github","total":327,"percentage":0}]
+[2022-08-19 17:27:51.918] [renderer1] [info] UNRESPONSIVE extension host: starting to profile NOW
+[2022-08-19 17:27:57.402] [renderer1] [warning] UNRESPONSIVE extension host: 'vscode.git' took 91% of 5367.874ms, saved PROFILE here: 'file:///tmp/exthost-b44a60.cpuprofile' [{"id":"gc","total":69519,"percentage":1},{"id":"self","total":401911,"percentage":7},{"id":"vscode.git","total":4896307,"percentage":91}]
+[2022-08-19 17:34:38.454] [renderer1] [error] RequestService#request (browser) - error https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery {"name":"Canceled"}
+[2022-08-21 18:44:21.484] [renderer1] [info] Setting search error: Unexpected end of JSON input
+[2022-08-21 18:44:21.491] [renderer1] [info] Setting search error: Unexpected end of JSON input
+[2022-08-21 18:45:47.318] [renderer1] [info] Setting search error: Unexpected end of JSON input
+[2022-08-21 18:45:47.408] [renderer1] [info] Setting search error: Unexpected end of JSON input
+[2022-08-21 18:45:52.212] [renderer1] [info] Setting search error: Unexpected end of JSON input
+[2022-08-21 18:45:52.290] [renderer1] [info] Setting search error: Unexpected end of JSON input
+[2022-08-22 17:38:52.640] [renderer1] [error] [Extension Host] (node:25563) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `code --trace-deprecation ...` to show where the warning was created)
+[2022-08-22 17:38:52.667] [renderer1] [error] [Extension Host] fatal: bad revision 'master'
+
+[2022-08-22 17:38:52.796] [renderer1] [error] [Extension Host] fatal: bad revision 'master'
+
+[2022-08-22 17:38:52.873] [renderer1] [error] [Extension Host] fatal: неоднозначный аргумент «HEAD»: неизвестная редакция или не путь в рабочем каталоге.
+Используйте «--» для отделения путей от редакций, вот так:
+«git <команда> [<редакция>…] -- [<файл>…]»
+
+[2022-08-22 17:38:52.874] [renderer1] [error] [Extension Host] Error calling IGitService.getAuthors from @cache decorator {"code":128,"error":"fatal: неоднозначный аргумент «HEAD»: неизвестная редакция или не путь в рабочем каталоге.\nИспользуйте «--» для отделения путей от редакций, вот так:\n«git <команда> [<редакция>…] -- [<файл>…]»\n"}
+[2022-08-22 17:38:53.651] [renderer1] [error] Произошла неизвестная ошибка. Подробные сведения см. в журнале.
+[2022-08-22 17:39:22.180] [renderer1] [info] UNRESPONSIVE extension host: starting to profile NOW
+[2022-08-22 17:39:26.652] [renderer1] [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+[2022-08-22 17:39:26.665] [renderer1] [warning] {"name":"Canceled","message":"Canceled"}
+[2022-08-22 17:39:27.113] [renderer1] [warning] UNRESPONSIVE extension host: 'vscode.git' took 65% of 4878.588ms, saved PROFILE here: 'file:///tmp/exthost-00a48b.cpuprofile' [{"id":"donjayamanne.githistory","total":631,"percentage":0},{"id":"ecmel.vscode-html-css","total":14743,"percentage":0},{"id":"esbenp.prettier-vscode","total":46533,"percentage":1},{"id":"formulahendry.auto-rename-tag","total":90646,"percentage":2},{"id":"gc","total":243702,"percentage":5},{"id":"program","total":391399,"percentage":8},{"id":"self","total":859395,"percentage":18},{"id":"vscode.css-language-features","total":332,"percentage":0},{"id":"vscode.git","total":3172490,"percentage":65},{"id":"vscode.html-language-features","total":164,"percentage":0},{"id":"vscode.json-language-features","total":1550,"percentage":0},{"id":"vscode.markdown-language-features","total":149,"percentage":0},{"id":"vscode.merge-conflict","total":3073,"percentage":0},{"id":"vscode.npm","total":112,"percentage":0},{"id":"vscode.typescript-language-features","total":53319,"percentage":1}]
+[2022-08-22 18:10:41.477] [renderer1] [error] [Extension Host] fatal: bad revision 'master'
+
+[2022-08-22 18:10:41.508] [renderer1] [error] [Extension Host] fatal: bad revision 'master'
+
+[2022-08-22 18:10:41.567] [renderer1] [error] [Extension Host] fatal: неоднозначный аргумент «HEAD»: неизвестная редакция или не путь в рабочем каталоге.
+Используйте «--» для отделения путей от редакций, вот так:
+«git <команда> [<редакция>…] -- [<файл>…]»
+
+[2022-08-22 18:10:41.568] [renderer1] [error] [Extension Host] Error calling IGitService.getAuthors from @cache decorator {"code":128,"error":"fatal: неоднозначный аргумент «HEAD»: неизвестная редакция или не путь в рабочем каталоге.\nИспользуйте «--» для отделения путей от редакций, вот так:\n«git <команда> [<редакция>…] -- [<файл>…]»\n"}
+[2022-08-22 18:10:46.341] [renderer1] [info] UNRESPONSIVE extension host: starting to profile NOW
+[2022-08-22 18:10:51.507] [renderer1] [error] Error: Не удалось выполнить перемещение/копирование "/home/bbd/snap/react-app/src/components/ThemeButton/index/index.js", так как целевой "/home/bbd/snap/react-app/src/index.js" уже существует в месте назначения.
+    at h.doValidateMoveCopy (vscode-file://vscode-app/snap/code/104/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:602:24854)
+    at async h.doCanMoveCopy (vscode-file://vscode-app/snap/code/104/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:602:22295)
+    at async i.doMoveOrCopy (vscode-file://vscode-app/snap/code/104/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2753:58926)
+    at async bc.perform (vscode-file://vscode-app/snap/code/104/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2759:19971)
+    at async o.apply (vscode-file://vscode-app/snap/code/104/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2759:25617)
+    at async g._performFileEdits (vscode-file://vscode-app/snap/code/104/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2759:27839)
+    at async g.perform (vscode-file://vscode-app/snap/code/104/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2759:27343)
+    at async m.apply (vscode-file://vscode-app/snap/code/104/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2759:29800)
+    at async vscode-file://vscode-app/snap/code/104/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1712:61520
+[2022-08-22 18:10:51.517] [renderer1] [error] Не удалось выполнить перемещение/копирование "/home/bbd/snap/react-app/src/components/ThemeButton/index/index.js", так как целевой "/home/bbd/snap/react-app/src/index.js" уже существует в месте назначения.: Error: Не удалось выполнить перемещение/копирование "/home/bbd/snap/react-app/src/components/ThemeButton/index/index.js", так как целевой "/home/bbd/snap/react-app/src/index.js" уже существует в месте назначения.
+    at h.doValidateMoveCopy (vscode-file://vscode-app/snap/code/104/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:602:24854)
+    at async h.doCanMoveCopy (vscode-file://vscode-app/snap/code/104/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:602:22295)
+    at async i.doMoveOrCopy (vscode-file://vscode-app/snap/code/104/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2753:58926)
+    at async bc.perform (vscode-file://vscode-app/snap/code/104/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2759:19971)
+    at async o.apply (vscode-file://vscode-app/snap/code/104/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2759:25617)
+    at async g._performFileEdits (vscode-file://vscode-app/snap/code/104/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2759:27839)
+    at async g.perform (vscode-file://vscode-app/snap/code/104/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2759:27343)
+    at async m.apply (vscode-file://vscode-app/snap/code/104/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2759:29800)
+    at async vscode-file://vscode-app/snap/code/104/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1712:61520
+[2022-08-22 18:10:51.657] [renderer1] [warning] UNRESPONSIVE extension host: 'vscode.git' took 90% of 5389.054ms, saved PROFILE here: 'file:///tmp/exthost-26dc24.cpuprofile' [{"id":"gc","total":85774,"percentage":2},{"id":"self","total":437397,"percentage":8},{"id":"vscode.git","total":4865661,"percentage":90}]
+[2022-08-22 18:10:52.471] [renderer1] [error] Произошла неизвестная ошибка. Подробные сведения см. в журнале.
+[2022-08-22 18:10:53.016] [renderer1] [error] [Extension Host] fatal: bad revision 'master'
+
+[2022-08-22 18:10:53.048] [renderer1] [error] [Extension Host] fatal: bad revision 'master'
+
+[2022-08-22 18:10:53.108] [renderer1] [error] [Extension Host] fatal: неоднозначный аргумент «HEAD»: неизвестная редакция или не путь в рабочем каталоге.
+Используйте «--» для отделения путей от редакций, вот так:
+«git <команда> [<редакция>…] -- [<файл>…]»
+
+[2022-08-22 18:10:53.111] [renderer1] [error] [Extension Host] Error calling IGitService.getAuthors from @cache decorator {"code":128,"error":"fatal: неоднозначный аргумент «HEAD»: неизвестная редакция или не путь в рабочем каталоге.\nИспользуйте «--» для отделения путей от редакций, вот так:\n«git <команда> [<редакция>…] -- [<файл>…]»\n"}
+[2022-08-22 18:10:57.670] [renderer1] [info] UNRESPONSIVE extension host: starting to profile NOW
+[2022-08-22 18:11:02.835] [renderer1] [warning] UNRESPONSIVE extension host: 'vscode.git' took 92% of 5491.619ms, saved PROFILE here: 'file:///tmp/exthost-b93d16.cpuprofile' [{"id":"gc","total":95420,"percentage":2},{"id":"self","total":337380,"percentage":6},{"id":"vscode.git","total":5058671,"percentage":92}]
+[2022-08-22 18:11:03.522] [renderer1] [error] Произошла неизвестная ошибка. Подробные сведения см. в журнале.
+[2022-08-22 18:30:40.112] [renderer1] [warning] {"name":"Canceled","message":"Canceled"}
+[2022-08-22 18:36:51.014] [renderer1] [error] Не удалось считать файл "/home/bbd/snap/react-app/src/components/ThemeButton/ThemeButton.css" (Error: Невозможно разрешить несуществующий файл "/home/bbd/snap/react-app/src/components/ThemeButton/ThemeButton.css"): Error: Не удалось считать файл "/home/bbd/snap/react-app/src/components/ThemeButton/ThemeButton.css" (Error: Невозможно разрешить несуществующий файл "/home/bbd/snap/react-app/src/components/ThemeButton/ThemeButton.css")
+    at h.doReadFileStream (vscode-file://vscode-app/snap/code/104/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:602:20089)
+    at async v.doRead (vscode-file://vscode-app/snap/code/104/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2759:42424)
+    at async v.readStream (vscode-file://vscode-app/snap/code/104/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2759:42099)
+    at async kr.resolveFromFile (vscode-file://vscode-app/snap/code/104/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2748:67842)
+    at async c.doResolve (vscode-file://vscode-app/snap/code/104/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2759:36959)
+    at async l.doCreateReferencedObject (vscode-file://vscode-app/snap/code/104/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2748:78827)
+    at async acquire (vscode-file://vscode-app/snap/code/104/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:19:32624)
+    at async d.createModelReference (vscode-file://vscode-app/snap/code/104/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2748:80976)
+[2022-08-23 12:47:12.746] [renderer1] [info] UNRESPONSIVE extension host: starting to profile NOW
+[2022-08-23 12:47:18.698] [renderer1] [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+[2022-08-23 12:47:18.906] [renderer1] [warning] UNRESPONSIVE extension host: 'vscode.git' took 69% of 6353.335ms, saved PROFILE here: 'file:///tmp/exthost-cc602c.cpuprofile' [{"id":"gc","total":220099,"percentage":3},{"id":"program","total":4031,"percentage":0},{"id":"self","total":1741127,"percentage":27},{"id":"vscode.git","total":4387702,"percentage":69},{"id":"vscode.typescript-language-features","total":248,"percentage":0}]

@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=inode-directory
+Name=vscode
+Type=Link
+URL[$e]=file:$HOME/snap/vscode
+X-KDE-LastOpenedWith=org.kde.dolphin

@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=text-plain
+Name=.gitignore
+Type=Link
+URL[$e]=file:$HOME/snap/vscode/.gitignore
+X-KDE-LastOpenedWith=

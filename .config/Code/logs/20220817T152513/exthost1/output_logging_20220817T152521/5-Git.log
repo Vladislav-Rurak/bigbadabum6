@@ -1,0 +1,21 @@
+[2022-08-17T12:25:26.495Z] Уровень ведения журнала: Info
+[2022-08-17T12:25:26.520Z] [info] Проверка найденного git в:git
+[2022-08-17T12:25:27.258Z] [info] Используется git 2.23.0 из git
+[2022-08-17T12:25:27.335Z] > git rev-parse --show-toplevel [37ms]
+[2022-08-17T12:25:27.357Z] > git rev-parse --git-dir --git-common-dir [8ms]
+[2022-08-17T12:25:27.369Z] [info] Open repository: /home/bbd/snap/react-intro
+[2022-08-17T12:25:27.502Z] > git status -z -uall [118ms]
+[2022-08-17T12:25:27.519Z] > git symbolic-ref --short HEAD [4ms]
+[2022-08-17T12:25:27.552Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [21ms]
+[2022-08-17T12:25:27.585Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [13ms]
+[2022-08-17T12:25:27.589Z] > git remote --verbose [9ms]
+[2022-08-17T12:25:27.605Z] > git config --get commit.template [2ms]
+[2022-08-17T12:25:27.622Z] > git status -z -uall [4ms]
+[2022-08-17T12:25:27.641Z] > git symbolic-ref --short HEAD [8ms]
+[2022-08-17T12:25:27.653Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+[2022-08-17T12:25:27.678Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [15ms]
+[2022-08-17T12:25:27.679Z] > git remote --verbose [3ms]
+[2022-08-17T12:25:27.720Z] > git config --get commit.template [28ms]
+[2022-08-17T12:25:29.812Z] > git check-ignore -v -z --stdin [58ms]
+[2022-08-17T12:25:29.872Z] > git ls-files --stage -- /home/bbd/snap/react-intro/.vscode/extensions.json [2ms]
+[2022-08-17T12:25:29.899Z] > git show --textconv :.vscode/extensions.json [39ms]

@@ -1,0 +1,43 @@
+[2022-08-19 17:27:25.780] [sharedprocess] [info] Starting worker process with pid 25631 (type: fileWatcher, window: 1).
+[2022-08-19 17:34:49.389] [sharedprocess] [info] Getting Manifest... dsznajder.es7-react-js-snippets
+[2022-08-19 17:34:49.437] [sharedprocess] [info] Installing extension: dsznajder.es7-react-js-snippets
+[2022-08-19 17:34:53.838] [sharedprocess] [info] Downloaded extension: dsznajder.es7-react-js-snippets /home/bbd/.config/Code/CachedExtensionVSIXs/dsznajder.es7-react-js-snippets-4.4.3
+[2022-08-19 17:34:54.858] [sharedprocess] [info] Extracted extension to /home/bbd/.vscode/extensions/.5d134b83-1a1a-40b2-b847-7eeeebe66942: dsznajder.es7-react-js-snippets
+[2022-08-19 17:34:54.922] [sharedprocess] [info] Renamed to /home/bbd/.vscode/extensions/dsznajder.es7-react-js-snippets-4.4.3
+[2022-08-19 17:34:54.935] [sharedprocess] [info] Extracting completed. dsznajder.es7-react-js-snippets
+[2022-08-19 17:34:54.948] [sharedprocess] [info] Extension installed successfully: dsznajder.es7-react-js-snippets
+[2022-08-22 15:35:09.015] [sharedprocess] [info] Getting Manifest... beardedbear.beardedicons
+[2022-08-22 15:35:09.043] [sharedprocess] [info] Installing extension: beardedbear.beardedicons
+[2022-08-22 15:35:11.424] [sharedprocess] [info] Downloaded extension: beardedbear.beardedicons /home/bbd/.config/Code/CachedExtensionVSIXs/beardedbear.beardedicons-0.29.0
+[2022-08-22 15:35:11.984] [sharedprocess] [info] Extracted extension to /home/bbd/.vscode/extensions/.11ed61d4-92b8-4731-8cb2-0dd665a11d80: beardedbear.beardedicons
+[2022-08-22 15:35:12.064] [sharedprocess] [info] Renamed to /home/bbd/.vscode/extensions/beardedbear.beardedicons-0.29.0
+[2022-08-22 15:35:12.068] [sharedprocess] [info] Extracting completed. beardedbear.beardedicons
+[2022-08-22 15:35:12.072] [sharedprocess] [info] Extension installed successfully: beardedbear.beardedicons
+[2022-08-22 15:47:14.390] [sharedprocess] [info] Getting Manifest... nextbook.file-and-folder-icons
+[2022-08-22 15:47:14.425] [sharedprocess] [info] Installing extension: nextbook.file-and-folder-icons
+[2022-08-22 15:47:16.665] [sharedprocess] [info] Downloaded extension: nextbook.file-and-folder-icons /home/bbd/.config/Code/CachedExtensionVSIXs/nextbook.file-and-folder-icons-1.0.4
+[2022-08-22 15:47:16.755] [sharedprocess] [info] Extracted extension to /home/bbd/.vscode/extensions/.82c69517-ef51-4dab-aee0-65520a3cf964: nextbook.file-and-folder-icons
+[2022-08-22 15:47:16.808] [sharedprocess] [info] Renamed to /home/bbd/.vscode/extensions/nextbook.file-and-folder-icons-1.0.4
+[2022-08-22 15:47:16.820] [sharedprocess] [info] Extracting completed. nextbook.file-and-folder-icons
+[2022-08-22 15:47:16.826] [sharedprocess] [info] Extension installed successfully: nextbook.file-and-folder-icons
+[2022-08-22 15:47:36.035] [sharedprocess] [info] Getting Manifest... moserjose.mosmmy-icons-vscode
+[2022-08-22 15:47:36.070] [sharedprocess] [info] Installing extension: moserjose.mosmmy-icons-vscode
+[2022-08-22 15:47:38.405] [sharedprocess] [info] Downloaded extension: moserjose.mosmmy-icons-vscode /home/bbd/.config/Code/CachedExtensionVSIXs/moserjose.mosmmy-icons-vscode-0.1.1
+[2022-08-22 15:47:39.085] [sharedprocess] [info] Extracted extension to /home/bbd/.vscode/extensions/.274bce51-bf33-44db-aed6-919adae45759: moserjose.mosmmy-icons-vscode
+[2022-08-22 15:47:39.135] [sharedprocess] [info] Renamed to /home/bbd/.vscode/extensions/moserjose.mosmmy-icons-vscode-0.1.1
+[2022-08-22 15:47:39.137] [sharedprocess] [info] Extracting completed. moserjose.mosmmy-icons-vscode
+[2022-08-22 15:47:39.137] [sharedprocess] [info] Extension installed successfully: moserjose.mosmmy-icons-vscode
+[2022-08-22 15:48:19.481] [sharedprocess] [info] Getting Manifest... pkief.material-icon-theme
+[2022-08-22 15:48:19.489] [sharedprocess] [info] Installing extension: pkief.material-icon-theme
+[2022-08-22 15:48:21.516] [sharedprocess] [info] Downloaded extension: pkief.material-icon-theme /home/bbd/.config/Code/CachedExtensionVSIXs/pkief.material-icon-theme-4.20.0
+[2022-08-22 15:48:23.272] [sharedprocess] [info] Extracted extension to /home/bbd/.vscode/extensions/.3a0c4bea-6a8e-47db-a2e3-caf466539ce9: pkief.material-icon-theme
+[2022-08-22 15:48:23.339] [sharedprocess] [info] Renamed to /home/bbd/.vscode/extensions/pkief.material-icon-theme-4.20.0
+[2022-08-22 15:48:23.364] [sharedprocess] [info] Extracting completed. pkief.material-icon-theme
+[2022-08-22 15:48:23.368] [sharedprocess] [info] Extension installed successfully: pkief.material-icon-theme
+[2022-08-22 15:48:37.639] [sharedprocess] [info] Getting Manifest... alexesprit.vscode-unfancy-file-icons
+[2022-08-22 15:48:37.675] [sharedprocess] [info] Installing extension: alexesprit.vscode-unfancy-file-icons
+[2022-08-22 15:48:39.707] [sharedprocess] [info] Downloaded extension: alexesprit.vscode-unfancy-file-icons /home/bbd/.config/Code/CachedExtensionVSIXs/alexesprit.vscode-unfancy-file-icons-3.15.0
+[2022-08-22 15:48:39.740] [sharedprocess] [info] Extracted extension to /home/bbd/.vscode/extensions/.cb9b633e-b5a3-4160-893a-bd8207264348: alexesprit.vscode-unfancy-file-icons
+[2022-08-22 15:48:39.786] [sharedprocess] [info] Renamed to /home/bbd/.vscode/extensions/alexesprit.vscode-unfancy-file-icons-3.15.0
+[2022-08-22 15:48:39.789] [sharedprocess] [info] Extracting completed. alexesprit.vscode-unfancy-file-icons
+[2022-08-22 15:48:39.801] [sharedprocess] [info] Extension installed successfully: alexesprit.vscode-unfancy-file-icons

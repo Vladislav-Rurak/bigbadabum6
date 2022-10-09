@@ -1,0 +1,16 @@
+[2022-08-17 15:25:14.108] [main] [info] update#setState idle
+[2022-08-17 15:25:19.012] [main] [info] Starting extension host with pid 2799 (fork() took 19 ms).
+[2022-08-17 15:25:44.114] [main] [info] update#setState checking for updates
+[2022-08-17 15:25:44.118] [main] [info] update#setState idle
+[2022-08-17 15:29:10.521] [main] [info] Starting extension host with pid 4227 (fork() took 28 ms).
+[2022-08-17 15:29:27.286] [main] [info] update#setState checking for updates
+[2022-08-17 15:29:27.289] [main] [info] update#setState idle
+[2022-08-17 15:29:32.181] [main] [info] update#setState checking for updates
+[2022-08-17 15:29:32.197] [main] [info] update#setState idle
+[2022-08-17 15:29:33.620] [main] [info] update#setState checking for updates
+[2022-08-17 15:29:33.624] [main] [info] update#setState idle
+[2022-08-17 15:29:35.186] [main] [info] update#setState checking for updates
+[2022-08-17 15:29:35.196] [main] [info] update#setState idle
+[2022-08-17 15:30:07.492] [main] [info] update#setState checking for updates
+[2022-08-17 15:30:07.505] [main] [error] Error: ENOENT: no such file or directory, lstat '/snap/code'
+[2022-08-17 15:30:07.505] [main] [info] update#setState idle

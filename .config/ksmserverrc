@@ -1,0 +1,34 @@
+[$Version]
+update_info=ksmserver_update_loginMode_value.upd:ksmserver_update_loginMode_value_default_enum
+
+[LegacySession: saved at previous logout]
+count=0
+
+[Session: saved at previous logout]
+clientId1=106262640000166049373800000012700002
+clientId2=106262640000165509829700000013290006
+clientId3=106262640000166049374000000012700008
+clientId4=106262640000166056359500000012700040
+count=4
+discardCommand2[$e]=rm,$HOME/.config/session/kwin_106262640000165509829700000013290006_1660738280_324067
+discardCommand4[$e]=rm,$HOME/.config/session/yakuake_106262640000166056359500000012700040_1660738280_207096
+program1=/usr/lib/x86_64-linux-gnu/libexec/DiscoverNotifier
+program2=/usr/bin/kwin_x11
+program3=pulseaudio
+program4=/usr/bin/yakuake
+restartCommand1=/usr/lib/x86_64-linux-gnu/libexec/DiscoverNotifier,-session,106262640000166049373800000012700002_1660738280_206790
+restartCommand2=/usr/bin/kwin_x11,-session,106262640000165509829700000013290006_1660738280_324067
+restartCommand3=
+restartCommand4=/usr/bin/yakuake,-session,106262640000166056359500000012700040_1660738280_207096
+restartStyleHint1=0
+restartStyleHint2=0
+restartStyleHint3=0
+restartStyleHint4=0
+userId1=bbd
+userId2=bbd
+userId3=bbd
+userId4=bbd
+wasWm1=false
+wasWm2=true
+wasWm3=false
+wasWm4=false

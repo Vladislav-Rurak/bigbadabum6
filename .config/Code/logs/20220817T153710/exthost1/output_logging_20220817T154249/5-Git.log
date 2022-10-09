@@ -1,0 +1,22 @@
+[2022-08-17T12:42:51.548Z] Уровень ведения журнала: Info
+[2022-08-17T12:42:51.552Z] [info] Проверка найденного git в:git
+[2022-08-17T12:42:51.612Z] [info] Используется git 2.23.0 из git
+[2022-08-17T12:42:51.791Z] > git rev-parse --show-toplevel [105ms]
+[2022-08-17T12:42:52.093Z] > git rev-parse --git-dir --git-common-dir [215ms]
+[2022-08-17T12:42:52.142Z] [info] Open repository: /home/bbd/snap/react-intro
+[2022-08-17T12:42:53.048Z] > git status -z -uall [830ms]
+[2022-08-17T12:42:53.148Z] > git check-ignore -v -z --stdin [14ms]
+[2022-08-17T12:42:53.192Z] > git symbolic-ref --short HEAD [135ms]
+[2022-08-17T12:42:53.219Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [15ms]
+[2022-08-17T12:42:53.280Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [48ms]
+[2022-08-17T12:42:53.282Z] > git remote --verbose [19ms]
+[2022-08-17T12:42:53.961Z] > git show --textconv :index.html [659ms]
+[2022-08-17T12:42:53.963Z] > git check-ignore -v -z --stdin [69ms]
+[2022-08-17T12:42:53.965Z] > git config --get commit.template [96ms]
+[2022-08-17T12:42:53.977Z] > git ls-files --stage -- /home/bbd/snap/react-intro/index.html [640ms]
+[2022-08-17T12:42:53.983Z] > git status -z -uall [6ms]
+[2022-08-17T12:42:54.000Z] > git symbolic-ref --short HEAD [7ms]
+[2022-08-17T12:42:54.047Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [10ms]
+[2022-08-17T12:42:54.083Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [27ms]
+[2022-08-17T12:42:54.084Z] > git remote --verbose [14ms]
+[2022-08-17T12:42:54.099Z] > git config --get commit.template [2ms]

@@ -1,0 +1,4 @@
+[2022-08-17 15:31:09.521] [sharedprocess] [warning] No ptyHost heartbeat after 6 seconds
+[2022-08-17 15:31:11.202] [sharedprocess] [info] Starting worker process with pid 5112 (type: fileWatcher, window: 2).
+[2022-08-17 15:31:11.492] [sharedprocess] [info] Starting worker process with pid 5113 (type: fileWatcher, window: 1).
+[2022-08-17 15:31:13.323] [sharedprocess] [info] Worker process with pid 5113 terminated normally (type: fileWatcher, window: 1).

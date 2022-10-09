@@ -1,0 +1,7 @@
+[Debug 14:28:10.201] TableOfContentsProvider: create - file:///home/bbd/snap/react-app/README.md
+[Debug 14:28:10.299] LinkProvider: compute - file:///home/bbd/snap/react-app/README.md
+[Debug 14:28:10.351] MdFoldingProvider: provideFoldingRanges - file:///home/bbd/snap/react-app/README.md
+[Debug 14:28:12.519] ReferencesProvider: getReferencesAtPosition: file:///home/bbd/snap/react-app/README.md
+[Debug 14:28:12.682] ReferencesProvider: getReferencesAtPosition: file:///home/bbd/snap/react-app/README.md
+[Debug 14:28:13.294] ReferencesProvider: getReferencesAtPosition: file:///home/bbd/snap/react-app/README.md
+[Debug 15:43:47.591] MdFoldingProvider: provideFoldingRanges - file:///home/bbd/snap/react-app/README.md

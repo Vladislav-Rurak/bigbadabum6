@@ -1,0 +1,26 @@
+[2022-08-17T12:36:55.254Z] Уровень ведения журнала: Info
+[2022-08-17T12:36:55.266Z] [info] Проверка найденного git в:git
+[2022-08-17T12:36:55.358Z] [info] Используется git 2.23.0 из git
+[2022-08-17T12:36:55.408Z] > git rev-parse --show-toplevel [8ms]
+[2022-08-17T12:36:55.426Z] > git rev-parse --git-dir --git-common-dir [3ms]
+[2022-08-17T12:36:55.452Z] [info] Open repository: /home/bbd/snap/react-intro
+[2022-08-17T12:36:55.689Z] > git status -z -uall [197ms]
+[2022-08-17T12:36:55.850Z] > git symbolic-ref --short HEAD [114ms]
+[2022-08-17T12:36:55.878Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [15ms]
+[2022-08-17T12:36:55.918Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [18ms]
+[2022-08-17T12:36:55.925Z] > git remote --verbose [10ms]
+[2022-08-17T12:36:55.950Z] > git config --get commit.template [3ms]
+[2022-08-17T12:36:55.982Z] > git status -z -uall [13ms]
+[2022-08-17T12:36:56.000Z] > git symbolic-ref --short HEAD [5ms]
+[2022-08-17T12:36:56.025Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+[2022-08-17T12:36:56.075Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [42ms]
+[2022-08-17T12:36:56.076Z] > git remote --verbose [27ms]
+[2022-08-17T12:36:56.119Z] > git config --get commit.template [6ms]
+[2022-08-17T12:36:56.352Z] > git check-ignore -v -z --stdin [84ms]
+[2022-08-17T12:36:56.987Z] > git config --local branch.master.github-pr-owner-number [20ms]
+[2022-08-17T12:36:58.627Z] > git status -z -uall [5ms]
+[2022-08-17T12:36:58.640Z] > git symbolic-ref --short HEAD [3ms]
+[2022-08-17T12:36:58.653Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+[2022-08-17T12:36:58.674Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [12ms]
+[2022-08-17T12:36:58.675Z] > git remote --verbose [3ms]
+[2022-08-17T12:36:58.686Z] > git config --get commit.template [1ms]

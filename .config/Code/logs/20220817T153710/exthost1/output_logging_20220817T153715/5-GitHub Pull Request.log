@@ -1,0 +1,45 @@
+[Info] /home/bbd/.ssh/config: ENOENT: no such file or directory, open '/home/bbd/.ssh/config'
+[Info] Registering git provider
+[Info] Looking for git repository
+[Info] Found 1 repositories during activation
+[Info] Git repository found, initializing review manager and pr tree view.
+[Info] Review> Validate state in progress
+[Info] Review> Validating state...
+[Info] No remotes found. The following remotes are missing: origin, upstream
+[Info] No GitHub remotes found
+[Info] Review> no matching pull request metadata found for current branch master
+[Info] Review> no matching pull request metadata found on GitHub for current branch master
+[Info] PullRequestTree> Removing PR #undefined from tree
+[Info] Review> Queuing additional validate state
+[Info] Review> Validating state...
+[Info] No remotes found. The following remotes are missing: origin, upstream
+[Info] No GitHub remotes found
+[Info] Review> no matching pull request metadata found for current branch master
+[Info] Review> no matching pull request metadata found on GitHub for current branch master
+[Info] PullRequestTree> Removing PR #undefined from tree
+[Info] Error signing in to GitHub: Error: Cancelled
+[Info] Error: Cancelled
+    at t.GitHubServer.login (/snap/code/104/usr/share/code/resources/app/extensions/github-authentication/dist/extension.js:1:711640)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at t.GitHubAuthenticationProvider.createSession (/snap/code/104/usr/share/code/resources/app/extensions/github-authentication/dist/extension.js:1:706656)
+[Info] Error signing in to GitHub: Error: Cancelled
+[Info] Error: Cancelled
+    at t.GitHubServer.login (/snap/code/104/usr/share/code/resources/app/extensions/github-authentication/dist/extension.js:1:711640)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at t.GitHubAuthenticationProvider.createSession (/snap/code/104/usr/share/code/resources/app/extensions/github-authentication/dist/extension.js:1:706656)
+[Info] Review> Queuing additional validate state
+[Info] Review> Validating state...
+[Info] No remotes found. The following remotes are missing: origin, upstream
+[Info] No GitHub remotes found
+[Info] Review> no matching pull request metadata found for current branch master
+[Info] Review> no matching pull request metadata found on GitHub for current branch master
+[Info] PullRequestTree> Removing PR #undefined from tree
+[Info] Error signing in to GitHub: Error: Cancelled
+[Info] Error: Cancelled
+    at t.GitHubServer.login (/snap/code/104/usr/share/code/resources/app/extensions/github-authentication/dist/extension.js:1:711640)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at t.GitHubAuthenticationProvider.createSession (/snap/code/104/usr/share/code/resources/app/extensions/github-authentication/dist/extension.js:1:706656)
+[Info] Error signing in to GitHub: Error: User did not consent to login.
+[Info] Error: User did not consent to login.
+    at doGetSession (vscode-file://vscode-app/snap/code/104/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2101:3320)
+    at async d.$getSession (vscode-file://vscode-app/snap/code/104/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2101:3809)

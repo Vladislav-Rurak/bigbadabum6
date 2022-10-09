@@ -1,0 +1,7 @@
+[2022-08-17 15:36:13.421] [renderer1] [warning] [vscode.github-authentication]: Невозможно зарегистрировать "github-enterprise.uri". Это свойство уже зарегистрировано.
+[2022-08-17 15:36:13.463] [renderer1] [error] [vscode.github-authentication]: Идентификатор проверки подлинности "github" уже зарегистрирован.
+[2022-08-17 15:36:13.464] [renderer1] [error] [vscode.github-authentication]: Идентификатор проверки подлинности "github-enterprise" уже зарегистрирован.
+[2022-08-17 15:36:52.184] [renderer1] [warning] [CloudStudio.github-authentication]: Невозможно зарегистрировать "github-enterprise.uri". Это свойство уже зарегистрировано.
+[2022-08-17 15:36:52.485] [renderer1] [error] [CloudStudio.github-authentication]: Идентификатор проверки подлинности "github" уже зарегистрирован.
+[2022-08-17 15:36:52.487] [renderer1] [error] [CloudStudio.github-authentication]: Идентификатор проверки подлинности "github-enterprise" уже зарегистрирован.
+[2022-08-17 15:36:56.664] [renderer1] [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted

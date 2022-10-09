@@ -1,0 +1,11 @@
+[KPropertiesDialog]
+Height 768=451
+Width 1366=535
+
+[MainWindow]
+Height 768=659
+Width 1366=1024
+
+[Open-with settings]
+CompletionMode=1
+History=yakua

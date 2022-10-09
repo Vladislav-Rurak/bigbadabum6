@@ -1,0 +1,13 @@
+[2022-08-19 17:27:17.385] [main] [info] update#setState idle
+[2022-08-19 17:27:20.924] [main] [info] Starting extension host with pid 25563 (fork() took 29 ms).
+[2022-08-19 17:27:44.565] [main] [info] Enabling inspect port on extension host with pid 25563.
+[2022-08-19 17:27:47.386] [main] [info] update#setState checking for updates
+[2022-08-19 17:27:47.389] [main] [info] update#setState idle
+[2022-08-21 19:37:14.899] [main] [info] update#setState checking for updates
+[2022-08-21 19:37:14.918] [main] [info] update#setState idle
+[2022-08-22 16:06:52.567] [main] [info] update#setState checking for updates
+[2022-08-22 16:06:52.573] [main] [info] update#setState idle
+[2022-08-22 17:06:52.670] [main] [info] update#setState checking for updates
+[2022-08-22 17:06:52.674] [main] [info] update#setState idle
+[2022-08-22 18:06:52.680] [main] [info] update#setState checking for updates
+[2022-08-22 18:06:52.686] [main] [info] update#setState idle

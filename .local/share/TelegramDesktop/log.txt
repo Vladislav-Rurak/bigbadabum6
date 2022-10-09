@@ -1,0 +1,373 @@
+[2022.02.26 22:44:12] Launched version: 3001001, install beta: [FALSE], alpha: 0, debug mode: [FALSE]
+[2022.02.26 22:44:12] Executable dir: /usr/bin/, name: telegram-desktop
+[2022.02.26 22:44:12] Initial working dir: /home/bbd/
+[2022.02.26 22:44:12] Working dir: /home/bbd/.local/share/TelegramDesktop/
+[2022.02.26 22:44:12] Command line: /usr/bin/telegram-desktop --
+[2022.02.26 22:44:12] Executable path before check: /usr/bin/telegram-desktop
+[2022.02.26 22:44:12] Logs started
+[2022.02.26 22:44:12] We use allocator from /lib/x86_64-linux-gnu/libc.so.6
+[2022.02.26 22:44:12] Launcher filename: telegramdesktop.desktop
+[2022.02.26 22:44:12] IBus portal is present! Using it.
+[2022.02.26 22:44:12] Connecting local socket to /run/user/1000/b3a0f5b4d71a3b43214369e4a1f8aa93-{87A94AB0-E370-4cde-98D3-ACC110C5967D}...
+[2022.02.26 22:44:12] This is the only instance of Telegram, starting server and app...
+[2022.02.26 22:44:12] Moved logging from '/home/bbd/.local/share/TelegramDesktop/log_start0.txt' to '/home/bbd/.local/share/TelegramDesktop/log.txt'!
+[2022.02.26 22:44:12] Primary screen DPI: 96.1032
+[2022.02.26 22:44:12] Icon theme: 
+[2022.02.26 22:44:12] Fallback icon theme: breeze
+[2022.02.26 22:44:14] OpenAL Logging Level: (not set)
+[2022.02.26 22:44:14] Audio Playback Devices: Built-in Audio Analog Stereo
+[2022.02.26 22:44:14] Audio Playback Default Device: Built-in Audio Analog Stereo
+[2022.02.26 22:44:14] Audio Capture Devices: Built-in Audio Analog Stereo;Monitor of Built-in Audio Analog Stereo
+[2022.02.26 22:44:14] Audio Capture Default Device: Built-in Audio Analog Stereo
+[2022.02.26 22:44:14] Not using D-Bus global menu.
+[2022.02.26 22:44:14] Using Unity launcher counter.
+[2022.02.26 22:44:14] System tray available: [TRUE]
+[2022.02.26 22:44:15] OpenGL Profile: NoProfile.
+[2022.02.26 22:44:15] OpenGL Renderer: Mesa DRI Intel(R) HD Graphics 2500 (IVB GT1)
+[2022.02.26 22:44:15] OpenGL Vendor: Intel Open Source Technology Center
+[2022.02.26 22:44:15] OpenGL Version: 3.0 Mesa 21.0.3
+[2022.02.26 22:44:15] OpenGL Extensions: GL_ARB_clear_texture, GL_APPLE_object_purgeable, GL_EXT_texture_env_add, GL_ARB_texture_env_combine, GL_EXT_texture_env_combine, GL_EXT_copy_texture, GL_AMD_multi_draw_indirect, GL_ARB_fragment_shader, GL_ARB_map_buffer_range, GL_ARB_internalformat_query, GL_ARB_shading_language_100, GL_ARB_explicit_attrib_location, GL_ARB_vertex_attrib_binding, GL_ARB_texture_swizzle, GL_ARB_texture_cube_map, GL_EXT_blend_minmax, GL_ARB_explicit_uniform_location, GL_EXT_EGL_sync, GL_ARB_occlusion_query2, GL_ARB_instanced_arrays, GL_IBM_multimode_draw_arrays, GL_EXT_transform_feedback, GL_ARB_point_parameters, GL_EXT_shadow_funcs, GL_ARB_seamless_cube_map, GL_NV_texture_rectangle, GL_ARB_draw_buffers, GL_EXT_blend_func_separate, GL_EXT_packed_depth_stencil, GL_ARB_shading_language_420pack, GL_EXT_framebuffer_sRGB, GL_EXT_texture_snorm, GL_NV_blend_square, GL_EXT_compiled_vertex_array, GL_ARB_polygon_offset_clamp, GL_ARB_robustness, GL_ARB_get_texture_sub_image, GL_ARB_transform_feedback3, GL_ARB_framebuffer_no_attachments, GL_EXT_separate_specular_color, GL_ARB_sync, GL_EXT_texture_rectangle, GL_MESA_shader_integer_functions, GL_NV_fog_distance, GL_ARB_compressed_texture_pixel_storage, GL_EXT_blend_color, GL_ARB_texture_query_levels, GL_EXT_abgr, GL_ARB_cull_distance, GL_EXT_blend_equation_separate, GL_NV_depth_clamp, GL_ARB_shader_texture_image_samples, GL_ARB_texture_border_clamp, GL_ARB_texture_multisample, GL_ARB_texture_float, GL_ARB_texture_mirrored_repeat, GL_ARB_texture_view, GL_ARB_fragment_coord_conventions, GL_ARB_conservative_depth, GL_EXT_framebuffer_multisample, GL_AMD_texture_texture4, GL_EXT_rescale_normal, GL_OES_read_format, GL_ARB_texture_storage, GL_ARB_framebuffer_object, GL_ARB_texture_cube_map_array, GL_ARB_shader_clock, GL_ARB_conditional_render_inverted, GL_ARB_transpose_matrix, GL_EXT_texture_lod_bias, GL_NV_texture_barrier, GL_ARB_clear_buffer_object, GL_EXT_framebuffer_object, GL_ARB_vertex_type_10f_11f_11f_rev, GL_EXT_draw_range_elements, GL_ARB_gl_spirv, GL_ATI_texture_float, GL_KHR_context_flush_control, GL_ARB_half_float_pixel, GL_EXT_fog_coord, GL_ARB_texture_env_crossbar, GL_EXT_blend_subtract, GL_ANGLE_texture_compression_dxt5, GL_KHR_no_error, GL_ARB_compute_variable_group_size, GL_ARB_pixel_buffer_object, GL_EXT_vertex_array, GL_KHR_blend_equation_advanced, GL_AMD_shader_trinary_minmax, GL_ARB_provoking_vertex, GL_EXT_vertex_array_bgra, GL_NV_half_float, GL_ARB_program_interface_query, GL_EXT_texture_object, GL_INTEL_blackhole_render, GL_KHR_parallel_shader_compile, GL_ARB_get_program_binary, GL_EXT_pixel_buffer_object, GL_ARB_transform_feedback2, GL_ARB_internalformat_query2, GL_ARB_spirv_extensions, GL_SGIS_texture_border_clamp, GL_EXT_texture_compression_s3tc, GL_NV_texgen_reflection, GL_ARB_vertex_array_object, GL_ARB_derivative_control, GL_EXT_gpu_program_parameters, GL_EXT_texture_edge_clamp, GL_NV_conditional_render, GL_AMD_seamless_cubemap_per_texture, GL_ARB_texture_query_lod, GL_ARB_window_pos, GL_KHR_debug, GL_EXT_texture_array, GL_EXT_multi_draw_arrays, GL_ARB_parallel_shader_compile, GL_ARB_shader_objects, GL_EXT_demote_to_helper_invocation, GL_SGIS_texture_edge_clamp, GL_ATI_separate_stencil, GL_AMD_conservative_depth, GL_ARB_fragment_program, GL_ARB_vertex_type_2_10_10_10_rev, GL_EXT_texture_sRGB_decode, GL_ARB_copy_buffer, GL_ARB_draw_instanced, GL_ARB_texture_rg, GL_ARB_draw_elements_base_vertex, GL_ARB_shadow, GL_ARB_draw_buffers_blend, GL_IBM_rasterpos_clip, GL_ARB_vertex_array_bgra, GL_KHR_robustness, GL_EXT_EGL_image_storage, GL_ARB_sample_shading, GL_ARB_framebuffer_sRGB, GL_S3_s3tc, GL_ARB_shader_image_load_store, GL_EXT_subtexture, GL_ARB_texture_non_power_of_two, GL_ARB_texture_gather, GL_NV_packed_depth_stencil, GL_ARB_indirect_parameters, GL_EXT_texture3D, GL_EXT_packed_pixels, GL_SGIS_texture_lod, GL_ARB_depth_buffer_float, GL_OES_EGL_image, GL_ARB_ES2_compatibility, GL_ATI_draw_buffers, GL_EXT_polygon_offset_clamp, GL_APPLE_packed_pixels, GL_ARB_texture_filter_anisotropic, GL_INTEL_performance_query, GL_EXT_stencil_wrap, GL_NV_light_max_exponent, GL_ARB_shader_texture_lod, GL_EXT_texture, GL_ATI_texture_env_combine3, GL_EXT_draw_instanced, GL_ANGLE_texture_compression_dxt3, GL_EXT_framebuffer_blit, GL_IBM_texture_mirrored_repeat, GL_ARB_half_float_vertex, GL_ARB_point_sprite, GL_ARB_shader_bit_encoding, GL_EXT_direct_state_access, GL_MESA_window_pos, GL_ARB_seamless_cubemap_per_texture, GL_ARB_vertex_buffer_object, GL_EXT_texture_cube_map, GL_ARB_color_buffer_float, GL_ARB_debug_output, GL_AMD_draw_buffers_blend, GL_ATI_blend_equation_separate, GL_ARB_buffer_storage, GL_NV_compute_shader_derivatives, GL_ARB_sampler_objects, GL_ARB_copy_image, GL_ARB_shader_atomic_counters, GL_ARB_vertex_shader, GL_ARB_shader_storage_buffer_object, GL_ARB_depth_clamp, GL_ARB_occlusion_query, GL_SGIS_generate_mipmap, GL_ARB_texture_env_dot3, GL_ARB_shader_atomic_counter_ops, GL_ARB_texture_rectangle, GL_ARB_transform_feedback_overflow_query, GL_EXT_texture_compression_dxt1, GL_EXT_packed_float, GL_ARB_fragment_layer_viewport, GL_ARB_vertex_program, GL_EXT_texture_shared_exponent, GL_EXT_shader_samples_identical, GL_ARB_texture_compression_rgtc, GL_EXT_gpu_shader4, GL_EXT_point_parameters, GL_MESA_texture_signed_rgba, GL_ARB_texture_mirror_clamp_to_edge, GL_ARB_invalidate_subdata, GL_ARB_shader_draw_parameters, GL_EXT_texture_swizzle, GL_EXT_shader_framebuffer_fetch_non_coherent, GL_ARB_multitexture, GL_ARB_texture_rgb10_a2ui, GL_ARB_depth_texture, GL_ARB_map_buffer_alignment, GL_ARB_draw_indirect, GL_EXT_provoking_vertex, GL_ARB_pipeline_statistics_query, GL_ARB_texture_storage_multisample, GL_ARB_arrays_of_arrays, GL_ARB_multi_bind, GL_ARB_shading_language_packing, GL_EXT_draw_buffers2, GL_EXT_shader_integer_mix, GL_ARB_shading_language_include, GL_EXT_framebuffer_multisample_blit_scaled, GL_ARB_shader_precision, GL_ARB_shader_group_vote, GL_ARB_uniform_buffer_object, GL_ARB_multi_draw_indirect, GL_ARB_texture_compression, GL_ARB_multisample, GL_ARB_clip_control, GL_ARB_fragment_program_shadow, GL_EXT_texture_compression_rgtc, GL_MESA_pack_invert, GL_NV_texture_env_combine4, GL_ARB_ES3_compatibility, GL_EXT_texture_shadow_lod, GL_INGR_blend_func_separate, GL_ARB_transform_feedback_instanced, GL_ARB_blend_func_extended, GL_EXT_texture_sRGB_R8, GL_EXT_bgra, GL_EXT_texture_integer, GL_EXT_secondary_color, GL_EXT_stencil_two_side, GL_ARB_texture_compression_bptc, GL_EXT_timer_query, GL_ARB_texture_env_add, GL_ARB_shader_image_size, GL_SUN_multi_draw_arrays, GL_EXT_texture_sRGB, GL_ARB_compute_shader, GL_EXT_texture_filter_anisotropic, GL_ARB_timer_query, GL_EXT_texture_env_dot3, GL_ARB_separate_shader_objects, GL_3DFX_texture_compression_FXT1, GL_ARB_texture_barrier, GL_NV_primitive_restart
+[2022.02.26 22:44:15] OpenGL: QOpenGLContext created, version: 3.3.
+[2022.02.26 22:44:15] OpenGL: [TRUE] (OverlayWidget)
+[2022.02.26 22:44:15] Using SNI tray icon.
+[2022.02.26 22:44:16] Notification daemon product name: Plasma
+[2022.02.26 22:44:16] Notification daemon vendor name: KDE
+[2022.02.26 22:44:16] Notification daemon version: 5.18.5
+[2022.02.26 22:44:16] Notification daemon specification version: 1.2
+[2022.02.26 22:44:16] Notification daemon capabilities: body, body-hyperlinks, body-markup, body-images, icon-static, actions, inline-reply, x-kde-urls, x-kde-origin-name, x-kde-display-appname, inhibitions
+[2022.02.26 22:44:33] Export Info: Destroy top bar by controller removal.
+[2022.02.26 22:44:34] API Warning: not loaded minimal channel applied.
+[2022.02.26 22:44:34] App Info: writing encrypted user settings...
+[2022.02.26 22:44:36] Audio Info: recreating audio device and reattaching the tracks
+[2022.02.26 22:44:38] Audio Info: Closing audio playback device.
+[2022.02.26 22:44:56] Streaming Error: Error in avformat_open_input (code: -1094995529, text: Invalid data found when processing input).
+[2022.02.26 22:44:56] Audio Info: recreating audio device and reattaching the tracks
+[2022.02.26 22:44:59] Audio Info: Closing audio playback device.
+[2022.02.26 22:45:05] RPC Error: request 173 got fail with code 400, error CHAT_ADMIN_REQUIRED
+[2022.02.26 22:45:05] API Warning: not loaded minimal channel applied.
+[2022.02.26 22:45:05] API Warning: not loaded minimal channel applied.
+[2022.02.26 22:45:05] API Warning: not loaded minimal channel applied.
+[2022.02.26 22:45:05] API Warning: not loaded minimal channel applied.
+[2022.02.26 22:45:05] API Warning: not loaded minimal channel applied.
+[2022.02.26 22:45:09] API Warning: emoji 🇹🇦 is not supported, word: flag.
+[2022.02.26 22:45:09] API Warning: emoji 🇩🇬 is not supported, word: flag.
+[2022.02.26 22:45:09] API Warning: emoji 🇦🇨 is not supported, word: flag.
+[2022.02.26 22:45:09] API Warning: emoji 🇪🇦 is not supported, word: flag.
+[2022.02.26 22:45:09] API Warning: emoji 🇲🇫 is not supported, word: flag.
+[2022.02.26 22:45:09] API Warning: emoji 🇹🇦 is not supported, word: flag.
+[2022.02.26 22:45:09] API Warning: emoji 🇩🇬 is not supported, word: flag.
+[2022.02.26 22:45:09] API Warning: emoji 🇦🇨 is not supported, word: flag.
+[2022.02.26 22:45:09] API Warning: emoji 🇪🇦 is not supported, word: flag.
+[2022.02.26 22:45:09] API Warning: emoji 🇲🇫 is not supported, word: flag.
+[2022.02.26 22:45:09] API Warning: emoji 🇩🇬 is not supported, word: diego garcia.
+[2022.02.26 22:45:09] API Warning: emoji 🧑‍🤝‍🧑 is not supported, word: bf.
+[2022.02.26 22:45:09] API Warning: emoji 🇹🇦 is not supported, word: ta.
+[2022.02.26 22:45:09] API Warning: emoji 🇦🇨 is not supported, word: ascension island.
+[2022.02.26 22:45:09] API Warning: emoji 🇦🇨 is not supported, word: ac.
+[2022.02.26 22:45:09] API Warning: emoji 🇦🇨 is not supported, word: flag_ac.
+[2022.02.26 22:45:09] API Warning: emoji 🇹🇦 is not supported, word: tristan da cunha.
+[2022.02.26 22:45:09] API Warning: emoji 🇩🇬 is not supported, word: british indian ocean territory.
+[2022.02.26 22:45:09] API Warning: emoji 🇹🇦 is not supported, word: flag_ta.
+[2022.02.26 22:45:09] API Warning: emoji 🇲🇫 is not supported, word: st. martin.
+[2022.02.26 22:45:09] API Warning: emoji 🇪🇦 is not supported, word: ceuta & melilla.
+[2022.02.26 22:45:09] API Warning: emoji 🇹🇦 is not supported, word: флаг.
+[2022.02.26 22:45:09] API Warning: emoji 🇪🇦 is not supported, word: флаг.
+[2022.02.26 22:45:09] API Warning: emoji 🇦🇨 is not supported, word: флаг.
+[2022.02.26 22:45:09] API Warning: emoji 🇲🇫 is not supported, word: флаг.
+[2022.02.26 22:45:09] API Warning: emoji 🇩🇬 is not supported, word: флаг.
+[2022.02.26 22:45:09] API Warning: emoji 🇹🇦 is not supported, word: флаг.
+[2022.02.26 22:45:09] API Warning: emoji 🇪🇦 is not supported, word: флаг.
+[2022.02.26 22:45:09] API Warning: emoji 🇦🇨 is not supported, word: флаг.
+[2022.02.26 22:45:09] API Warning: emoji 🇲🇫 is not supported, word: флаг.
+[2022.02.26 22:45:09] API Warning: emoji 🇩🇬 is not supported, word: флаг.
+[2022.02.26 22:45:09] API Warning: emoji 🇦🇨 is not supported, word: флаги.
+[2022.02.26 22:45:09] API Warning: emoji 🇲🇫 is not supported, word: флаги.
+[2022.02.26 22:45:09] API Warning: emoji 🇩🇬 is not supported, word: флаги.
+[2022.02.26 22:45:09] API Warning: emoji 🇹🇦 is not supported, word: флаги.
+[2022.02.26 22:45:09] API Warning: emoji 🇪🇦 is not supported, word: флаги.
+[2022.02.26 22:45:09] API Warning: emoji 🇦🇨 is not supported, word: флаги.
+[2022.02.26 22:45:09] API Warning: emoji 🇲🇫 is not supported, word: флаги.
+[2022.02.26 22:45:09] API Warning: emoji 🇩🇬 is not supported, word: флаги.
+[2022.02.26 22:45:09] API Warning: emoji 🇹🇦 is not supported, word: флаги.
+[2022.02.26 22:45:09] API Warning: emoji 🇪🇦 is not supported, word: флаги.
+[2022.02.26 22:45:09] API Warning: emoji 🇹🇦 is not supported, word: тристан-да-кунья.
+[2022.02.26 22:45:09] API Warning: emoji 🇪🇦 is not supported, word: сеута и мелилья.
+[2022.02.26 22:45:09] API Warning: emoji 🇲🇫 is not supported, word: сен-мартен.
+[2022.02.26 22:45:09] API Warning: emoji 🇦🇨 is not supported, word: остров вознесения.
+[2022.02.26 22:45:09] API Warning: emoji 🇩🇬 is not supported, word: диего-гарсия.
+[2022.02.26 22:45:55] Audio Info: recreating audio device and reattaching the tracks
+[2022.02.26 22:45:57] Audio Info: Closing audio playback device.
+[2022.02.26 22:45:57] RPC Error: request 285 got fail with code 400, error CHAT_ADMIN_REQUIRED
+[2022.02.26 22:46:09] API Warning: not loaded minimal channel applied.
+[2022.02.26 22:46:54] App Info: writing encrypted user settings...
+[2022.02.26 22:46:59] Skipping message, because it is already in blocks!
+[2022.02.26 22:47:00] Streaming Error: Error in avformat_open_input (code: -1094995529, text: Invalid data found when processing input).
+[2022.02.26 22:47:04] App Info: writing encrypted user settings...
+[2022.02.26 22:47:08] API Warning: not loaded minimal channel applied.
+[2022.02.26 22:47:14] Skipping message, because it is already in blocks!
+[2022.02.26 22:47:14] Audio Info: recreating audio device and reattaching the tracks
+[2022.02.26 22:47:16] Audio Info: Closing audio playback device.
+[2022.02.26 22:47:17] Audio Info: recreating audio device and reattaching the tracks
+[2022.02.26 22:47:21] Audio Info: Closing audio playback device.
+[2022.02.26 22:47:25] Audio Info: recreating audio device and reattaching the tracks
+[2022.02.26 22:47:34] Audio Info: Closing audio playback device.
+[2022.02.26 22:48:31] API Warning: not loaded minimal channel applied.
+[2022.02.26 22:48:31] API Warning: not loaded minimal channel applied.
+[2022.02.26 22:49:42] Audio Info: recreating audio device and reattaching the tracks
+[2022.02.26 22:49:44] Audio Info: Closing audio playback device.
+[2022.02.26 22:50:36] Audio Info: recreating audio device and reattaching the tracks
+[2022.02.26 22:50:38] Audio Info: Closing audio playback device.
+[2022.02.26 22:51:26] API Warning: not loaded minimal channel applied.
+[2022.02.26 22:52:07] RPC Error: request 617 got fail with code 400, error CHAT_ADMIN_REQUIRED
+[2022.02.26 22:52:10] API Warning: not loaded minimal channel applied.
+[2022.02.26 22:52:43] RPC Error: request 713 got fail with code 400, error CHAT_ADMIN_REQUIRED
+[2022.02.26 22:53:05] API Warning: not loaded minimal channel applied.
+[2022.02.26 22:53:14] API Warning: not loaded minimal channel applied.
+[2022.02.26 22:54:18] Audio Info: recreating audio device and reattaching the tracks
+[2022.02.26 22:54:20] Audio Info: Closing audio playback device.
+[2022.02.26 22:54:23] Audio Info: recreating audio device and reattaching the tracks
+[2022.02.26 22:54:25] Audio Info: Closing audio playback device.
+[2022.02.26 22:54:25] Audio Info: recreating audio device and reattaching the tracks
+[2022.02.26 22:54:27] Audio Info: Closing audio playback device.
+[2022.02.26 22:55:13] API Warning: not loaded minimal channel applied.
+[2022.02.26 22:56:10] API Warning: not loaded minimal channel applied.
+[2022.02.26 22:57:13] API Warning: not loaded minimal channel applied.
+[2022.02.26 22:57:22] API Warning: not loaded minimal channel applied.
+[2022.02.26 23:01:18] Audio Info: recreating audio device and reattaching the tracks
+[2022.02.26 23:01:20] Audio Info: Closing audio playback device.
+[2022.02.26 23:01:46] Audio Info: recreating audio device and reattaching the tracks
+[2022.02.26 23:01:48] Audio Info: Closing audio playback device.
+[2022.02.26 23:02:05] Audio Info: recreating audio device and reattaching the tracks
+[2022.02.26 23:02:08] Audio Info: Closing audio playback device.
+[2022.02.26 23:02:12] Audio Info: recreating audio device and reattaching the tracks
+[2022.02.26 23:02:13] Audio Info: Closing audio playback device.
+[2022.02.26 23:02:15] Audio Info: recreating audio device and reattaching the tracks
+[2022.02.26 23:02:17] Audio Info: Closing audio playback device.
+[2022.02.26 23:02:32] API Warning: not loaded minimal channel applied.
+[2022.02.26 23:03:10] Audio Info: recreating audio device and reattaching the tracks
+[2022.02.26 23:03:12] Audio Info: Closing audio playback device.
+[2022.02.26 23:03:51] API Warning: not loaded minimal channel applied.
+[2022.02.26 23:04:38] Audio Info: recreating audio device and reattaching the tracks
+[2022.02.26 23:04:40] Audio Info: Closing audio playback device.
+[2022.02.26 23:04:49] Audio Info: recreating audio device and reattaching the tracks
+[2022.02.26 23:04:51] Audio Info: Closing audio playback device.
+[2022.02.26 23:04:55] API Warning: not loaded minimal channel applied.
+[2022.02.26 23:04:58] Audio Info: recreating audio device and reattaching the tracks
+[2022.02.26 23:05:00] Audio Info: Closing audio playback device.
+[2022.02.26 23:05:36] API Warning: not loaded minimal channel applied.
+[2022.02.26 23:07:26] API Warning: not loaded minimal channel applied.
+[2022.02.26 23:07:49] Audio Info: recreating audio device and reattaching the tracks
+[2022.02.26 23:07:51] Audio Info: Closing audio playback device.
+[2022.02.26 23:10:36] Audio Info: recreating audio device and reattaching the tracks
+[2022.02.26 23:10:38] Audio Info: Closing audio playback device.
+[2022.02.26 23:10:40] API Warning: not loaded minimal channel applied.
+[2022.02.26 23:11:05] API Warning: not loaded minimal channel applied.
+[2022.02.26 23:12:11] API Warning: not loaded minimal channel applied.
+[2022.02.26 23:13:14] API Warning: not loaded minimal channel applied.
+[2022.02.26 23:14:39] API Warning: not loaded minimal channel applied.
+[2022.02.26 23:16:23] API Warning: not loaded minimal channel applied.
+[2022.02.26 23:16:23] API Warning: not loaded minimal channel applied.
+[2022.02.26 23:16:23] API Warning: not loaded minimal channel applied.
+[2022.02.26 23:17:47] API Warning: not loaded minimal channel applied.
+[2022.02.26 23:17:53] API Warning: not loaded minimal channel applied.
+[2022.02.26 23:18:11] API Warning: not loaded minimal channel applied.
+[2022.02.26 23:18:11] API Warning: not loaded minimal channel applied.
+[2022.02.26 23:19:46] API Warning: not loaded minimal channel applied.
+[2022.02.26 23:19:46] Skipping message, because it is already in blocks!
+[2022.02.26 23:19:48] Audio Info: recreating audio device and reattaching the tracks
+[2022.02.26 23:19:50] Audio Info: Closing audio playback device.
+[2022.02.26 23:20:28] Audio Info: recreating audio device and reattaching the tracks
+[2022.02.26 23:20:30] Audio Info: Closing audio playback device.
+[2022.02.26 23:21:58] Audio Info: recreating audio device and reattaching the tracks
+[2022.02.26 23:22:00] Audio Info: Closing audio playback device.
+[2022.02.26 23:22:31] API Warning: not loaded minimal channel applied.
+[2022.02.26 23:22:31] API Warning: not loaded minimal channel applied.
+[2022.02.26 23:23:12] API Warning: not loaded minimal channel applied.
+[2022.02.26 23:23:32] API Warning: not loaded minimal channel applied.
+[2022.02.26 23:23:58] Audio Info: recreating audio device and reattaching the tracks
+[2022.02.26 23:24:00] Audio Info: Closing audio playback device.
+[2022.02.26 23:24:44] API Warning: not loaded minimal channel applied.
+[2022.02.26 23:24:56] API Warning: not loaded minimal channel applied.
+[2022.02.26 23:26:01] API Warning: not loaded minimal channel applied.
+[2022.02.26 23:27:43] API Warning: not loaded minimal channel applied.
+[2022.02.26 23:28:37] API Warning: not loaded minimal channel applied.
+[2022.02.26 23:29:39] API Warning: not loaded minimal channel applied.
+[2022.02.26 23:29:59] API Warning: not loaded minimal channel applied.
+[2022.02.26 23:30:19] API Warning: not loaded minimal channel applied.
+[2022.02.26 23:32:14] API Warning: not loaded minimal channel applied.
+[2022.02.26 23:34:51] API Warning: not loaded minimal channel applied.
+[2022.02.26 23:35:38] Audio Info: recreating audio device and reattaching the tracks
+[2022.02.26 23:35:40] Audio Info: Closing audio playback device.
+[2022.02.26 23:38:31] API Warning: not loaded minimal channel applied.
+[2022.02.26 23:39:37] Audio Info: recreating audio device and reattaching the tracks
+[2022.02.26 23:39:39] Audio Info: Closing audio playback device.
+[2022.02.26 23:46:44] Audio Info: recreating audio device and reattaching the tracks
+[2022.02.26 23:46:46] Audio Info: Closing audio playback device.
+[2022.02.26 23:46:53] Audio Info: recreating audio device and reattaching the tracks
+[2022.02.26 23:46:55] Audio Info: Closing audio playback device.
+[2022.02.26 23:46:55] API Warning: not loaded minimal channel applied.
+[2022.02.26 23:47:48] Audio Info: recreating audio device and reattaching the tracks
+[2022.02.26 23:47:50] Audio Info: Closing audio playback device.
+[2022.02.26 23:56:47] API Warning: not loaded minimal channel applied.
+[2022.02.27 00:04:44] Audio Info: recreating audio device and reattaching the tracks
+[2022.02.27 00:04:46] Audio Info: Closing audio playback device.
+[2022.02.27 00:06:49] Audio Info: recreating audio device and reattaching the tracks
+[2022.02.27 00:06:51] Audio Info: Closing audio playback device.
+[2022.02.27 00:07:12] API Warning: not loaded minimal channel applied.
+[2022.02.27 00:08:24] API Warning: not loaded minimal channel applied.
+[2022.02.27 00:09:33] Audio Info: recreating audio device and reattaching the tracks
+[2022.02.27 00:09:35] Audio Info: Closing audio playback device.
+[2022.02.27 00:09:42] Audio Info: recreating audio device and reattaching the tracks
+[2022.02.27 00:09:44] Audio Info: Closing audio playback device.
+[2022.02.27 00:09:50] API Warning: not loaded minimal channel applied.
+[2022.02.27 00:11:40] Audio Info: recreating audio device and reattaching the tracks
+[2022.02.27 00:11:42] Audio Info: Closing audio playback device.
+[2022.02.27 00:12:07] Audio Info: recreating audio device and reattaching the tracks
+[2022.02.27 00:12:08] Audio Info: Closing audio playback device.
+[2022.02.27 00:15:16] API Warning: not loaded minimal channel applied.
+[2022.02.27 00:18:22] API Warning: not loaded minimal channel applied.
+[2022.02.27 00:20:23] API Warning: not loaded minimal channel applied.
+[2022.02.27 00:20:23] API Warning: not loaded minimal channel applied.
+[2022.02.27 00:21:03] API Warning: not loaded minimal channel applied.
+[2022.02.27 00:22:15] Audio Info: recreating audio device and reattaching the tracks
+[2022.02.27 00:22:17] Audio Info: Closing audio playback device.
+[2022.02.27 00:22:19] Audio Info: recreating audio device and reattaching the tracks
+[2022.02.27 00:22:21] Audio Info: Closing audio playback device.
+[2022.02.27 00:22:56] Audio Info: recreating audio device and reattaching the tracks
+[2022.02.27 00:22:58] Audio Info: Closing audio playback device.
+[2022.02.27 00:23:10] API Warning: not loaded minimal channel applied.
+[2022.02.27 00:26:50] API Warning: not loaded minimal channel applied.
+[2022.02.27 00:27:23] API Warning: not loaded minimal channel applied.
+[2022.02.27 00:29:39] API Warning: not loaded minimal channel applied.
+[2022.02.27 00:30:18] API Warning: not loaded minimal channel applied.
+[2022.02.27 00:30:18] API Warning: not loaded minimal channel applied.
+[2022.02.27 00:30:30] API Warning: not loaded minimal channel applied.
+[2022.02.27 00:30:57] Audio Info: recreating audio device and reattaching the tracks
+[2022.02.27 00:30:59] Audio Info: Closing audio playback device.
+[2022.02.27 00:32:02] Audio Info: recreating audio device and reattaching the tracks
+[2022.02.27 00:32:04] Audio Info: Closing audio playback device.
+[2022.02.27 00:33:24] API Warning: not loaded minimal channel applied.
+[2022.02.27 00:35:48] Audio Info: recreating audio device and reattaching the tracks
+[2022.02.27 00:35:50] Audio Info: Closing audio playback device.
+[2022.02.27 00:40:47] API Warning: not loaded minimal channel applied.
+[2022.02.27 00:42:16] API Warning: not loaded minimal channel applied.
+[2022.02.27 00:45:45] Audio Info: recreating audio device and reattaching the tracks
+[2022.02.27 00:45:47] Audio Info: Closing audio playback device.
+[2022.02.27 00:46:48] Audio Info: recreating audio device and reattaching the tracks
+[2022.02.27 00:46:50] Audio Info: Closing audio playback device.
+[2022.02.27 00:47:53] API Warning: not loaded minimal channel applied.
+[2022.02.27 00:48:40] API Warning: not loaded minimal channel applied.
+[2022.02.27 00:54:11] Audio Info: recreating audio device and reattaching the tracks
+[2022.02.27 00:54:13] Audio Info: Closing audio playback device.
+[2022.02.27 00:54:32] API Warning: not loaded minimal channel applied.
+[2022.02.27 00:55:34] API Warning: not loaded minimal channel applied.
+[2022.02.27 00:57:43] API Warning: not loaded minimal channel applied.
+[2022.02.27 00:58:06] Audio Info: recreating audio device and reattaching the tracks
+[2022.02.27 00:58:08] Audio Info: Closing audio playback device.
+[2022.02.27 00:58:59] Audio Info: recreating audio device and reattaching the tracks
+[2022.02.27 00:59:01] Audio Info: Closing audio playback device.
+[2022.02.27 01:00:28] Audio Info: recreating audio device and reattaching the tracks
+[2022.02.27 01:00:30] Audio Info: Closing audio playback device.
+[2022.02.27 01:01:53] Audio Info: recreating audio device and reattaching the tracks
+[2022.02.27 01:01:55] Audio Info: Closing audio playback device.
+[2022.02.27 01:05:27] API Warning: not loaded minimal channel applied.
+[2022.02.27 01:07:39] Audio Info: recreating audio device and reattaching the tracks
+[2022.02.27 01:07:41] Audio Info: Closing audio playback device.
+[2022.02.27 01:08:12] API Warning: not loaded minimal channel applied.
+[2022.02.27 01:08:26] Audio Info: recreating audio device and reattaching the tracks
+[2022.02.27 01:08:28] Audio Info: Closing audio playback device.
+[2022.02.27 01:09:01] Audio Info: recreating audio device and reattaching the tracks
+[2022.02.27 01:09:03] Audio Info: Closing audio playback device.
+[2022.02.27 01:09:58] API Warning: not loaded minimal channel applied.
+[2022.02.27 01:10:17] API Warning: not loaded minimal channel applied.
+[2022.02.27 01:11:24] Audio Info: recreating audio device and reattaching the tracks
+[2022.02.27 01:11:26] Audio Info: Closing audio playback device.
+[2022.02.27 01:13:51] Audio Info: recreating audio device and reattaching the tracks
+[2022.02.27 01:13:53] Audio Info: Closing audio playback device.
+[2022.02.27 01:13:57] Audio Info: recreating audio device and reattaching the tracks
+[2022.02.27 01:14:00] Audio Info: Closing audio playback device.
+[2022.02.27 01:15:12] Audio Info: recreating audio device and reattaching the tracks
+[2022.02.27 01:15:14] Audio Info: Closing audio playback device.
+[2022.02.27 01:15:43] Audio Info: recreating audio device and reattaching the tracks
+[2022.02.27 01:15:46] Audio Info: Closing audio playback device.
+[2022.02.27 01:16:31] API Warning: not loaded minimal channel applied.
+[2022.02.27 01:16:53] Audio Info: recreating audio device and reattaching the tracks
+[2022.02.27 01:16:55] Audio Info: Closing audio playback device.
+[2022.02.27 01:17:46] API Warning: not loaded minimal channel applied.
+[2022.02.27 01:17:53] API Warning: not loaded minimal channel applied.
+[2022.02.27 01:19:29] Message Info: bad message notification received (error_code 33) for msg_id = 7069162129354667016, seq_no = 5440
+[2022.02.27 01:19:29] Message Info: bad message notification received, msgId 7069162129354667016, error_code 33
+[2022.02.27 01:25:39] API Warning: not loaded minimal channel applied.
+[2022.02.27 01:26:20] API Warning: not loaded minimal channel applied.
+[2022.02.27 01:26:33] API Warning: not loaded minimal channel applied.
+[2022.02.27 01:27:52] API Warning: not loaded minimal channel applied.
+[2022.02.27 01:30:03] RPC Error: request 2887 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2022.02.27 01:30:04] RPC Error: request 2890 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2022.02.27 01:30:04] RPC Error: request 2892 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2022.02.27 01:30:37] API Warning: not loaded minimal channel applied.
+[2022.02.27 01:31:18] API Warning: not loaded minimal channel applied.
+[2022.02.27 01:32:11] API Warning: not loaded minimal channel applied.
+[2022.02.27 01:33:24] API Warning: not loaded minimal channel applied.
+[2022.02.27 01:38:01] API Warning: not loaded minimal channel applied.
+[2022.02.27 01:39:22] Audio Info: recreating audio device and reattaching the tracks
+[2022.02.27 01:39:24] Audio Info: Closing audio playback device.
+[2022.02.27 01:41:14] RPC Error: request 3076 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2022.02.27 01:46:59] API Warning: not loaded minimal channel applied.
+[2022.02.27 01:48:51] API Warning: not loaded minimal channel applied.
+[2022.02.27 01:55:21] API Warning: not loaded minimal channel applied.
+[2022.02.27 01:55:28] Audio Info: recreating audio device and reattaching the tracks
+[2022.02.27 01:55:30] Audio Info: Closing audio playback device.
+[2022.02.27 01:56:23] Audio Info: recreating audio device and reattaching the tracks
+[2022.02.27 01:56:25] Audio Info: Closing audio playback device.
+[2022.02.27 01:56:27] Audio Info: recreating audio device and reattaching the tracks
+[2022.02.27 01:56:29] Audio Info: Closing audio playback device.
+[2022.02.27 01:58:56] API Warning: not loaded minimal channel applied.
+[2022.02.27 01:58:56] API Warning: not loaded minimal channel applied.
+[2022.02.27 02:09:08] API Warning: not loaded minimal channel applied.
+[2022.02.27 02:10:06] Audio Info: recreating audio device and reattaching the tracks
+[2022.02.27 02:10:08] Audio Info: Closing audio playback device.
+[2022.02.27 02:11:08] Audio Info: recreating audio device and reattaching the tracks
+[2022.02.27 02:11:10] Audio Info: Closing audio playback device.
+[2022.02.27 02:14:05] Audio Info: recreating audio device and reattaching the tracks
+[2022.02.27 02:14:07] Audio Info: Closing audio playback device.
+[2022.02.27 02:14:22] Audio Info: recreating audio device and reattaching the tracks
+[2022.02.27 02:14:24] Audio Info: Closing audio playback device.
+[2022.02.27 02:22:45] Audio Info: recreating audio device and reattaching the tracks
+[2022.02.27 02:22:47] Audio Info: Closing audio playback device.
+[2022.02.27 02:22:48] Audio Info: recreating audio device and reattaching the tracks
+[2022.02.27 02:22:50] Audio Info: Closing audio playback device.
+[2022.02.27 02:22:51] Audio Info: recreating audio device and reattaching the tracks
+[2022.02.27 02:22:53] Audio Info: Closing audio playback device.
+[2022.02.27 02:24:01] API Warning: not loaded minimal channel applied.
+[2022.02.27 02:24:01] API Warning: not loaded minimal channel applied.
+[2022.02.27 02:24:30] API Warning: not loaded minimal channel applied.
+[2022.02.27 02:26:25] API Warning: not loaded minimal channel applied.
+[2022.02.27 02:26:48] API Warning: not loaded minimal channel applied.
+[2022.02.27 02:26:48] API Warning: not loaded minimal channel applied.
+[2022.02.27 02:27:13] Audio Info: recreating audio device and reattaching the tracks
+[2022.02.27 02:27:15] Audio Info: Closing audio playback device.
+[2022.02.27 02:27:20] Audio Info: recreating audio device and reattaching the tracks
+[2022.02.27 02:27:22] Audio Info: Closing audio playback device.
+[2022.02.27 02:27:37] Audio Info: recreating audio device and reattaching the tracks
+[2022.02.27 02:27:39] Audio Info: Closing audio playback device.
+[2022.02.27 02:29:24] API Warning: not loaded minimal channel applied.
+[2022.02.27 02:30:24] Audio Info: recreating audio device and reattaching the tracks
+[2022.02.27 02:30:26] Audio Info: Closing audio playback device.
+[2022.02.27 14:36:35] Message Info: bad message notification received (error_code 16) for msg_id = 7069180581822245164, seq_no = 1726
+[2022.02.27 14:36:35] Message Info: bad message notification received (error_code 16) for msg_id = 7069180582257771528, seq_no = 1726
+[2022.02.27 14:36:36] Message Info: bad message notification received (error_code 16) for msg_id = 7069180582662327532, seq_no = 1726
+[2022.02.27 14:36:36] API Warning: not loaded minimal channel applied.
+[2022.02.27 14:36:37] API Warning: not loaded minimal channel applied.
+[2022.02.27 14:36:37] API Warning: not loaded minimal channel applied.
+[2022.02.27 14:36:37] API Warning: not loaded minimal channel applied.
+[2022.02.27 14:36:37] API Warning: not loaded minimal channel applied.
+[2022.02.27 14:36:37] API Warning: not loaded minimal channel applied.
+[2022.02.27 14:36:37] API Warning: not loaded minimal channel applied.
+[2022.02.27 14:36:38] Message Info: bad message notification received (error_code 33) for msg_id = 7069367553648809320, seq_no = 1956
+[2022.02.27 14:36:38] Message Info: bad message notification received, msgId 7069367553648809320, error_code 33
+[2022.02.27 14:36:38] Message Info: bad message notification received (error_code 33) for msg_id = 7069367553683872948, seq_no = 18
+[2022.02.27 14:36:38] Message Info: bad message notification received, msgId 7069367553683872948, error_code 33
+[2022.02.27 14:39:05] HTTP Error: network error 8 - Network session error.
+[2022.02.27 14:39:05] HTTP Error: network error 8 - Network session error.
+[2022.02.27 14:39:05] HTTP Error: network error 8 - Network session error.
+[2022.02.27 14:39:05] HTTP Error: network error 8 - Network session error.

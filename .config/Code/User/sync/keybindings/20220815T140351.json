@@ -1,0 +1,1 @@
+{"version":2,"content":"{\"linux\":\"// Поместите настраиваемые сочетания клавиш в этот файл, чтобы переопределить сочетания клавиш по умолчанию.auto[]\\n[\\n    {\\n        \\\"key\\\": \\\"numpad3\\\",\\n        \\\"command\\\": \\\"workbench.action.toggleSidebarPosition\\\"\\n    }\\n]\"}"}

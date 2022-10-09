@@ -1,0 +1,9 @@
+[Debug 12:21:31.850] TableOfContentsProvider: create - file:///home/bbd/snap/react-app/README.md
+[Debug 12:21:31.972] LinkProvider: compute - file:///home/bbd/snap/react-app/README.md
+[Debug 12:21:32.280] MdFoldingProvider: provideFoldingRanges - file:///home/bbd/snap/react-app/README.md
+[Debug 14:25:57.632] TableOfContentsProvider: create - file:///home/bbd/snap/react-app/README.md
+[Debug 14:25:57.649] LinkProvider: compute - file:///home/bbd/snap/react-app/README.md
+[Debug 14:25:57.761] MdFoldingProvider: provideFoldingRanges - file:///home/bbd/snap/react-app/README.md
+[Debug 14:26:34.464] TableOfContentsProvider: create - file:///home/bbd/snap/react-app/README.md
+[Debug 14:26:34.497] LinkProvider: compute - file:///home/bbd/snap/react-app/README.md
+[Debug 14:26:34.605] MdFoldingProvider: provideFoldingRanges - file:///home/bbd/snap/react-app/README.md

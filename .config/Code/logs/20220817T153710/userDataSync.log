@@ -1,0 +1,128 @@
+[2022-08-17 15:37:13.879] [settingssync] [info] Using settings sync service https://vscode-sync.trafficmanager.net/
+[2022-08-17 15:37:13.879] [settingssync] [info] Auto Sync is enabled.
+[2022-08-17 15:37:13.879] [settingssync] [info] Auto Sync: Suspended until auth token is available.
+[2022-08-17 15:39:50.835] [settingssync] [info] Auto Sync: Started
+[2022-08-17 15:39:50.836] [settingssync] [info] Auto Sync: Triggered by Interval
+[2022-08-17 15:39:52.302] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2022-08-17 15:39:52.461] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2022-08-17 15:39:52.506] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2022-08-17 15:39:52.532] [settingssync] [info] Tasks: No changes found during synchronizing tasks.
+[2022-08-17 15:39:53.408] [settingssync] [info] GlobalState: Updated global state ["github-bigbadabum6"]
+[2022-08-17 15:39:53.409] [settingssync] [info] GlobalState: Updated local ui state
+[2022-08-17 15:39:53.842] [settingssync] [info] GlobalState: Updated remote ui state
+[2022-08-17 15:39:54.130] [settingssync] [info] GlobalState: Updated last synchronized ui state
+[2022-08-17 15:39:55.142] [settingssync] [info] Extensions: Updated remote extensions. Added: ["cloudstudio.github-authentication","github.vscode-pull-request-github"].
+[2022-08-17 15:39:55.207] [settingssync] [info] Extensions: Updated last synchronized extensions.
+[2022-08-17 15:39:55.219] [settingssync] [info] Sync done. Took 3200ms
+[2022-08-17 15:39:55.465] [settingssync] [info] Auto Sync: Triggered by Activity
+[2022-08-17 15:39:55.613] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2022-08-17 15:39:55.624] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2022-08-17 15:39:55.635] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2022-08-17 15:39:55.675] [settingssync] [info] Tasks: No changes found during synchronizing tasks.
+[2022-08-17 15:39:55.685] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2022-08-17 15:39:55.871] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2022-08-17 15:39:55.903] [settingssync] [info] Sync done. Took 291ms
+[2022-08-17 15:40:16.294] [settingssync] [info] Auto Sync: Triggered by Activity
+[2022-08-17 15:40:16.452] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2022-08-17 15:40:16.462] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2022-08-17 15:40:16.472] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2022-08-17 15:40:16.481] [settingssync] [info] Tasks: No changes found during synchronizing tasks.
+[2022-08-17 15:40:16.493] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2022-08-17 15:40:16.694] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2022-08-17 15:40:16.697] [settingssync] [info] Sync done. Took 258ms
+[2022-08-17 15:40:39.664] [settingssync] [info] Auto Sync: Triggered by Activity
+[2022-08-17 15:40:40.001] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2022-08-17 15:40:40.019] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2022-08-17 15:40:40.031] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2022-08-17 15:40:40.054] [settingssync] [info] Tasks: No changes found during synchronizing tasks.
+[2022-08-17 15:40:40.104] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2022-08-17 15:40:40.372] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2022-08-17 15:40:40.376] [settingssync] [info] Sync done. Took 418ms
+[2022-08-17 15:41:47.691] [settingssync] [info] Auto Sync: Triggered by Activity
+[2022-08-17 15:41:47.867] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2022-08-17 15:41:47.878] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2022-08-17 15:41:47.888] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2022-08-17 15:41:47.897] [settingssync] [info] Tasks: No changes found during synchronizing tasks.
+[2022-08-17 15:41:47.910] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2022-08-17 15:41:48.118] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2022-08-17 15:41:48.121] [settingssync] [info] Sync done. Took 262ms
+[2022-08-17 15:42:16.063] [settingssync] [info] Auto Sync: Triggered by Activity
+[2022-08-17 15:42:16.253] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2022-08-17 15:42:16.270] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2022-08-17 15:42:16.282] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2022-08-17 15:42:16.292] [settingssync] [info] Tasks: No changes found during synchronizing tasks.
+[2022-08-17 15:42:16.304] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2022-08-17 15:42:16.759] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2022-08-17 15:42:16.764] [settingssync] [info] Sync done. Took 530ms
+[2022-08-17 15:42:35.285] [settingssync] [info] Auto Sync: Triggered by Activity
+[2022-08-17 15:42:35.514] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2022-08-17 15:42:35.524] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2022-08-17 15:42:35.535] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2022-08-17 15:42:35.544] [settingssync] [info] Tasks: No changes found during synchronizing tasks.
+[2022-08-17 15:42:35.558] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2022-08-17 15:42:35.703] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2022-08-17 15:42:35.706] [settingssync] [info] Sync done. Took 202ms
+[2022-08-17 15:42:44.727] [settingssync] [info] Auto Sync: Triggered by Activity
+[2022-08-17 15:42:46.978] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2022-08-17 15:42:47.644] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2022-08-17 15:42:48.618] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2022-08-17 15:42:49.080] [settingssync] [info] Tasks: No changes found during synchronizing tasks.
+[2022-08-17 15:42:49.868] [settingssync] [info] GlobalState: Updated remote ui state
+[2022-08-17 15:42:49.932] [settingssync] [info] GlobalState: Updated last synchronized ui state
+[2022-08-17 15:42:51.058] [settingssync] [info] Extensions: Updated remote extensions. Removed: ["github.vscode-pull-request-github"].
+[2022-08-17 15:42:51.663] [settingssync] [info] Extensions: Updated last synchronized extensions.
+[2022-08-17 15:42:51.753] [settingssync] [info] Sync done. Took 6794ms
+[2022-08-17 15:42:51.754] [settingssync] [info] Auto Sync: Triggered by Activity
+[2022-08-17 15:42:51.984] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2022-08-17 15:42:52.010] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2022-08-17 15:42:52.044] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2022-08-17 15:42:52.057] [settingssync] [info] Tasks: No changes found during synchronizing tasks.
+[2022-08-17 15:42:53.250] [settingssync] [info] GlobalState: Updated remote ui state
+[2022-08-17 15:42:53.254] [settingssync] [info] Auto Sync: Suspended until auth token is available.
+[2022-08-17 15:42:53.255] [settingssync] [info] Auto sync: Cancelled sync that is in progress
+[2022-08-17 15:42:53.256] [settingssync] [info] Auto Sync: Stopped
+[2022-08-17 15:42:53.258] [settingssync] [error] Canceled: Canceled
+    at vscode-file://vscode-app/snap/code/104/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:21:10664
+    at S.invoke (vscode-file://vscode-app/snap/code/104/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:19:145)
+    at m.deliver (vscode-file://vscode-app/snap/code/104/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:19:2266)
+    at w.fire (vscode-file://vscode-app/snap/code/104/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:19:1844)
+    at L.cancel (vscode-file://vscode-app/snap/code/104/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:19:6678)
+    at A.cancel (vscode-file://vscode-app/snap/code/104/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:19:7219)
+    at Object.cancel (vscode-file://vscode-app/snap/code/104/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:21:10818)
+    at Object.stop (vscode-file://vscode-app/snap/code/104/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:83:119388)
+    at vscode-file://vscode-app/snap/code/104/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:83:114270
+    at vscode-file://vscode-app/snap/code/104/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:16:5273
+    at Object.dispose (vscode-file://vscode-app/snap/code/104/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:8:8986)
+    at d (vscode-file://vscode-app/snap/code/104/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:16:4986)
+    at p.clear (vscode-file://vscode-app/snap/code/104/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:16:5505)
+    at p.dispose (vscode-file://vscode-app/snap/code/104/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:16:5443)
+    at n.dispose (vscode-file://vscode-app/snap/code/104/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:16:6044)
+    at u.set value [as value] (vscode-file://vscode-app/snap/code/104/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:16:6383)
+    at u.clear (vscode-file://vscode-app/snap/code/104/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:16:6439)
+    at E.updateAutoSync (vscode-file://vscode-app/snap/code/104/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:83:108239)
+    at vscode-file://vscode-app/snap/code/104/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:83:106755
+    at S.invoke (vscode-file://vscode-app/snap/code/104/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:19:145)
+    at m.deliver (vscode-file://vscode-app/snap/code/104/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:19:2266)
+    at w.fire (vscode-file://vscode-app/snap/code/104/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:19:1844)
+    at A.updateAccount (vscode-file://vscode-app/snap/code/104/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:81:61525)
+    at C.call (vscode-file://vscode-app/snap/code/104/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:81:66400)
+    at onPromise (vscode-file://vscode-app/snap/code/104/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:23:4907)
+    at onRawMessage (vscode-file://vscode-app/snap/code/104/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:23:4283)
+    at vscode-file://vscode-app/snap/code/104/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:23:3564
+    at S.invoke (vscode-file://vscode-app/snap/code/104/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:19:145)
+    at m.deliver (vscode-file://vscode-app/snap/code/104/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:19:2266)
+    at w.fire (vscode-file://vscode-app/snap/code/104/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:19:1844)
+    at MessagePort.Z (vscode-file://vscode-app/snap/code/104/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:17:23629)
+[2022-08-17 15:42:53.274] [settingssync] [info] GlobalState: Stopped synchronizing globalstate.
+[2022-08-17 15:42:53.324] [settingssync] [info] GlobalState: Updated last synchronized ui state
+[2022-08-17 15:44:16.557] [settingssync] [info] Auto Sync: Started
+[2022-08-17 15:44:16.557] [settingssync] [info] Auto Sync: Triggered by Interval
+[2022-08-17 15:44:16.883] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2022-08-17 15:44:16.899] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2022-08-17 15:44:16.914] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2022-08-17 15:44:16.926] [settingssync] [info] Tasks: No changes found during synchronizing tasks.
+[2022-08-17 15:44:17.640] [settingssync] [info] GlobalState: Updated global state ["workbench.activity.pinnedViewlets2"]
+[2022-08-17 15:44:17.641] [settingssync] [info] GlobalState: Updated local ui state
+[2022-08-17 15:44:18.074] [settingssync] [info] GlobalState: Updated last synchronized ui state
+[2022-08-17 15:44:18.321] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2022-08-17 15:44:18.324] [settingssync] [info] Sync done. Took 1451ms

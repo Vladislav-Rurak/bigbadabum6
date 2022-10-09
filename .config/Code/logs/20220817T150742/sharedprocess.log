@@ -1,0 +1,8 @@
+[2022-08-17 15:07:46.946] [sharedprocess] [info] Starting worker process with pid 55000 (type: fileWatcher, window: 1).
+[2022-08-17 15:09:13.800] [sharedprocess] [info] Getting Manifest... cloudstudio.github-authentication
+[2022-08-17 15:09:13.816] [sharedprocess] [info] Installing extension: cloudstudio.github-authentication
+[2022-08-17 15:09:14.470] [sharedprocess] [info] Downloaded extension: cloudstudio.github-authentication /home/bbd/.config/Code/CachedExtensionVSIXs/cloudstudio.github-authentication-0.0.1
+[2022-08-17 15:09:14.812] [sharedprocess] [info] Extracted extension to /home/bbd/.vscode/extensions/.c5e02b84-93df-4d00-a6f0-dd9538a32833: cloudstudio.github-authentication
+[2022-08-17 15:09:14.894] [sharedprocess] [info] Renamed to /home/bbd/.vscode/extensions/cloudstudio.github-authentication-0.0.1
+[2022-08-17 15:09:14.895] [sharedprocess] [info] Extracting completed. cloudstudio.github-authentication
+[2022-08-17 15:09:14.896] [sharedprocess] [info] Extension installed successfully: cloudstudio.github-authentication

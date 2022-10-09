@@ -1,0 +1,909 @@
+<!-- =========================
+     Page Breadcrumb   
+============================== -->
+<!DOCTYPE html>
+<html lang="ru-RU"
+	prefix="og: https://ogp.me/ns#" >
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<title>Как отменить запрос пароля при выполнении команды sudo в Ubuntu или как убрать пароль</title>
+
+		<!-- All in One SEO 4.1.5.3 -->
+		<meta name="description" content="Руководство о том как убрать пароль в Ubuntu" />
+		<meta name="robots" content="max-image-preview:large" />
+		<meta name="keywords" content="ubuntu убрать пароль,root,команды в linux" />
+		<link rel="canonical" href="http://linux-user.ru/komandy-v-linux/komandy-dlya-ustanovki-programm/kak-otmenit-zapros-parolya-pri-vypolnenii-komandy-sudo-v-ubuntu-ili-kak-ubrat-parol/" />
+		<meta property="og:locale" content="ru_RU" />
+		<meta property="og:site_name" content="Мир Gnu / Linux | * linux (/boot/vmlinuz)" />
+		<meta property="og:type" content="article" />
+		<meta property="og:title" content="Как отменить запрос пароля при выполнении команды sudo в Ubuntu или как убрать пароль" />
+		<meta property="og:description" content="Руководство о том как убрать пароль в Ubuntu" />
+		<meta property="og:url" content="http://linux-user.ru/komandy-v-linux/komandy-dlya-ustanovki-programm/kak-otmenit-zapros-parolya-pri-vypolnenii-komandy-sudo-v-ubuntu-ili-kak-ubrat-parol/" />
+		<meta property="article:published_time" content="2015-11-09T14:52:42+00:00" />
+		<meta property="article:modified_time" content="2015-11-27T08:15:27+00:00" />
+		<meta name="twitter:card" content="summary" />
+		<meta name="twitter:domain" content="linux-user.ru" />
+		<meta name="twitter:title" content="Как отменить запрос пароля при выполнении команды sudo в Ubuntu или как убрать пароль" />
+		<meta name="twitter:description" content="Руководство о том как убрать пароль в Ubuntu" />
+		<meta name="google" content="nositelinkssearchbox" />
+		<script type="application/ld+json" class="aioseo-schema">
+			{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebSite","@id":"http:\/\/linux-user.ru\/#website","url":"http:\/\/linux-user.ru\/","name":"\u041c\u0438\u0440 Gnu \/ Linux","description":"* linux (\/boot\/vmlinuz)","inLanguage":"ru-RU","publisher":{"@id":"http:\/\/linux-user.ru\/#organization"}},{"@type":"Organization","@id":"http:\/\/linux-user.ru\/#organization","name":"\u041c\u0438\u0440 Gnu \/ Linux","url":"http:\/\/linux-user.ru\/"},{"@type":"BreadcrumbList","@id":"http:\/\/linux-user.ru\/komandy-v-linux\/komandy-dlya-ustanovki-programm\/kak-otmenit-zapros-parolya-pri-vypolnenii-komandy-sudo-v-ubuntu-ili-kak-ubrat-parol\/#breadcrumblist","itemListElement":[{"@type":"ListItem","@id":"http:\/\/linux-user.ru\/#listItem","position":1,"item":{"@type":"WebPage","@id":"http:\/\/linux-user.ru\/","name":"\u0413\u043b\u0430\u0432\u043d\u0430\u044f","description":"\u0420\u0435\u0441\u0443\u0440\u0441 \u043f\u043e\u0441\u0432\u044f\u0449\u0435\u043d Linux \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f\u043c, \u0434\u0435\u0442\u0430\u043b\u044c\u043d\u044b\u0435 \u0440\u0443\u043a\u043e\u0432\u043e\u0434\u0441\u0442\u0432\u043e \u0441 \u043a\u0430\u0440\u0442\u0438\u043d\u043a\u0430\u043c\u0438 \u0438 \u0432\u0438\u0434\u0435\u043e \u0443\u0440\u043e\u043a\u0430\u043c\u0438","url":"http:\/\/linux-user.ru\/"},"nextItem":"http:\/\/linux-user.ru\/komandy-v-linux\/komandy-dlya-ustanovki-programm\/kak-otmenit-zapros-parolya-pri-vypolnenii-komandy-sudo-v-ubuntu-ili-kak-ubrat-parol\/#listItem"},{"@type":"ListItem","@id":"http:\/\/linux-user.ru\/komandy-v-linux\/komandy-dlya-ustanovki-programm\/kak-otmenit-zapros-parolya-pri-vypolnenii-komandy-sudo-v-ubuntu-ili-kak-ubrat-parol\/#listItem","position":2,"item":{"@type":"WebPage","@id":"http:\/\/linux-user.ru\/komandy-v-linux\/komandy-dlya-ustanovki-programm\/kak-otmenit-zapros-parolya-pri-vypolnenii-komandy-sudo-v-ubuntu-ili-kak-ubrat-parol\/","name":"\u041a\u0430\u043a \u043e\u0442\u043c\u0435\u043d\u0438\u0442\u044c \u0437\u0430\u043f\u0440\u043e\u0441 \u043f\u0430\u0440\u043e\u043b\u044f \u043f\u0440\u0438 \u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u0438\u0438 \u043a\u043e\u043c\u0430\u043d\u0434\u044b sudo \u0432 Ubuntu \u0438\u043b\u0438 \u043a\u0430\u043a \u0443\u0431\u0440\u0430\u0442\u044c \u043f\u0430\u0440\u043e\u043b\u044c","description":"\u0420\u0443\u043a\u043e\u0432\u043e\u0434\u0441\u0442\u0432\u043e \u043e \u0442\u043e\u043c \u043a\u0430\u043a \u0443\u0431\u0440\u0430\u0442\u044c \u043f\u0430\u0440\u043e\u043b\u044c \u0432 Ubuntu","url":"http:\/\/linux-user.ru\/komandy-v-linux\/komandy-dlya-ustanovki-programm\/kak-otmenit-zapros-parolya-pri-vypolnenii-komandy-sudo-v-ubuntu-ili-kak-ubrat-parol\/"},"previousItem":"http:\/\/linux-user.ru\/#listItem"}]},{"@type":"Person","@id":"http:\/\/linux-user.ru\/author\/marat\/#author","url":"http:\/\/linux-user.ru\/author\/marat\/","name":"\u041c\u0430\u0440\u0430\u0442","image":{"@type":"ImageObject","@id":"http:\/\/linux-user.ru\/komandy-v-linux\/komandy-dlya-ustanovki-programm\/kak-otmenit-zapros-parolya-pri-vypolnenii-komandy-sudo-v-ubuntu-ili-kak-ubrat-parol\/#authorImage","url":"http:\/\/0.gravatar.com\/avatar\/f3c4a6c1cd69c7ebeb0a544693f44f32?s=96&d=wavatar&r=g","width":96,"height":96,"caption":"\u041c\u0430\u0440\u0430\u0442"}},{"@type":"WebPage","@id":"http:\/\/linux-user.ru\/komandy-v-linux\/komandy-dlya-ustanovki-programm\/kak-otmenit-zapros-parolya-pri-vypolnenii-komandy-sudo-v-ubuntu-ili-kak-ubrat-parol\/#webpage","url":"http:\/\/linux-user.ru\/komandy-v-linux\/komandy-dlya-ustanovki-programm\/kak-otmenit-zapros-parolya-pri-vypolnenii-komandy-sudo-v-ubuntu-ili-kak-ubrat-parol\/","name":"\u041a\u0430\u043a \u043e\u0442\u043c\u0435\u043d\u0438\u0442\u044c \u0437\u0430\u043f\u0440\u043e\u0441 \u043f\u0430\u0440\u043e\u043b\u044f \u043f\u0440\u0438 \u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u0438\u0438 \u043a\u043e\u043c\u0430\u043d\u0434\u044b sudo \u0432 Ubuntu \u0438\u043b\u0438 \u043a\u0430\u043a \u0443\u0431\u0440\u0430\u0442\u044c \u043f\u0430\u0440\u043e\u043b\u044c","description":"\u0420\u0443\u043a\u043e\u0432\u043e\u0434\u0441\u0442\u0432\u043e \u043e \u0442\u043e\u043c \u043a\u0430\u043a \u0443\u0431\u0440\u0430\u0442\u044c \u043f\u0430\u0440\u043e\u043b\u044c \u0432 Ubuntu","inLanguage":"ru-RU","isPartOf":{"@id":"http:\/\/linux-user.ru\/#website"},"breadcrumb":{"@id":"http:\/\/linux-user.ru\/komandy-v-linux\/komandy-dlya-ustanovki-programm\/kak-otmenit-zapros-parolya-pri-vypolnenii-komandy-sudo-v-ubuntu-ili-kak-ubrat-parol\/#breadcrumblist"},"author":"http:\/\/linux-user.ru\/author\/marat\/#author","creator":"http:\/\/linux-user.ru\/author\/marat\/#author","datePublished":"2015-11-09T14:52:42+03:00","dateModified":"2015-11-27T08:15:27+03:00"},{"@type":"Article","@id":"http:\/\/linux-user.ru\/komandy-v-linux\/komandy-dlya-ustanovki-programm\/kak-otmenit-zapros-parolya-pri-vypolnenii-komandy-sudo-v-ubuntu-ili-kak-ubrat-parol\/#article","name":"\u041a\u0430\u043a \u043e\u0442\u043c\u0435\u043d\u0438\u0442\u044c \u0437\u0430\u043f\u0440\u043e\u0441 \u043f\u0430\u0440\u043e\u043b\u044f \u043f\u0440\u0438 \u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u0438\u0438 \u043a\u043e\u043c\u0430\u043d\u0434\u044b sudo \u0432 Ubuntu \u0438\u043b\u0438 \u043a\u0430\u043a \u0443\u0431\u0440\u0430\u0442\u044c \u043f\u0430\u0440\u043e\u043b\u044c","description":"\u0420\u0443\u043a\u043e\u0432\u043e\u0434\u0441\u0442\u0432\u043e \u043e \u0442\u043e\u043c \u043a\u0430\u043a \u0443\u0431\u0440\u0430\u0442\u044c \u043f\u0430\u0440\u043e\u043b\u044c \u0432 Ubuntu","inLanguage":"ru-RU","headline":"\u041a\u0430\u043a \u043e\u0442\u043c\u0435\u043d\u0438\u0442\u044c \u0437\u0430\u043f\u0440\u043e\u0441 \u043f\u0430\u0440\u043e\u043b\u044f \u043f\u0440\u0438 \u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u0438\u0438 \u043a\u043e\u043c\u0430\u043d\u0434\u044b sudo \u0432 Ubuntu \u0438\u043b\u0438 \u043a\u0430\u043a \u0443\u0431\u0440\u0430\u0442\u044c \u043f\u0430\u0440\u043e\u043b\u044c","author":{"@id":"http:\/\/linux-user.ru\/author\/marat\/#author"},"publisher":{"@id":"http:\/\/linux-user.ru\/#organization"},"datePublished":"2015-11-09T14:52:42+03:00","dateModified":"2015-11-27T08:15:27+03:00","commentCount":6,"articleSection":"\u041a\u043e\u043c\u0430\u043d\u0434\u044b \u0434\u043b\u044f \u0443\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0438 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c, root, \u041a\u043e\u043c\u0430\u043d\u0434\u044b \u0432 Linux","mainEntityOfPage":{"@id":"http:\/\/linux-user.ru\/komandy-v-linux\/komandy-dlya-ustanovki-programm\/kak-otmenit-zapros-parolya-pri-vypolnenii-komandy-sudo-v-ubuntu-ili-kak-ubrat-parol\/#webpage"},"isPartOf":{"@id":"http:\/\/linux-user.ru\/komandy-v-linux\/komandy-dlya-ustanovki-programm\/kak-otmenit-zapros-parolya-pri-vypolnenii-komandy-sudo-v-ubuntu-ili-kak-ubrat-parol\/#webpage"},"image":{"@type":"ImageObject","@id":"http:\/\/linux-user.ru\/#articleImage","url":"http:\/\/linux-user.ru\/wp-content\/uploads\/2014\/05\/password_root_linux.jpg","width":528,"height":249}}]}
+		</script>
+		<!-- All in One SEO -->
+
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Мир Gnu / Linux &raquo; Лента" href="http://linux-user.ru/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Мир Gnu / Linux &raquo; Лента комментариев" href="http://linux-user.ru/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Мир Gnu / Linux &raquo; Лента комментариев к &laquo;Как отменить запрос пароля при выполнении команды sudo в Ubuntu или как убрать пароль&raquo;" href="http://linux-user.ru/komandy-v-linux/komandy-dlya-ustanovki-programm/kak-otmenit-zapros-parolya-pri-vypolnenii-komandy-sudo-v-ubuntu-ili-kak-ubrat-parol/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/linux-user.ru\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.8.3"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([10084,65039,8205,55357,56613],[10084,65039,8203,55357,56613])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='http://linux-user.ru/wp-includes/css/dist/block-library/style.min.css?ver=5.8.3' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='http://linux-user.ru/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='spu-public-css-css'  href='http://linux-user.ru/wp-content/plugins/popups/public/assets/css/public.css?ver=1.9.3.8' type='text/css' media='all' />
+<link crossorigin="anonymous" rel='stylesheet' id='newsup-fonts-css'  href='//fonts.googleapis.com/css?family=Montserrat%3A400%2C500%2C700%2C800%7CWork%2BSans%3A300%2C400%2C500%2C600%2C700%2C800%2C900%26display%3Dswap&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-css'  href='http://linux-user.ru/wp-content/themes/newsup/css/bootstrap.css?ver=5.8.3' type='text/css' media='all' />
+<link rel='stylesheet' id='newsup-style-css'  href='http://linux-user.ru/wp-content/themes/news-way/style.css?ver=5.8.3' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='http://linux-user.ru/wp-content/themes/newsup/css/font-awesome.css?ver=5.8.3' type='text/css' media='all' />
+<link rel='stylesheet' id='owl-carousel-css'  href='http://linux-user.ru/wp-content/themes/newsup/css/owl.carousel.css?ver=5.8.3' type='text/css' media='all' />
+<link rel='stylesheet' id='smartmenus-css'  href='http://linux-user.ru/wp-content/themes/newsup/css/jquery.smartmenus.bootstrap.css?ver=5.8.3' type='text/css' media='all' />
+<link rel='stylesheet' id='newsup-style-parent-css'  href='http://linux-user.ru/wp-content/themes/newsup/style.css?ver=5.8.3' type='text/css' media='all' />
+<link rel='stylesheet' id='newsway-style-css'  href='http://linux-user.ru/wp-content/themes/news-way/style.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='newsway-default-css-css'  href='http://linux-user.ru/wp-content/themes/news-way/css/colors/default.css?ver=5.8.3' type='text/css' media='all' />
+<script type='text/javascript' src='http://linux-user.ru/wp-includes/js/jquery/jquery.min.js?ver=3.6.0' id='jquery-core-js'></script>
+<script type='text/javascript' src='http://linux-user.ru/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script type='text/javascript' src='http://linux-user.ru/wp-content/themes/newsup/js/navigation.js?ver=5.8.3' id='newsup-navigation-js'></script>
+<script type='text/javascript' src='http://linux-user.ru/wp-content/themes/newsup/js/bootstrap.js?ver=5.8.3' id='bootstrap-js'></script>
+<script type='text/javascript' src='http://linux-user.ru/wp-content/themes/newsup/js/owl.carousel.min.js?ver=5.8.3' id='owl-carousel-min-js'></script>
+<script type='text/javascript' src='http://linux-user.ru/wp-content/themes/newsup/js/jquery.smartmenus.js?ver=5.8.3' id='smartmenus-js-js'></script>
+<script type='text/javascript' src='http://linux-user.ru/wp-content/themes/newsup/js/jquery.smartmenus.bootstrap.js?ver=5.8.3' id='bootstrap-smartmenus-js-js'></script>
+<script type='text/javascript' src='http://linux-user.ru/wp-content/themes/newsup/js/jquery.marquee.js?ver=5.8.3' id='newsup-marquee-js-js'></script>
+<script type='text/javascript' src='http://linux-user.ru/wp-content/themes/newsup/js/main.js?ver=5.8.3' id='newsup-main-js-js'></script>
+<link rel="https://api.w.org/" href="http://linux-user.ru/wp-json/" /><link rel="alternate" type="application/json" href="http://linux-user.ru/wp-json/wp/v2/posts/3741" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://linux-user.ru/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://linux-user.ru/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.8.3" />
+<link rel='shortlink' href='http://linux-user.ru/?p=3741' />
+<link rel="alternate" type="application/json+oembed" href="http://linux-user.ru/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flinux-user.ru%2Fkomandy-v-linux%2Fkomandy-dlya-ustanovki-programm%2Fkak-otmenit-zapros-parolya-pri-vypolnenii-komandy-sudo-v-ubuntu-ili-kak-ubrat-parol%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://linux-user.ru/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flinux-user.ru%2Fkomandy-v-linux%2Fkomandy-dlya-ustanovki-programm%2Fkak-otmenit-zapros-parolya-pri-vypolnenii-komandy-sudo-v-ubuntu-ili-kak-ubrat-parol%2F&#038;format=xml" />
+<meta name="generator" content="Site Kit by Google 1.48.1" />    <script type="text/javascript">
+        function nxsPostToFav(obj){ obj.preventDefault;
+            var k = obj.target.split("-"); var nt = k[0]; var ii = k[1];  var pid = k[2];
+            var data = {  action:'nxs_snap_aj', nxsact: 'manPost', nt:nt, id: pid, nid: ii, et_load_builder_modules:1, _wpnonce: 'b3c7ade87a'};
+            jQuery('#nxsFavNoticeCnt').html('<p> Posting... </p>'); jQuery('#nxsFavNotice').modal({ fadeDuration: 50 });
+            jQuery.post('http://linux-user.ru/wp-admin/admin-ajax.php', data, function(response) { if (response=='') response = 'Message Posted';
+                jQuery('#nxsFavNoticeCnt').html('<p> ' + response + '</p>' +'<input type="button"  onclick="jQuery.modal.close();" class="bClose" value="Close" />');
+            });
+        }
+    </script><style data-context="foundation-flickity-css">/*! Flickity v2.0.2
+http://flickity.metafizzy.co
+---------------------------------------------- */.flickity-enabled{position:relative}.flickity-enabled:focus{outline:0}.flickity-viewport{overflow:hidden;position:relative;height:100%}.flickity-slider{position:absolute;width:100%;height:100%}.flickity-enabled.is-draggable{-webkit-tap-highlight-color:transparent;tap-highlight-color:transparent;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.flickity-enabled.is-draggable .flickity-viewport{cursor:move;cursor:-webkit-grab;cursor:grab}.flickity-enabled.is-draggable .flickity-viewport.is-pointer-down{cursor:-webkit-grabbing;cursor:grabbing}.flickity-prev-next-button{position:absolute;top:50%;width:44px;height:44px;border:none;border-radius:50%;background:#fff;background:hsla(0,0%,100%,.75);cursor:pointer;-webkit-transform:translateY(-50%);transform:translateY(-50%)}.flickity-prev-next-button:hover{background:#fff}.flickity-prev-next-button:focus{outline:0;box-shadow:0 0 0 5px #09f}.flickity-prev-next-button:active{opacity:.6}.flickity-prev-next-button.previous{left:10px}.flickity-prev-next-button.next{right:10px}.flickity-rtl .flickity-prev-next-button.previous{left:auto;right:10px}.flickity-rtl .flickity-prev-next-button.next{right:auto;left:10px}.flickity-prev-next-button:disabled{opacity:.3;cursor:auto}.flickity-prev-next-button svg{position:absolute;left:20%;top:20%;width:60%;height:60%}.flickity-prev-next-button .arrow{fill:#333}.flickity-page-dots{position:absolute;width:100%;bottom:-25px;padding:0;margin:0;list-style:none;text-align:center;line-height:1}.flickity-rtl .flickity-page-dots{direction:rtl}.flickity-page-dots .dot{display:inline-block;width:10px;height:10px;margin:0 8px;background:#333;border-radius:50%;opacity:.25;cursor:pointer}.flickity-page-dots .dot.is-selected{opacity:1}</style><style data-context="foundation-slideout-css">.slideout-menu{position:fixed;left:0;top:0;bottom:0;right:auto;z-index:0;width:256px;overflow-y:auto;-webkit-overflow-scrolling:touch;display:none}.slideout-menu.pushit-right{left:auto;right:0}.slideout-panel{position:relative;z-index:1;will-change:transform}.slideout-open,.slideout-open .slideout-panel,.slideout-open body{overflow:hidden}.slideout-open .slideout-menu{display:block}.pushit{display:none}</style><link rel="pingback" href="http://linux-user.ru/xmlrpc.php"><style type="text/css" id="custom-background-css">
+    .wrapper { background-color: #eee; }
+</style>
+        <script>
+
+      window.OneSignal = window.OneSignal || [];
+
+      OneSignal.push( function() {
+        OneSignal.SERVICE_WORKER_UPDATER_PATH = "OneSignalSDKUpdaterWorker.js.php";
+                      OneSignal.SERVICE_WORKER_PATH = "OneSignalSDKWorker.js.php";
+                      OneSignal.SERVICE_WORKER_PARAM = { scope: "/" };
+        OneSignal.setDefaultNotificationUrl("http://linux-user.ru");
+        var oneSignal_options = {};
+        window._oneSignalInitOptions = oneSignal_options;
+
+        oneSignal_options['wordpress'] = true;
+oneSignal_options['appId'] = 'a35ef60b-09dd-4921-9121-03dc00b563db';
+oneSignal_options['allowLocalhostAsSecureOrigin'] = true;
+oneSignal_options['welcomeNotification'] = { };
+oneSignal_options['welcomeNotification']['disable'] = true;
+oneSignal_options['subdomainName'] = "linux-user.ru.OS.TC";
+oneSignal_options['safari_web_id'] = "web.onesignal.auto.15df0189-2d21-4404-bd16-e27bc91473d8";
+oneSignal_options['promptOptions'] = { };
+oneSignal_options['promptOptions']['actionMessage'] = "Для подписки нажмите \Продолжить\";
+oneSignal_options['promptOptions']['exampleNotificationTitleDesktop'] = "Здравствуй дорогой посетитель";
+oneSignal_options['promptOptions']['exampleNotificationMessageDesktop'] = "Подпишитесь на уведомления";
+oneSignal_options['promptOptions']['exampleNotificationTitleMobile'] = "Здравствуй дорогой посетитель";
+oneSignal_options['promptOptions']['exampleNotificationMessageMobile'] = "Подпишитесь на уведомления";
+oneSignal_options['promptOptions']['acceptButtonText'] = "Продолжить";
+oneSignal_options['promptOptions']['cancelButtonText'] = "Нет спасибо";
+oneSignal_options['promptOptions']['siteName'] = "http://linux-user.ru";
+oneSignal_options['promptOptions']['autoAcceptTitle'] = "Нажмите подписаться";
+oneSignal_options['notifyButton'] = { };
+oneSignal_options['notifyButton']['enable'] = true;
+oneSignal_options['notifyButton']['position'] = 'bottom-right';
+oneSignal_options['notifyButton']['theme'] = 'default';
+oneSignal_options['notifyButton']['size'] = 'medium';
+oneSignal_options['notifyButton']['showCredit'] = true;
+oneSignal_options['notifyButton']['text'] = {};
+oneSignal_options['notifyButton']['text']['tip.state.unsubscribed'] = 'Подписаться на уведомления';
+oneSignal_options['notifyButton']['text']['tip.state.subscribed'] = 'Вы уже подписаны на уведомления';
+oneSignal_options['notifyButton']['text']['tip.state.blocked'] = 'Вы заблокировали уведомление';
+oneSignal_options['notifyButton']['text']['message.action.subscribed'] = 'Спасибо за подписку';
+oneSignal_options['notifyButton']['text']['message.action.resubscribed'] = 'Вы снова подписываетесь на уведомления';
+oneSignal_options['notifyButton']['text']['message.action.unsubscribed'] = 'Вы отписаны от уведомлений';
+oneSignal_options['notifyButton']['text']['dialog.main.title'] = 'Управление подпиской';
+oneSignal_options['notifyButton']['text']['dialog.main.button.subscribe'] = 'Подписаться';
+oneSignal_options['notifyButton']['text']['dialog.main.button.unsubscribe'] = 'Отписаться';
+oneSignal_options['notifyButton']['text']['dialog.blocked.title'] = 'Разблокировать уведомления';
+oneSignal_options['notifyButton']['text']['dialog.blocked.message'] = 'Следуйте этим инструкциям, чтобы разрешить уведомления';
+                OneSignal.init(window._oneSignalInitOptions);
+                OneSignal.showSlidedownPrompt();      });
+
+      function documentInitOneSignal() {
+        var oneSignal_elements = document.getElementsByClassName("OneSignal-prompt");
+
+        var oneSignalLinkClickHandler = function(event) { OneSignal.push(['registerForPushNotifications']); event.preventDefault(); };        for(var i = 0; i < oneSignal_elements.length; i++)
+          oneSignal_elements[i].addEventListener('click', oneSignalLinkClickHandler, false);
+      }
+
+      if (document.readyState === 'complete') {
+           documentInitOneSignal();
+      }
+      else {
+           window.addEventListener("load", function(event){
+               documentInitOneSignal();
+          });
+      }
+    </script>
+    <style type="text/css">
+            body .site-title a,
+        body .site-description {
+            color: ##fff;
+        }
+
+        .site-branding-text .site-title a {
+                font-size: px;
+            }
+
+            @media only screen and (max-width: 640px) {
+                .site-branding-text .site-title a {
+                    font-size: 40px;
+
+                }
+            }
+
+            @media only screen and (max-width: 375px) {
+                .site-branding-text .site-title a {
+                    font-size: 32px;
+
+                }
+            }
+
+        </style>
+    <link rel="amphtml" href="http://linux-user.ru/komandy-v-linux/komandy-dlya-ustanovki-programm/kak-otmenit-zapros-parolya-pri-vypolnenii-komandy-sudo-v-ubuntu-ili-kak-ubrat-parol/amp/"><link rel="icon" href="http://linux-user.ru/wp-content/uploads/2018/03/cropped-tux-32x32.png" sizes="32x32" />
+<link rel="icon" href="http://linux-user.ru/wp-content/uploads/2018/03/cropped-tux-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="http://linux-user.ru/wp-content/uploads/2018/03/cropped-tux-180x180.png" />
+<meta name="msapplication-TileImage" content="http://linux-user.ru/wp-content/uploads/2018/03/cropped-tux-270x270.png" />
+<style>.ios7.web-app-mode.has-fixed header{ background-color: rgba(45,53,63,.88);}</style></head>
+<body class="post-template-default single single-post postid-3741 single-format-standard wp-embed-responsive  ta-hide-date-author-in-list" >
+<div id="page" class="site">
+<a class="skip-link screen-reader-text" href="#content">
+Перейти к содержимому</a>
+    <div class="wrapper">
+        <header class="mg-headwidget center light">
+            <!--==================== TOP BAR ====================-->
+
+            <div class="clearfix"></div>
+                        <div class="mg-nav-widget-area-back" style='background-image: url("" );'>
+                        <div class="overlay">
+              <div class="inner"  style="background-color:#fff;" > 
+                <div class="container-fluid">
+    <div class="mg-nav-widget-area">
+        <div class="row align-items-center">
+                        <div class="col-md-4 col-sm-4 text-center-xs">
+                            <div class="heacent">Пн. Янв 17th, 2022                         <span  id="time" class="time"></span>
+                                      </div>
+              
+            </div>
+
+            <div class="col-md-4 col-sm-4 text-center-xs">
+                <div class="navbar-header">
+                                          <div class="site-branding-text">
+                        <h1 class="site-title"> <a href="http://linux-user.ru/" rel="home">Мир Gnu / Linux</a></h1>
+                        <p class="site-description">* linux (/boot/vmlinuz)</p>
+                    </div>
+                                  </div>
+            </div>
+
+
+                         <div class="col-md-4 col-sm-4 text-center-xs">
+                <ul class="mg-social info-right heacent">
+                    
+                                      </ul>
+            </div>
+                    </div>
+    </div>
+</div>
+              </div>
+              </div>
+          </div>
+    <div class="mg-menu-full">
+      <nav class="navbar navbar-expand-lg navbar-wp">
+        <div class="container-fluid">
+          <!-- Right nav -->
+                    <div class="m-header align-items-center">
+                                                <a class="mobilehomebtn" href="http://linux-user.ru"><span class="fa fa-home"></span></a>
+                        <!-- navbar-toggle -->
+                        <button class="navbar-toggler mx-auto" type="button" data-toggle="collapse" data-target="#navbar-wp" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Показать/Скрыть навигацию">
+                          <i class="fa fa-bars"></i>
+                        </button>
+                        <!-- /navbar-toggle -->
+                        <div class="dropdown show mg-search-box pr-2 d-none">
+                            <a class="dropdown-toggle msearch ml-auto" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                               <i class="fa fa-search"></i>
+                            </a>
+
+                            <div class="dropdown-menu searchinner" aria-labelledby="dropdownMenuLink">
+                        <form role="search" method="get" id="searchform" action="http://linux-user.ru/">
+  <div class="input-group">
+    <input type="search" class="form-control" placeholder="Поиск" value="" name="s" />
+    <span class="input-group-btn btn-default">
+    <button type="submit" class="btn"> <i class="fa fa-search"></i> </button>
+    </span> </div>
+</form>                      </div>
+                        </div>
+                        
+                    </div>
+                    <!-- /Right nav -->
+         
+          
+                  <div class="collapse navbar-collapse" id="navbar-wp">
+                  	<div class="d-md-block">
+                  <ul class="nav navbar-nav mr-auto"><li class="nav-item menu-item "><a class="nav-link " href="http://linux-user.ru/" title="Home">Home</a></li><li class="nav-item menu-item page_item dropdown page-item-142"><a class="nav-link" href="http://linux-user.ru/karta-sajta/">карта сайта</a></li><li class="nav-item menu-item page_item dropdown page-item-10"><a class="nav-link" href="http://linux-user.ru/linux-dlya-nachinayushhih/">Мир GNU / Linux</a></li><li class="nav-item menu-item page_item dropdown page-item-472"><a class="nav-link" href="http://linux-user.ru/obratnaya-svyaz/">обратная связь</a></li></ul>
+        				</div>		
+              		</div>
+                  <!-- Right nav -->
+                    <div class="desk-header pl-3 ml-auto my-2 my-lg-0 position-relative align-items-center">
+                        <!-- /navbar-toggle -->
+                        <div class="dropdown show mg-search-box">
+                      <a class="dropdown-toggle msearch ml-auto" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                       <i class="fa fa-search"></i>
+                      </a>
+                      <div class="dropdown-menu searchinner" aria-labelledby="dropdownMenuLink">
+                        <form role="search" method="get" id="searchform" action="http://linux-user.ru/">
+  <div class="input-group">
+    <input type="search" class="form-control" placeholder="Поиск" value="" name="s" />
+    <span class="input-group-btn btn-default">
+    <button type="submit" class="btn"> <i class="fa fa-search"></i> </button>
+    </span> </div>
+</form>                      </div>
+                    </div>
+                    </div>
+                    <!-- /Right nav --> 
+          </div>
+      </nav> <!-- /Navigation -->
+    </div>
+</header>
+<div class="clearfix"></div>
+ <!--==================== Newsup breadcrumb section ====================-->
+<!-- =========================
+     Page Content Section      
+============================== -->
+<main id="content">
+    <!--container-->
+    <div class="container-fluid">
+      <!--row-->
+      <div class="row">
+        <!--col-md-->
+                                                <div class="col-md-9">
+                    		                  <div class="mg-blog-post-box"> 
+              <div class="mg-header">
+                                <div class="mg-blog-category"> 
+                      <a class="newsup-categories category-color-1" href="http://linux-user.ru/category/komandy-v-linux/komandy-dlya-ustanovki-programm/" alt="Просмотреть все записи в рубрике &laquo;Команды для установки программ&raquo;"> 
+                                 Команды для установки программ
+                             </a>                </div>
+                                <h1 class="title single"> <a title="Постоянная ссылка на:Как отменить запрос пароля при выполнении команды sudo в Ubuntu или как убрать пароль">
+                  Как отменить запрос пароля при выполнении команды sudo в Ubuntu или как убрать пароль</a>
+                </h1>
+
+                <div class="media mg-info-author-block"> 
+                                    <a class="mg-author-pic" href="http://linux-user.ru/author/marat/"> <img alt='' src='http://0.gravatar.com/avatar/f3c4a6c1cd69c7ebeb0a544693f44f32?s=150&#038;d=wavatar&#038;r=g' srcset='http://0.gravatar.com/avatar/f3c4a6c1cd69c7ebeb0a544693f44f32?s=300&#038;d=wavatar&#038;r=g 2x' class='avatar avatar-150 photo' height='150' width='150' loading='lazy'/> </a>
+                                  <div class="media-body">
+                                        <h4 class="media-heading"><span>от</span><a href="http://linux-user.ru/author/marat/">Марат</a></h4>
+                                                            <span class="mg-blog-date"><i class="fa fa-clock-o"></i> 
+                      Ноя 9, 2015</span>
+                                        <span class="newsup-tags"><i class="fa fa-tag"></i>
+                      <a href="http://linux-user.ru/komandy-v-linux/komandy-dlya-ustanovki-programm/kak-otmenit-zapros-parolya-pri-vypolnenii-komandy-sudo-v-ubuntu-ili-kak-ubrat-parol/"><a href="http://linux-user.ru/tag/root/" rel="tag">root</a>, <a href="http://linux-user.ru/tag/komandy-v-linux/" rel="tag">Команды в Linux</a></a>
+                    </span>
+                                    </div>
+                </div>
+              </div>
+                            <article class="small single">
+                <left>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Адаптивный верхний Linux -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2239642260066658"
+     data-ad-slot="9900437503"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</left><p>Пользователи Unix систем, в большей мере те, кто не так давно перешел из семейства Windows, не любят постоянно вводить пароль администратора, перед тем как выполнить какую-нибудь команду в терминале с sudo. Однако, этот шаг один из вариантов защиты «новичков» от совершения действий, которые могут привести к краху системы. Поэтому, настоятельно не рекомендуется отключать этот функционал.</p>
+<p><a href="http://linux-user.ru/wp-content/uploads/2014/05/password_root_linux.jpg"><img loading="lazy" class="aligncenter wp-image-1834" title="Как отменить запрос пароля при выполнении команды sudo в Ubuntu или как убрать пароль" src="http://linux-user.ru/wp-content/uploads/2014/05/password_root_linux.jpg" alt="как убрать пароль Ubuntu" width="320" height="151" /></a></p>
+<p>Вопрос ввода пароля довольно серьезный, ведь вы должны прежде всего понимать, что вы делаете, а не раздражаться из-за очередного запроса терминала. Отметим, что одним из условий установки Linux систем является создание пользователя-администратора, также пароля для него.<span id="more-3741"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Адаптивный середина Linux -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2239642260066658"
+     data-ad-slot="2377170702"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></span></p>
+<p>Если вы не установите пароль, то ваша файловая система будет общедоступной и каждый пользователь, в их числе и вы, сможет проводить собственные манипуляции с ней. Не зная то, что выполняется посредством ввода команд, ваш друг/подруга, которым вы доверите компьютер, могут случайно внести изменения в конфигурационные файлы, после чего, вы будете неприятно удивлены, почему же система не запускается. Кроме этого, существует вероятность потерять важные данные. То же самое может произойти при удаленном подключении к вашему компьютеру. Это главные факторы, который должен вас задуматься о том, что систему необходимо защищать.</p>
+<p>Если же вы один пользуетесь системой, а ваш пользователь — администратор, которого вы создали при установке ОС, то есть простой способ изменить конфигурацию так, чтобы при вводе команд с sudo пароль не запрашивался.</p>
+<h2>Итак, для этого необходимо выполнить следующую команду:</h2>
+<p>[ads]</p>
+<pre class="toolbar-overlay:false nums:false lang:default decode:true ">sudo gedit /etc/sudoers или sudo nano /etc/sudoers</pre>
+<p>в зависимости от того, предпочитаете ли вы работать в редакторе с графической оболочкой, в первом случае, либо в терминале, во втором.</p>
+<p>Будет открыт файл, показанный на картинке ниже:</p>
+<p><a href="http://linux-user.ru/wp-content/uploads/2015/11/ubuntu_to_remove_the_password.jpg"><img loading="lazy" class="aligncenter wp-image-3742" title="ubuntu убрать пароль" src="http://linux-user.ru/wp-content/uploads/2015/11/ubuntu_to_remove_the_password.jpg" alt="Как убрать пароль в Ubuntu" width="320" height="217" /></a></p>
+<p>После строки %sudo ALL=(ALL:ALL) ALL вам необходимо добавить запись вида:<br />
+ИМЯпОЛЬЗОВАТЕЛЯ ALL=(ALL) NOPASSWD: ALL<br />
+где, ИМЯпОЛЬЗОВАТЕЛЯ — имя вашей учетной записи.</p>
+<p>Сохраните файл и попробуйте выполнить любую команду с sudo. И помните — ТЕПЕРЬ БУДЬТЕ ОСТОРОЖНЫ!</p>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="autorelaxed"
+     data-ad-client="ca-pub-2239642260066658"
+     data-ad-slot="8415903617"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>                                                     <script>
+    function pinIt()
+    {
+      var e = document.createElement('script');
+      e.setAttribute('type','text/javascript');
+      e.setAttribute('charset','UTF-8');
+      e.setAttribute('src','https://assets.pinterest.com/js/pinmarklet.js?r='+Math.random()*99999999);
+      document.body.appendChild(e);
+    }
+    </script>
+                     <div class="post-share">
+                          <div class="post-share-icons cf">
+                           
+                              <a href="https://www.facebook.com/sharer.php?u=http://linux-user.ru/komandy-v-linux/komandy-dlya-ustanovki-programm/kak-otmenit-zapros-parolya-pri-vypolnenii-komandy-sudo-v-ubuntu-ili-kak-ubrat-parol/" class="link facebook" target="_blank" >
+                                <i class="fa fa-facebook"></i></a>
+                            
+            
+                              <a href="http://twitter.com/share?url=http://linux-user.ru/komandy-v-linux/komandy-dlya-ustanovki-programm/kak-otmenit-zapros-parolya-pri-vypolnenii-komandy-sudo-v-ubuntu-ili-kak-ubrat-parol/&#038;text=%D0%9A%D0%B0%D0%BA%20%D0%BE%D1%82%D0%BC%D0%B5%D0%BD%D0%B8%D1%82%D1%8C%20%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81%20%D0%BF%D0%B0%D1%80%D0%BE%D0%BB%D1%8F%20%D0%BF%D1%80%D0%B8%20%D0%B2%D1%8B%D0%BF%D0%BE%D0%BB%D0%BD%D0%B5%D0%BD%D0%B8%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D1%8B%20sudo%20%D0%B2%20Ubuntu%20%D0%B8%D0%BB%D0%B8%20%D0%BA%D0%B0%D0%BA%20%D1%83%D0%B1%D1%80%D0%B0%D1%82%D1%8C%20%D0%BF%D0%B0%D1%80%D0%BE%D0%BB%D1%8C" class="link twitter" target="_blank">
+                                <i class="fa fa-twitter"></i></a>
+            
+                              <a href="mailto:?subject=Как%20отменить%20запрос%20пароля%20при%20выполнении%20команды%20sudo%20в%20Ubuntu%20или%20как%20убрать%20пароль&#038;body=http://linux-user.ru/komandy-v-linux/komandy-dlya-ustanovki-programm/kak-otmenit-zapros-parolya-pri-vypolnenii-komandy-sudo-v-ubuntu-ili-kak-ubrat-parol/" class="link email" target="_blank" >
+                                <i class="fa fa-envelope-o"></i></a>
+
+
+                              <a href="https://www.linkedin.com/sharing/share-offsite/?url=http://linux-user.ru/komandy-v-linux/komandy-dlya-ustanovki-programm/kak-otmenit-zapros-parolya-pri-vypolnenii-komandy-sudo-v-ubuntu-ili-kak-ubrat-parol/&#038;title=%D0%9A%D0%B0%D0%BA%20%D0%BE%D1%82%D0%BC%D0%B5%D0%BD%D0%B8%D1%82%D1%8C%20%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81%20%D0%BF%D0%B0%D1%80%D0%BE%D0%BB%D1%8F%20%D0%BF%D1%80%D0%B8%20%D0%B2%D1%8B%D0%BF%D0%BE%D0%BB%D0%BD%D0%B5%D0%BD%D0%B8%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D1%8B%20sudo%20%D0%B2%20Ubuntu%20%D0%B8%D0%BB%D0%B8%20%D0%BA%D0%B0%D0%BA%20%D1%83%D0%B1%D1%80%D0%B0%D1%82%D1%8C%20%D0%BF%D0%B0%D1%80%D0%BE%D0%BB%D1%8C" class="link linkedin" target="_blank" >
+                                <i class="fa fa-linkedin"></i></a>
+
+                             <a href="https://telegram.me/share/url?url=http://linux-user.ru/komandy-v-linux/komandy-dlya-ustanovki-programm/kak-otmenit-zapros-parolya-pri-vypolnenii-komandy-sudo-v-ubuntu-ili-kak-ubrat-parol/&#038;text&#038;title=%D0%9A%D0%B0%D0%BA%20%D0%BE%D1%82%D0%BC%D0%B5%D0%BD%D0%B8%D1%82%D1%8C%20%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81%20%D0%BF%D0%B0%D1%80%D0%BE%D0%BB%D1%8F%20%D0%BF%D1%80%D0%B8%20%D0%B2%D1%8B%D0%BF%D0%BE%D0%BB%D0%BD%D0%B5%D0%BD%D0%B8%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D1%8B%20sudo%20%D0%B2%20Ubuntu%20%D0%B8%D0%BB%D0%B8%20%D0%BA%D0%B0%D0%BA%20%D1%83%D0%B1%D1%80%D0%B0%D1%82%D1%8C%20%D0%BF%D0%B0%D1%80%D0%BE%D0%BB%D1%8C" class="link telegram" target="_blank" >
+                                <i class="fa fa-telegram"></i></a>
+
+                              <a href="javascript:pinIt();" class="link pinterest"><i class="fa fa-pinterest"></i></a>    
+                          </div>
+                    </div>
+
+                <div class="clearfix mb-3"></div>
+                
+	<nav class="navigation post-navigation" role="navigation" aria-label="Записи">
+		<h2 class="screen-reader-text">Навигация по записям</h2>
+		<div class="nav-links"><div class="nav-previous"><a href="http://linux-user.ru/komandy-v-linux/komandy-dlya-ustanovki-programm/kak-ustanovit-obnovit-linux-kernel-4-2-v-ubuntu-linux-mint-i-drugih-proizvodnyh/" rel="prev">Как установить/обновить ядро Linux Kernel 4.2 в Ubuntu/Linux Mint и других производных: <div class="fa fa-angle-double-right"></div><span></span></a></div><div class="nav-next"><a href="http://linux-user.ru/novosti/sereznye-bitvy/" rel="next"><div class="fa fa-angle-double-left"></div><span></span> Серьезные битвы</a></div></div>
+	</nav>                          </article>
+            </div>
+		                 <div class="media mg-info-author-block">
+            <a class="mg-author-pic" href="http://linux-user.ru/author/marat/"><img alt='' src='http://0.gravatar.com/avatar/f3c4a6c1cd69c7ebeb0a544693f44f32?s=150&#038;d=wavatar&#038;r=g' srcset='http://0.gravatar.com/avatar/f3c4a6c1cd69c7ebeb0a544693f44f32?s=300&#038;d=wavatar&#038;r=g 2x' class='avatar avatar-150 photo' height='150' width='150' loading='lazy'/></a>
+                <div class="media-body">
+                  <h4 class="media-heading">от <a href ="http://linux-user.ru/author/marat/">Марат</a></h4>
+                  <p></p>
+                </div>
+            </div>
+                          <div class="mg-featured-slider p-3 mb-4">
+                        <!--Start mg-realated-slider -->
+                        <div class="mg-sec-title">
+                            <!-- mg-sec-title -->
+                                                        <h4>Похожая запись</h4>
+                        </div>
+                        <!-- // mg-sec-title -->
+                           <div class="row">
+                                <!-- featured_post -->
+                                                                      <!-- blog -->
+                                  <div class="col-md-4">
+                                    <div class="mg-blog-post-3 minh back-img" 
+                                                                        style="background-image: url('http://linux-user.ru/wp-content/uploads/2017/02/Linux_Kernel_4_10.jpg');" >
+                                      <div class="mg-blog-inner">
+                                                                                      <div class="mg-blog-category"> <a class="newsup-categories category-color-1" href="http://linux-user.ru/category/komandy-v-linux/komandy-dlya-ustanovki-programm/" alt="Просмотреть все записи в рубрике &laquo;Команды для установки программ&raquo;"> 
+                                 Команды для установки программ
+                             </a>                                          </div>                                             <h4 class="title"> <a href="http://linux-user.ru/komandy-v-linux/komandy-dlya-ustanovki-programm/vypushheno-yadro-linux-5-1-kak-ustanovit-ego-v-ubuntu/" title="Permalink to: Выпущено ядро Linux 5.1! Как установить его в Ubuntu">
+                                              Выпущено ядро Linux 5.1! Как установить его в Ubuntu</a>
+                                             </h4>
+                                            <div class="mg-blog-meta"> 
+                                                                                          <span class="mg-blog-date"><i class="fa fa-clock-o"></i> 
+                                              Май 15, 2019</span>
+                                                                                        <a href="http://linux-user.ru/author/pavel/"> <i class="fa fa-user-circle-o"></i> Pavel</a>
+                                             </div>
+                                                                                    </div>
+                                    </div>
+                                  </div>
+                                    <!-- blog -->
+                                                                        <!-- blog -->
+                                  <div class="col-md-4">
+                                    <div class="mg-blog-post-3 minh back-img" 
+                                    >
+                                      <div class="mg-blog-inner">
+                                                                                      <div class="mg-blog-category"> <a class="newsup-categories category-color-1" href="http://linux-user.ru/category/komandy-v-linux/komandy-dlya-ustanovki-programm/" alt="Просмотреть все записи в рубрике &laquo;Команды для установки программ&raquo;"> 
+                                 Команды для установки программ
+                             </a>                                          </div>                                             <h4 class="title"> <a href="http://linux-user.ru/komandy-v-linux/komandy-dlya-ustanovki-programm/kak-nastroit-podklyuchenie-k-internetu-v-ubuntu-linux/" title="Permalink to: Как настроить подключение к Интернету в Ubuntu Linux">
+                                              Как настроить подключение к Интернету в Ubuntu Linux</a>
+                                             </h4>
+                                            <div class="mg-blog-meta"> 
+                                                                                          <span class="mg-blog-date"><i class="fa fa-clock-o"></i> 
+                                              Май 21, 2017</span>
+                                                                                        <a href="http://linux-user.ru/author/pavlikys/"> <i class="fa fa-user-circle-o"></i> Pavlikys</a>
+                                             </div>
+                                                                                    </div>
+                                    </div>
+                                  </div>
+                                    <!-- blog -->
+                                                                        <!-- blog -->
+                                  <div class="col-md-4">
+                                    <div class="mg-blog-post-3 minh back-img" 
+                                    >
+                                      <div class="mg-blog-inner">
+                                                                                      <div class="mg-blog-category"> <a class="newsup-categories category-color-1" href="http://linux-user.ru/category/komandy-v-linux/komandy-dlya-ustanovki-programm/" alt="Просмотреть все записи в рубрике &laquo;Команды для установки программ&raquo;"> 
+                                 Команды для установки программ
+                             </a>                                          </div>                                             <h4 class="title"> <a href="http://linux-user.ru/komandy-v-linux/komandy-dlya-ustanovki-programm/ukuu-prostoj-instrument-dlya-ustanovki-obnovlenij-poslednih-versij-yader-v-ubuntu-i-linux-mint/" title="Permalink to: Ukuu &#8212; Простой инструмент для установки, обновлений последних версий ядер в Ubuntu и Linux Mint">
+                                              Ukuu &#8212; Простой инструмент для установки, обновлений последних версий ядер в Ubuntu и Linux Mint</a>
+                                             </h4>
+                                            <div class="mg-blog-meta"> 
+                                                                                          <span class="mg-blog-date"><i class="fa fa-clock-o"></i> 
+                                              Фев 17, 2017</span>
+                                                                                        <a href="http://linux-user.ru/author/pavlikys/"> <i class="fa fa-user-circle-o"></i> Pavlikys</a>
+                                             </div>
+                                                                                    </div>
+                                    </div>
+                                  </div>
+                                    <!-- blog -->
+                                                                </div>
+                            
+                    </div>
+                    <!--End mg-realated-slider -->
+                  <div id="comments" class="comments-area mg-card-box padding-20">
+
+			<div class="mg-heading-bor-bt">
+		<h5 class="comments-title">
+			6 комментариев к «Как отменить запрос пароля при выполнении команды sudo в Ubuntu или как убрать пароль»		</h5>
+		</div>
+
+		
+		<ol class="comment-list">
+					<li id="comment-37081" class="comment even thread-even depth-1 parent">
+			<article id="div-comment-37081" class="comment-body">
+				<footer class="comment-meta">
+					<div class="comment-author vcard">
+						<img alt='' src='http://0.gravatar.com/avatar/6c9351cb31d0597033dbcd2502b4c829?s=32&#038;d=wavatar&#038;r=g' srcset='http://0.gravatar.com/avatar/6c9351cb31d0597033dbcd2502b4c829?s=64&#038;d=wavatar&#038;r=g 2x' class='avatar avatar-32 photo' height='32' width='32' loading='lazy'/>						<b class="fn"><a href='http://partyheartyintracy.com' rel='external nofollow ugc' class='url'>Frizzle</a></b><span class="says">:</span>					</div><!-- .comment-author -->
+
+					<div class="comment-metadata">
+						<a href="http://linux-user.ru/komandy-v-linux/komandy-dlya-ustanovki-programm/kak-otmenit-zapros-parolya-pri-vypolnenii-komandy-sudo-v-ubuntu-ili-kak-ubrat-parol/#comment-37081"><time datetime="2016-01-15T08:04:11+03:00">15/01/2016 в 08:04</time></a>					</div><!-- .comment-metadata -->
+
+									</footer><!-- .comment-meta -->
+
+				<div class="comment-content">
+					<p>Если ваш компьютер в настоящее время подключен к домену, то опция «Требовать ввод имени пользователя и пароля» будет недоступна. Однако, есть возможность отключить запрос пароля с помощью редактора реестра, однако этот способ менее безопасный, чем только что описанный.</p>
+				</div><!-- .comment-content -->
+
+				<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://linux-user.ru/komandy-v-linux/komandy-dlya-ustanovki-programm/kak-otmenit-zapros-parolya-pri-vypolnenii-komandy-sudo-v-ubuntu-ili-kak-ubrat-parol/?replytocom=37081#respond' data-commentid="37081" data-postid="3741" data-belowelement="div-comment-37081" data-respondelement="respond" data-replyto="Комментарий к записи Frizzle" aria-label='Комментарий к записи Frizzle'>Ответить</a></div>			</article><!-- .comment-body -->
+		<ol class="children">
+		<li id="comment-53351" class="comment odd alt depth-2">
+			<article id="div-comment-53351" class="comment-body">
+				<footer class="comment-meta">
+					<div class="comment-author vcard">
+						<img alt='' src='http://2.gravatar.com/avatar/b4cf9335ce51554eb4257593d76db423?s=32&#038;d=wavatar&#038;r=g' srcset='http://2.gravatar.com/avatar/b4cf9335ce51554eb4257593d76db423?s=64&#038;d=wavatar&#038;r=g 2x' class='avatar avatar-32 photo' height='32' width='32' loading='lazy'/>						<b class="fn">Egor</b><span class="says">:</span>					</div><!-- .comment-author -->
+
+					<div class="comment-metadata">
+						<a href="http://linux-user.ru/komandy-v-linux/komandy-dlya-ustanovki-programm/kak-otmenit-zapros-parolya-pri-vypolnenii-komandy-sudo-v-ubuntu-ili-kak-ubrat-parol/#comment-53351"><time datetime="2017-05-21T23:23:08+03:00">21/05/2017 в 23:23</time></a>					</div><!-- .comment-metadata -->
+
+									</footer><!-- .comment-meta -->
+
+				<div class="comment-content">
+					<p>Какой нафиг реестр в Linux?!</p>
+				</div><!-- .comment-content -->
+
+				<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://linux-user.ru/komandy-v-linux/komandy-dlya-ustanovki-programm/kak-otmenit-zapros-parolya-pri-vypolnenii-komandy-sudo-v-ubuntu-ili-kak-ubrat-parol/?replytocom=53351#respond' data-commentid="53351" data-postid="3741" data-belowelement="div-comment-53351" data-respondelement="respond" data-replyto="Комментарий к записи Egor" aria-label='Комментарий к записи Egor'>Ответить</a></div>			</article><!-- .comment-body -->
+		</li><!-- #comment-## -->
+</ol><!-- .children -->
+</li><!-- #comment-## -->
+		<li id="comment-55600" class="comment even thread-odd thread-alt depth-1">
+			<article id="div-comment-55600" class="comment-body">
+				<footer class="comment-meta">
+					<div class="comment-author vcard">
+						<img alt='' src='http://2.gravatar.com/avatar/e57c7401669a53ae55475afa0dcc2c18?s=32&#038;d=wavatar&#038;r=g' srcset='http://2.gravatar.com/avatar/e57c7401669a53ae55475afa0dcc2c18?s=64&#038;d=wavatar&#038;r=g 2x' class='avatar avatar-32 photo' height='32' width='32' loading='lazy'/>						<b class="fn">gex</b><span class="says">:</span>					</div><!-- .comment-author -->
+
+					<div class="comment-metadata">
+						<a href="http://linux-user.ru/komandy-v-linux/komandy-dlya-ustanovki-programm/kak-otmenit-zapros-parolya-pri-vypolnenii-komandy-sudo-v-ubuntu-ili-kak-ubrat-parol/#comment-55600"><time datetime="2017-07-11T14:04:35+03:00">11/07/2017 в 14:04</time></a>					</div><!-- .comment-metadata -->
+
+									</footer><!-- .comment-meta -->
+
+				<div class="comment-content">
+					<p>вот так и испортил sudo&#8230;..</p>
+				</div><!-- .comment-content -->
+
+				<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://linux-user.ru/komandy-v-linux/komandy-dlya-ustanovki-programm/kak-otmenit-zapros-parolya-pri-vypolnenii-komandy-sudo-v-ubuntu-ili-kak-ubrat-parol/?replytocom=55600#respond' data-commentid="55600" data-postid="3741" data-belowelement="div-comment-55600" data-respondelement="respond" data-replyto="Комментарий к записи gex" aria-label='Комментарий к записи gex'>Ответить</a></div>			</article><!-- .comment-body -->
+		</li><!-- #comment-## -->
+		<li id="comment-56696" class="comment odd alt thread-even depth-1">
+			<article id="div-comment-56696" class="comment-body">
+				<footer class="comment-meta">
+					<div class="comment-author vcard">
+						<img alt='' src='http://2.gravatar.com/avatar/8888394b525e04716d083c0bb3f6100c?s=32&#038;d=wavatar&#038;r=g' srcset='http://2.gravatar.com/avatar/8888394b525e04716d083c0bb3f6100c?s=64&#038;d=wavatar&#038;r=g 2x' class='avatar avatar-32 photo' height='32' width='32' loading='lazy'/>						<b class="fn">Виктор</b><span class="says">:</span>					</div><!-- .comment-author -->
+
+					<div class="comment-metadata">
+						<a href="http://linux-user.ru/komandy-v-linux/komandy-dlya-ustanovki-programm/kak-otmenit-zapros-parolya-pri-vypolnenii-komandy-sudo-v-ubuntu-ili-kak-ubrat-parol/#comment-56696"><time datetime="2017-08-09T22:51:01+03:00">09/08/2017 в 22:51</time></a>					</div><!-- .comment-metadata -->
+
+									</footer><!-- .comment-meta -->
+
+				<div class="comment-content">
+					<p>Уведомить меня о новых комментариях по email.</p>
+				</div><!-- .comment-content -->
+
+				<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://linux-user.ru/komandy-v-linux/komandy-dlya-ustanovki-programm/kak-otmenit-zapros-parolya-pri-vypolnenii-komandy-sudo-v-ubuntu-ili-kak-ubrat-parol/?replytocom=56696#respond' data-commentid="56696" data-postid="3741" data-belowelement="div-comment-56696" data-respondelement="respond" data-replyto="Комментарий к записи Виктор" aria-label='Комментарий к записи Виктор'>Ответить</a></div>			</article><!-- .comment-body -->
+		</li><!-- #comment-## -->
+		<li id="comment-57803" class="comment even thread-odd thread-alt depth-1">
+			<article id="div-comment-57803" class="comment-body">
+				<footer class="comment-meta">
+					<div class="comment-author vcard">
+						<img alt='' src='http://2.gravatar.com/avatar/e00ad4175fd5d2a3ec4267c0a123a512?s=32&#038;d=wavatar&#038;r=g' srcset='http://2.gravatar.com/avatar/e00ad4175fd5d2a3ec4267c0a123a512?s=64&#038;d=wavatar&#038;r=g 2x' class='avatar avatar-32 photo' height='32' width='32' loading='lazy'/>						<b class="fn">parazit80</b><span class="says">:</span>					</div><!-- .comment-author -->
+
+					<div class="comment-metadata">
+						<a href="http://linux-user.ru/komandy-v-linux/komandy-dlya-ustanovki-programm/kak-otmenit-zapros-parolya-pri-vypolnenii-komandy-sudo-v-ubuntu-ili-kak-ubrat-parol/#comment-57803"><time datetime="2017-09-08T00:15:22+03:00">08/09/2017 в 00:15</time></a>					</div><!-- .comment-metadata -->
+
+									</footer><!-- .comment-meta -->
+
+				<div class="comment-content">
+					<p>sudo вообще перестал работать! В безопасном режиме, в терминале удалял эту строку</p>
+				</div><!-- .comment-content -->
+
+				<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://linux-user.ru/komandy-v-linux/komandy-dlya-ustanovki-programm/kak-otmenit-zapros-parolya-pri-vypolnenii-komandy-sudo-v-ubuntu-ili-kak-ubrat-parol/?replytocom=57803#respond' data-commentid="57803" data-postid="3741" data-belowelement="div-comment-57803" data-respondelement="respond" data-replyto="Комментарий к записи parazit80" aria-label='Комментарий к записи parazit80'>Ответить</a></div>			</article><!-- .comment-body -->
+		</li><!-- #comment-## -->
+		<li id="comment-57834" class="comment odd alt thread-even depth-1">
+			<article id="div-comment-57834" class="comment-body">
+				<footer class="comment-meta">
+					<div class="comment-author vcard">
+						<img alt='' src='http://2.gravatar.com/avatar/e00ad4175fd5d2a3ec4267c0a123a512?s=32&#038;d=wavatar&#038;r=g' srcset='http://2.gravatar.com/avatar/e00ad4175fd5d2a3ec4267c0a123a512?s=64&#038;d=wavatar&#038;r=g 2x' class='avatar avatar-32 photo' height='32' width='32' loading='lazy'/>						<b class="fn">parazit80</b><span class="says">:</span>					</div><!-- .comment-author -->
+
+					<div class="comment-metadata">
+						<a href="http://linux-user.ru/komandy-v-linux/komandy-dlya-ustanovki-programm/kak-otmenit-zapros-parolya-pri-vypolnenii-komandy-sudo-v-ubuntu-ili-kak-ubrat-parol/#comment-57834"><time datetime="2017-09-09T02:20:31+03:00">09/09/2017 в 02:20</time></a>					</div><!-- .comment-metadata -->
+
+									</footer><!-- .comment-meta -->
+
+				<div class="comment-content">
+					<p>Ubuntu 16.04 При загрузке системы &#171;Esc&#187;. Жал, да нажимал, и там получил меню GRUB<br />
+ Да смог только терминал загрузить1 Ибо жалуется система шо дрова на видяху не(ну не то что-то)и загрузил терминал-а там запустил nano редактор и исправил всё!(удалил строку эту нах)</p>
+<p>И ВСЁ ЗАРАБОТАЛО ОБРАТНО!</p>
+<p>При загрузке!<br />
+Жмём &#171;Esc&#187; клавишу(если много слишком много нажмёш терминал GRUBа появится, а как из него выйти не знаю)<br />
+редактировать обратно</p>
+<p>sudo nano /etc/sudoers (удоляем строку пароль, логин) {Ctrl+X} и всё!</p>
+				</div><!-- .comment-content -->
+
+				<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://linux-user.ru/komandy-v-linux/komandy-dlya-ustanovki-programm/kak-otmenit-zapros-parolya-pri-vypolnenii-komandy-sudo-v-ubuntu-ili-kak-ubrat-parol/?replytocom=57834#respond' data-commentid="57834" data-postid="3741" data-belowelement="div-comment-57834" data-respondelement="respond" data-replyto="Комментарий к записи parazit80" aria-label='Комментарий к записи parazit80'>Ответить</a></div>			</article><!-- .comment-body -->
+		</li><!-- #comment-## -->
+		</ol><!-- .comment-list -->
+
+			<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title">Добавить комментарий <small><a rel="nofollow" id="cancel-comment-reply-link" href="/komandy-v-linux/komandy-dlya-ustanovki-programm/kak-otmenit-zapros-parolya-pri-vypolnenii-komandy-sudo-v-ubuntu-ili-kak-ubrat-parol/#respond" style="display:none;">Отменить ответ</a></small></h3><form action="http://linux-user.ru/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate><p class="comment-notes"><span id="email-notes">Ваш адрес email не будет опубликован.</span> Обязательные поля помечены <span class="required">*</span></p><p class="comment-form-comment"><label for="comment">Комментарий</label> <textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525" required="required"></textarea></p><p class="comment-form-author"><label for="author">Имя <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" maxlength="245" required='required' /></p>
+<p class="comment-form-email"><label for="email">Email <span class="required">*</span></label> <input id="email" name="email" type="email" value="" size="30" maxlength="100" aria-describedby="email-notes" required='required' /></p>
+<p class="comment-form-url"><label for="url">Сайт</label> <input id="url" name="url" type="url" value="" size="30" maxlength="200" /></p>
+<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Отправить комментарий" /> <input type='hidden' name='comment_post_ID' value='3741' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="f3f122d777" /></p><p style="display: none !important;"><label>&#916;<textarea name="ak_hp_textarea" cols="45" rows="8" maxlength="100"></textarea></label><input type="hidden" id="ak_js" name="ak_js" value="25"/><script>document.getElementById( "ak_js" ).setAttribute( "value", ( new Date() ).getTime() );</script></p></form>	</div><!-- #respond -->
+	</div><!-- #comments -->      </div>
+             <!--sidebar-->
+          <!--col-md-3-->
+            <aside class="col-md-3">
+                  
+<aside id="secondary" class="widget-area" role="complementary">
+	<div id="sidebar-right" class="mg-sidebar">
+		<div id="categories-3" class="mg-widget widget_categories"><div class="mg-wid-title"><h6>Рубрики</h6></div>
+			<ul>
+					<li class="cat-item cat-item-17"><a href="http://linux-user.ru/category/distributivy-linux/linux-rabochij-stol/">Linux рабочий стол</a>
+</li>
+	<li class="cat-item cat-item-29"><a href="http://linux-user.ru/category/distributivy-linux/programmy-dlya-linux/wine/">Wine</a>
+</li>
+	<li class="cat-item cat-item-7"><a href="http://linux-user.ru/category/ustanovka-linux/bezopasnost-linux/">Безопасность Linux</a>
+</li>
+	<li class="cat-item cat-item-12"><a href="http://linux-user.ru/category/distributivy-linux/programmy-dlya-linux/brauzery-linux/">Браузеры linux</a>
+</li>
+	<li class="cat-item cat-item-150"><a href="http://linux-user.ru/category/grafika/">Графика</a>
+</li>
+	<li class="cat-item cat-item-9"><a href="http://linux-user.ru/category/distributivy-linux/">Дистрибутивы Linux</a>
+</li>
+	<li class="cat-item cat-item-147"><a href="http://linux-user.ru/category/drugie-portaly/">Другие порталы</a>
+</li>
+	<li class="cat-item cat-item-126"><a href="http://linux-user.ru/category/drugoe-po/">Другое ПО</a>
+</li>
+	<li class="cat-item cat-item-121"><a href="http://linux-user.ru/category/zhelezo/">Железо</a>
+</li>
+	<li class="cat-item cat-item-18"><a href="http://linux-user.ru/category/distributivy-linux/programmy-dlya-linux/igry-dlya-linux/">Игры для Linux</a>
+</li>
+	<li class="cat-item cat-item-21"><a href="http://linux-user.ru/category/novosti/knigi-linux/">Книги Linux</a>
+</li>
+	<li class="cat-item cat-item-20"><a href="http://linux-user.ru/category/komandy-v-linux/">Команды в Linux</a>
+</li>
+	<li class="cat-item cat-item-27"><a href="http://linux-user.ru/category/komandy-v-linux/komandy-dlya-ustanovki-programm/">Команды для установки программ</a>
+</li>
+	<li class="cat-item cat-item-4"><a href="http://linux-user.ru/category/komandy-v-linux/nastrojka-grub/">Настройка grub</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="http://linux-user.ru/category/novosti/">Новости</a>
+</li>
+	<li class="cat-item cat-item-96"><a href="http://linux-user.ru/category/programmirovanie/">Программирование</a>
+</li>
+	<li class="cat-item cat-item-24"><a href="http://linux-user.ru/category/distributivy-linux/programmy-dlya-linux/">Программы для Linux</a>
+</li>
+	<li class="cat-item cat-item-112"><a href="http://linux-user.ru/category/remont/">Ремонт</a>
+</li>
+	<li class="cat-item cat-item-93"><a href="http://linux-user.ru/category/server/">Сервер</a>
+</li>
+	<li class="cat-item cat-item-129"><a href="http://linux-user.ru/category/uslugi/">Услуги</a>
+</li>
+	<li class="cat-item cat-item-6"><a href="http://linux-user.ru/category/ustanovka-linux/">Установка Linux</a>
+</li>
+	<li class="cat-item cat-item-131"><a href="http://linux-user.ru/category/finansy/">Финансы</a>
+</li>
+			</ul>
+
+			</div><div id="custom_html-3" class="widget_text mg-widget widget_custom_html"><div class="mg-wid-title"><h6>Вступайте в сообщество</h6></div><div class="textwidget custom-html-widget"><script type="text/javascript" src="//vk.com/js/api/openapi.js?120"></script>
+<!-- VK Widget -->
+<div id="vk_groups"></div>
+<script type="text/javascript">
+VK.Widgets.Group("vk_groups", {mode: 0, width: "180", height: "400", color1: 'FFFFFF', color2: '2B587A', color3: '5B7FA6'}, 67143258);
+</script></div></div><div id="custom_html-4" class="widget_text mg-widget widget_custom_html"><div class="mg-wid-title"><h6>Наши партнёры</h6></div><div class="textwidget custom-html-widget"><script type="text/javascript" src="//vk.com/js/api/openapi.js?153"></script>
+<!-- VK Widget -->
+<div id="vk_groups2"></div>
+<script type="text/javascript">
+VK.Widgets.Group("vk_groups2", {mode: 1, width: "190"}, 33241754);
+</script></div></div>	</div>
+</aside><!-- #secondary -->
+            </aside>
+          <!--/col-md-3-->
+      <!--/sidebar-->
+          </div>
+  </div>
+</main>
+  <div class="container-fluid mr-bot40 mg-posts-sec-inner">
+        <div class="missed-inner">
+        <div class="row">
+                        <div class="col-md-12">
+                <div class="mg-sec-title">
+                    <!-- mg-sec-title -->
+                    <h4>You missed</h4>
+                </div>
+            </div>
+                            <!--col-md-3-->
+                <div class="col-md-3 col-sm-6 pulse animated">
+               <div class="mg-blog-post-3 minh back-img" 
+                                                        style="background-image: url('http://linux-user.ru/wp-content/uploads/2022/01/gnome_boxes_42_alpha.jpg');" >
+                            <a class="link-div" href="http://linux-user.ru/distributivy-linux/programmy-dlya-linux/gnome-boxes-42-alternativa-virtualbox/"></a>
+                    <div class="mg-blog-inner">
+                      <div class="mg-blog-category">
+                      <a class="newsup-categories category-color-1" href="http://linux-user.ru/category/distributivy-linux/programmy-dlya-linux/" alt="Просмотреть все записи в рубрике &laquo;Программы для Linux&raquo;"> 
+                                 Программы для Linux
+                             </a>                      </div>
+                      <h4 class="title"> <a href="http://linux-user.ru/distributivy-linux/programmy-dlya-linux/gnome-boxes-42-alternativa-virtualbox/" title="Permalink to: GNOME Boxes 42 альтернатива VirtualBox"> GNOME Boxes 42 альтернатива VirtualBox</a> </h4>
+                                          </div>
+                </div>
+            </div>
+            <!--/col-md-3-->
+                         <!--col-md-3-->
+                <div class="col-md-3 col-sm-6 pulse animated">
+               <div class="mg-blog-post-3 minh back-img" 
+                                                        style="background-image: url('http://linux-user.ru/wp-content/uploads/2022/01/Manjaro_Gaming.jpg');" >
+                            <a class="link-div" href="http://linux-user.ru/distributivy-linux/programmy-dlya-linux/igry-dlya-linux/manjaro-gaming-igry-na-linux-v-korobke-manjaro/"></a>
+                    <div class="mg-blog-inner">
+                      <div class="mg-blog-category">
+                      <a class="newsup-categories category-color-1" href="http://linux-user.ru/category/distributivy-linux/programmy-dlya-linux/igry-dlya-linux/" alt="Просмотреть все записи в рубрике &laquo;Игры для Linux&raquo;"> 
+                                 Игры для Linux
+                             </a>                      </div>
+                      <h4 class="title"> <a href="http://linux-user.ru/distributivy-linux/programmy-dlya-linux/igry-dlya-linux/manjaro-gaming-igry-na-linux-v-korobke-manjaro/" title="Permalink to: Manjaro Gaming: игры на Linux в коробке Manjaro"> Manjaro Gaming: игры на Linux в коробке Manjaro</a> </h4>
+                                          </div>
+                </div>
+            </div>
+            <!--/col-md-3-->
+                         <!--col-md-3-->
+                <div class="col-md-3 col-sm-6 pulse animated">
+               <div class="mg-blog-post-3 minh back-img" 
+                                                        style="background-image: url('http://linux-user.ru/wp-content/uploads/2022/01/KDE_Plasma_5_24.jpg');" >
+                            <a class="link-div" href="http://linux-user.ru/novosti/kde-plasma-5-24/"></a>
+                    <div class="mg-blog-inner">
+                      <div class="mg-blog-category">
+                      <a class="newsup-categories category-color-1" href="http://linux-user.ru/category/distributivy-linux/linux-rabochij-stol/" alt="Просмотреть все записи в рубрике &laquo;Linux рабочий стол&raquo;"> 
+                                 Linux рабочий стол
+                             </a><a class="newsup-categories category-color-1" href="http://linux-user.ru/category/novosti/" alt="Просмотреть все записи в рубрике &laquo;Новости&raquo;"> 
+                                 Новости
+                             </a>                      </div>
+                      <h4 class="title"> <a href="http://linux-user.ru/novosti/kde-plasma-5-24/" title="Permalink to: KDE Plasma 5.24"> KDE Plasma 5.24</a> </h4>
+                                          </div>
+                </div>
+            </div>
+            <!--/col-md-3-->
+                         <!--col-md-3-->
+                <div class="col-md-3 col-sm-6 pulse animated">
+               <div class="mg-blog-post-3 minh back-img" 
+                                                        style="background-image: url('http://linux-user.ru/wp-content/uploads/2022/01/arc-menu_3.jpg');" >
+                            <a class="link-div" href="http://linux-user.ru/distributivy-linux/linux-rabochij-stol/arc-menu-menyu-prilozhenie-dlya-gnome/"></a>
+                    <div class="mg-blog-inner">
+                      <div class="mg-blog-category">
+                      <a class="newsup-categories category-color-1" href="http://linux-user.ru/category/distributivy-linux/linux-rabochij-stol/" alt="Просмотреть все записи в рубрике &laquo;Linux рабочий стол&raquo;"> 
+                                 Linux рабочий стол
+                             </a>                      </div>
+                      <h4 class="title"> <a href="http://linux-user.ru/distributivy-linux/linux-rabochij-stol/arc-menu-menyu-prilozhenie-dlya-gnome/" title="Permalink to: Arc Menu &#8212; меню приложение для GNOME"> Arc Menu &#8212; меню приложение для GNOME</a> </h4>
+                                          </div>
+                </div>
+            </div>
+            <!--/col-md-3-->
+                     
+
+                </div>
+            </div>
+        </div>
+<!--==================== FOOTER AREA ====================-->
+        <footer> 
+            <div class="overlay" style="background-color: ;">
+                <!--Start mg-footer-widget-area-->
+                                 <div class="mg-footer-widget-area">
+                    <div class="container-fluid">
+                        <div class="row">
+                          <div id="custom_html-6" class="widget_text col-md-4 col-sm-6 rotateInDownLeft animated mg-widget widget_custom_html"><div class="textwidget custom-html-widget"><!-- Yandex.Metrika informer -->
+<a href="https://metrika.yandex.ru/stat/?id=14690947&amp;from=informer" target="_blank" rel="nofollow noopener"><img src="https://metrika-informer.com/informer/14690947/3_1_FFFFFFFF_EFEFEFFF_0_pageviews"
+style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" class="ym-advanced-informer" data-cid="14690947" data-lang="ru" /></a>
+<!-- /Yandex.Metrika informer -->
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://cdn.jsdelivr.net/npm/yandex-metrica-watch/tag.js", "ym");
+
+   ym(14690947, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/14690947" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter --></div></div>                        </div>
+                        <!--/row-->
+                    </div>
+                    <!--/container-->
+                </div>
+                                 <!--End mg-footer-widget-area-->
+                <!--Start mg-footer-widget-area-->
+                <div class="mg-footer-bottom-area">
+                    <div class="container-fluid">
+                        <div class="divide-line"></div>
+                        <div class="row align-items-center">
+                            <!--col-md-4-->
+                            <div class="col-md-6">
+                                                             <div class="site-branding-text">
+                              <h1 class="site-title"> <a href="http://linux-user.ru/" rel="home">Мир Gnu / Linux</a></h1>
+                              <p class="site-description">* linux (/boot/vmlinuz)</p>
+                              </div>
+                                                          </div>
+
+                             
+                            <div class="col-md-6 text-right text-xs">
+                                
+                            <ul class="mg-social">
+                                                                        <a target="_blank" href="">
+                                                                        <a target="_blank"  href="">
+                                                                         
+                                                                 </ul>
+
+
+                            </div>
+                            <!--/col-md-4-->  
+                             
+                        </div>
+                        <!--/row-->
+                    </div>
+                    <!--/container-->
+                </div>
+                <!--End mg-footer-widget-area-->
+
+                <div class="mg-footer-copyright">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-6 text-xs">
+                                <p>
+                                <a href="https://ru.wordpress.org/">
+								Сайт работает на WordPress								</a>
+								<span class="sep"> | </span>
+								Тема: Newsup, автор <a href="https://themeansar.com/" rel="designer">Themeansar</a>								</p>
+                            </div>
+
+
+
+                            <div class="col-md-6 text-right text-xs">
+                                <ul class="info-right"><li class="nav-item menu-item "><a class="nav-link " href="http://linux-user.ru/" title="Home">Home</a></li><li class="nav-item menu-item page_item dropdown page-item-142"><a class="nav-link" href="http://linux-user.ru/karta-sajta/">карта сайта</a></li><li class="nav-item menu-item page_item dropdown page-item-10"><a class="nav-link" href="http://linux-user.ru/linux-dlya-nachinayushhih/">Мир GNU / Linux</a></li><li class="nav-item menu-item page_item dropdown page-item-472"><a class="nav-link" href="http://linux-user.ru/obratnaya-svyaz/">обратная связь</a></li></ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--/overlay-->
+        </footer>
+        <!--/footer-->
+    </div>
+    <!--/wrapper-->
+    <!--Scroll To Top-->
+    <a href="#" class="ta_upscr bounceInup animated"><i class="fa fa-angle-up"></i></a>
+    <!--/Scroll To Top-->
+<!-- /Scroll To Top -->
+<div style="display: none;" id="nxsFavNotice"><div id="nxsFavNoticeCnt">Posting....</div></div><!-- Powered by WPtouch: 4.3.41 --><script>
+jQuery('a,input').bind('focus', function() {
+    if(!jQuery(this).closest(".menu-item").length && ( jQuery(window).width() <= 992) ) {
+    jQuery('.navbar-collapse').removeClass('show');
+}})
+</script>
+<link rel='stylesheet' id='modal-css'  href='http://linux-user.ru/wp-content/plugins/social-networks-auto-poster-facebook-twitter-g/js-css/jquery.modal.min.css?ver=4.3.25' type='text/css' media='all' />
+<script type='text/javascript' src='http://linux-user.ru/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.7' id='regenerator-runtime-js'></script>
+<script type='text/javascript' src='http://linux-user.ru/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0' id='wp-polyfill-js'></script>
+<script type='text/javascript' id='contact-form-7-js-extra'>
+/* <![CDATA[ */
+var wpcf7 = {"api":{"root":"http:\/\/linux-user.ru\/wp-json\/","namespace":"contact-form-7\/v1"},"cached":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://linux-user.ru/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.5.3' id='contact-form-7-js'></script>
+<script type='text/javascript' id='spu-public-js-extra'>
+/* <![CDATA[ */
+var spuvar = {"is_admin":"","disable_style":"","ajax_mode":"","ajax_url":"http:\/\/linux-user.ru\/wp-admin\/admin-ajax.php","ajax_mode_url":"http:\/\/linux-user.ru\/?spu_action=spu_load","pid":"3741","is_front_page":"","is_category":"","site_url":"http:\/\/linux-user.ru","is_archive":"","is_search":"","is_preview":"","seconds_confirmation_close":"5"};
+var spuvar_social = [];
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://linux-user.ru/wp-content/plugins/popups/public/assets/js/public.js?ver=1.9.3.8' id='spu-public-js'></script>
+<script type='text/javascript' src='http://linux-user.ru/wp-includes/js/comment-reply.min.js?ver=5.8.3' id='comment-reply-js'></script>
+<script type='text/javascript' src='http://linux-user.ru/wp-includes/js/wp-embed.min.js?ver=5.8.3' id='wp-embed-js'></script>
+<script type='text/javascript' src='http://linux-user.ru/wp-content/plugins/social-networks-auto-poster-facebook-twitter-g/js-css/jquery.modal.min.js?ver=4.3.25' id='modal-js'></script>
+<script type='text/javascript' src='https://cdn.onesignal.com/sdks/OneSignalSDK.js?ver=5.8.3' async='async' id='remote_sdk-js'></script>
+<script type='text/javascript' src='http://linux-user.ru/wp-content/themes/newsup/js/custom.js?ver=5.8.3' id='newsup-custom-js'></script>
+<script type='text/javascript' src='http://linux-user.ru/wp-content/themes/newsup/js/custom-time.js?ver=5.8.3' id='newsup-custom-time-js'></script>
+	<script>
+	/(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener("hashchange",function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())},!1);
+	</script>
+	</body>
+</html>�W��p|      a��a��C��a��   �    O^partitionKey=%28http%2Clinux-user.ru%29,:http://linux-user.ru/komandy-v-linux/komandy-dlya-ustanovki-programm/kak-otmenit-zapros-parolya-pri-vypolnenii-komandy-sudo-v-ubuntu-ili-kak-ubrat-parol/ necko:classified 1 strongly-framed 1 request-method GET response-head HTTP/1.1 200 OK
+Server: nginx/1.20.2
+Date: Mon, 17 Jan 2022 07:24:24 GMT
+Content-Type: text/html; charset=UTF-8
+X-Powered-By: PHP/7.4.26
+X-Pingback: http://linux-user.ru/xmlrpc.php
+Link: <http://linux-user.ru/wp-json/>; rel="https://api.w.org/", <http://linux-user.ru/wp-json/wp/v2/posts/3741>; rel="alternate"; type="application/json", <http://linux-user.ru/?p=3741>; rel=shortlink
+ original-response-headers Server: nginx/1.20.2
+Date: Mon, 17 Jan 2022 07:24:24 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: PHP/7.4.26
+X-Pingback: http://linux-user.ru/xmlrpc.php
+Link: <http://linux-user.ru/wp-json/>; rel="https://api.w.org/", <http://linux-user.ru/wp-json/wp/v2/posts/3741>; rel="alternate"; type="application/json", <http://linux-user.ru/?p=3741>; rel=shortlink
+ ctid 1 uncompressed-len 0 net-response-time-onstart 2983 net-response-time-onstop 3100  S�

@@ -1,0 +1,193 @@
+[2022-08-17 15:44:30.028] [renderer1] [warning] [CloudStudio.github-authentication]: Невозможно зарегистрировать "github-enterprise.uri". Это свойство уже зарегистрировано.
+[2022-08-17 15:44:30.296] [renderer1] [error] [CloudStudio.github-authentication]: Идентификатор проверки подлинности "github" уже зарегистрирован.
+[2022-08-17 15:44:30.297] [renderer1] [error] [CloudStudio.github-authentication]: Идентификатор проверки подлинности "github-enterprise" уже зарегистрирован.
+[2022-08-17 15:46:18.609] [renderer1] [info] Settings Sync: Updated current session 9ead64e8-d7b8-482f-91d8-c3d81cc4154a
+[2022-08-17 15:51:53.185] [renderer1] [error] Overlapping ranges are not allowed!: Error: Overlapping ranges are not allowed!
+    at R._applyEdit (/snap/code/104/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:83:56553)
+    at Object.window [as edit] (/snap/code/104/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:83:54204)
+    at subscriptions (/home/bbd/.vscode/extensions/formulahendry.auto-rename-tag-0.1.10/packages/extension/dist/webpack:/auto-rename-tag/src/extensionMain.ts:87:18)
+    at /home/bbd/.vscode/extensions/formulahendry.auto-rename-tag-0.1.10/packages/extension/dist/webpack:/auto-rename-tag/src/extensionMain.ts:378:11
+[2022-08-17 15:53:12.050] [renderer1] [error] Произошла неизвестная ошибка. Подробные сведения см. в журнале.
+[2022-08-17 15:53:13.291] [renderer1] [error] Произошла неизвестная ошибка. Подробные сведения см. в журнале.
+[2022-08-17 15:53:14.444] [renderer1] [error] Произошла неизвестная ошибка. Подробные сведения см. в журнале.
+[2022-08-17 15:53:27.997] [renderer1] [error] [Extension Host] (node:11125) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `code --trace-deprecation ...` to show where the warning was created)
+[2022-08-17 15:53:43.012] [renderer1] [error] Произошла неизвестная ошибка. Подробные сведения см. в журнале.
+[2022-08-17 15:53:45.881] [renderer1] [error] Произошла неизвестная ошибка. Подробные сведения см. в журнале.
+[2022-08-17 15:54:14.166] [renderer1] [error] Произошла неизвестная ошибка. Подробные сведения см. в журнале.
+[2022-08-17 15:54:17.268] [renderer1] [error] Произошла неизвестная ошибка. Подробные сведения см. в журнале.
+[2022-08-17 15:54:20.701] [renderer1] [error] Произошла неизвестная ошибка. Подробные сведения см. в журнале.
+[2022-08-17 15:54:33.986] [renderer1] [error] Произошла неизвестная ошибка. Подробные сведения см. в журнале.
+[2022-08-17 15:55:29.869] [renderer1] [error] Произошла неизвестная ошибка. Подробные сведения см. в журнале.
+[2022-08-17 15:55:31.190] [renderer1] [error] Произошла неизвестная ошибка. Подробные сведения см. в журнале.
+[2022-08-17 15:55:34.032] [renderer1] [error] Произошла неизвестная ошибка. Подробные сведения см. в журнале.
+[2022-08-17 15:55:40.381] [renderer1] [error] Произошла неизвестная ошибка. Подробные сведения см. в журнале.
+[2022-08-17 15:55:44.128] [renderer1] [error] Произошла неизвестная ошибка. Подробные сведения см. в журнале.
+[2022-08-17 15:55:45.351] [renderer1] [error] Произошла неизвестная ошибка. Подробные сведения см. в журнале.
+[2022-08-17 15:55:46.353] [renderer1] [error] Произошла неизвестная ошибка. Подробные сведения см. в журнале.
+[2022-08-17 15:55:47.778] [renderer1] [error] Произошла неизвестная ошибка. Подробные сведения см. в журнале.
+[2022-08-17 15:55:51.442] [renderer1] [error] Произошла неизвестная ошибка. Подробные сведения см. в журнале.
+[2022-08-17 15:56:59.858] [renderer1] [error] Произошла неизвестная ошибка. Подробные сведения см. в журнале.
+[2022-08-17 15:57:17.351] [renderer1] [error] Произошла неизвестная ошибка. Подробные сведения см. в журнале.
+[2022-08-17 15:57:19.195] [renderer1] [error] Произошла неизвестная ошибка. Подробные сведения см. в журнале.
+[2022-08-17 15:57:21.450] [renderer1] [error] Произошла неизвестная ошибка. Подробные сведения см. в журнале.
+[2022-08-17 15:57:26.556] [renderer1] [error] Произошла неизвестная ошибка. Подробные сведения см. в журнале.
+[2022-08-17 15:57:31.698] [renderer1] [error] Произошла неизвестная ошибка. Подробные сведения см. в журнале.
+[2022-08-17 15:57:33.730] [renderer1] [error] Произошла неизвестная ошибка. Подробные сведения см. в журнале.
+[2022-08-17 15:57:35.066] [renderer1] [error] Произошла неизвестная ошибка. Подробные сведения см. в журнале.
+[2022-08-17 15:57:37.119] [renderer1] [error] Произошла неизвестная ошибка. Подробные сведения см. в журнале.
+[2022-08-17 15:57:51.668] [renderer1] [error] Произошла неизвестная ошибка. Подробные сведения см. в журнале.
+[2022-08-17 15:57:55.437] [renderer1] [error] Произошла неизвестная ошибка. Подробные сведения см. в журнале.
+[2022-08-18 14:22:40.448] [renderer1] [error] Произошла неизвестная ошибка. Подробные сведения см. в журнале.
+[2022-08-18 14:22:41.525] [renderer1] [error] Произошла неизвестная ошибка. Подробные сведения см. в журнале.
+[2022-08-18 14:22:44.992] [renderer1] [error] Произошла неизвестная ошибка. Подробные сведения см. в журнале.
+[2022-08-18 14:22:46.089] [renderer1] [error] Произошла неизвестная ошибка. Подробные сведения см. в журнале.
+[2022-08-19 14:57:47.420] [renderer1] [error] Произошла неизвестная ошибка. Подробные сведения см. в журнале.
+[2022-08-19 14:57:48.806] [renderer1] [error] Произошла неизвестная ошибка. Подробные сведения см. в журнале.
+[2022-08-19 14:58:36.753] [renderer1] [error] Произошла неизвестная ошибка. Подробные сведения см. в журнале.
+[2022-08-19 14:58:39.024] [renderer1] [error] Произошла неизвестная ошибка. Подробные сведения см. в журнале.
+[2022-08-19 14:58:54.460] [renderer1] [error] Произошла неизвестная ошибка. Подробные сведения см. в журнале.
+[2022-08-19 14:59:00.309] [renderer1] [error] Произошла неизвестная ошибка. Подробные сведения см. в журнале.
+[2022-08-19 15:01:44.221] [renderer1] [error] Произошла неизвестная ошибка. Подробные сведения см. в журнале.
+[2022-08-19 15:05:15.149] [renderer1] [error] Произошла неизвестная ошибка. Подробные сведения см. в журнале.
+[2022-08-19 15:10:17.541] [renderer1] [warning] [CloudStudio.github-authentication]: Невозможно зарегистрировать "github-enterprise.uri". Это свойство уже зарегистрировано.
+[2022-08-19 15:10:17.886] [renderer1] [error] [CloudStudio.github-authentication]: Идентификатор проверки подлинности "github" уже зарегистрирован.
+[2022-08-19 15:10:17.889] [renderer1] [error] [CloudStudio.github-authentication]: Идентификатор проверки подлинности "github-enterprise" уже зарегистрирован.
+[2022-08-19 15:10:43.454] [renderer1] [info] UNRESPONSIVE extension host: starting to profile NOW
+[2022-08-19 15:10:45.057] [renderer1] [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+[2022-08-19 15:10:45.400] [renderer1] [warning] UNRESPONSIVE extension host: 'vscode.git' took 54% of 1917.943ms, saved PROFILE here: 'file:///tmp/exthost-686947.cpuprofile' [{"id":"gc","total":42394,"percentage":2},{"id":"program","total":304497,"percentage":16},{"id":"self","total":536132,"percentage":28},{"id":"vscode.git","total":1033811,"percentage":54},{"id":"vscode.github","total":318,"percentage":0},{"id":"vscode.github-authentication","total":317,"percentage":0},{"id":"vscode.microsoft-authentication","total":157,"percentage":0}]
+[2022-08-19 15:10:48.617] [renderer1] [info] UNRESPONSIVE extension host: starting to profile NOW
+[2022-08-19 15:10:53.797] [renderer1] [warning] UNRESPONSIVE extension host: 'vscode.git' took 94% of 5270.612ms, saved PROFILE here: 'file:///tmp/exthost-af9e86.cpuprofile' [{"id":"gc","total":44488,"percentage":1},{"id":"self","total":245624,"percentage":5},{"id":"vscode.git","total":4979820,"percentage":94}]
+[2022-08-19 15:11:24.325] [renderer1] [info] Settings Sync: Updated current session 642b6958-e4d8-4b20-8e12-d82060ea6d2b
+[2022-08-19 16:26:53.124] [renderer1] [error] [Extension Host] BadRequestError: Bad Request
+    at SendStream.error (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/send/index.js:270:31)
+    at SendStream.pipe (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/send/index.js:520:10)
+    at /home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/live-server/index.js:135:5
+    at call (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/connect/index.js:239:7)
+    at next (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/connect/index.js:183:5)
+    at cors (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/cors/lib/index.js:188:7)
+    at /home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/cors/lib/index.js:224:17
+    at originCallback (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/cors/lib/index.js:214:15)
+    at /home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/cors/lib/index.js:219:13
+    at optionsCallback (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/cors/lib/index.js:199:9)
+    at corsMiddleware (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/cors/lib/index.js:204:7)
+    at call (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/connect/index.js:239:7)
+    at next (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/connect/index.js:183:5)
+    at logger (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/morgan/index.js:144:5)
+    at call (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/connect/index.js:239:7)
+    at next (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/connect/index.js:183:5)
+    at Function.handle (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/connect/index.js:186:3)
+    at Server.app (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/connect/index.js:51:37)
+    at Server.emit (node:events:402:35)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+[2022-08-19 16:26:53.242] [renderer1] [error] [Extension Host] BadRequestError: Bad Request
+    at SendStream.error (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/send/index.js:270:31)
+    at SendStream.pipe (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/send/index.js:520:10)
+    at /home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/live-server/index.js:135:5
+    at call (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/connect/index.js:239:7)
+    at next (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/connect/index.js:183:5)
+    at cors (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/cors/lib/index.js:188:7)
+    at /home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/cors/lib/index.js:224:17
+    at originCallback (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/cors/lib/index.js:214:15)
+    at /home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/cors/lib/index.js:219:13
+    at optionsCallback (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/cors/lib/index.js:199:9)
+    at corsMiddleware (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/cors/lib/index.js:204:7)
+    at call (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/connect/index.js:239:7)
+    at next (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/connect/index.js:183:5)
+    at logger (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/morgan/index.js:144:5)
+    at call (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/connect/index.js:239:7)
+    at next (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/connect/index.js:183:5)
+    at Function.handle (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/connect/index.js:186:3)
+    at Server.app (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/connect/index.js:51:37)
+    at Server.emit (node:events:402:35)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+[2022-08-19 17:25:44.167] [renderer1] [error] [Extension Host] BadRequestError: Bad Request
+    at SendStream.error (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/send/index.js:270:31)
+    at SendStream.pipe (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/send/index.js:520:10)
+    at /home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/live-server/index.js:135:5
+    at call (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/connect/index.js:239:7)
+    at next (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/connect/index.js:183:5)
+    at cors (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/cors/lib/index.js:188:7)
+    at /home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/cors/lib/index.js:224:17
+    at originCallback (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/cors/lib/index.js:214:15)
+    at /home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/cors/lib/index.js:219:13
+    at optionsCallback (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/cors/lib/index.js:199:9)
+    at corsMiddleware (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/cors/lib/index.js:204:7)
+    at call (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/connect/index.js:239:7)
+    at next (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/connect/index.js:183:5)
+    at logger (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/morgan/index.js:144:5)
+    at call (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/connect/index.js:239:7)
+    at next (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/connect/index.js:183:5)
+    at Function.handle (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/connect/index.js:186:3)
+    at Server.app (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/connect/index.js:51:37)
+    at Server.emit (node:events:402:35)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+[2022-08-19 17:25:44.169] [renderer1] [error] [Extension Host] BadRequestError: Bad Request
+    at SendStream.error (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/send/index.js:270:31)
+    at SendStream.pipe (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/send/index.js:520:10)
+    at /home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/live-server/index.js:135:5
+    at call (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/connect/index.js:239:7)
+    at next (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/connect/index.js:183:5)
+    at cors (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/cors/lib/index.js:188:7)
+    at /home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/cors/lib/index.js:224:17
+    at originCallback (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/cors/lib/index.js:214:15)
+    at /home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/cors/lib/index.js:219:13
+    at optionsCallback (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/cors/lib/index.js:199:9)
+    at corsMiddleware (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/cors/lib/index.js:204:7)
+    at call (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/connect/index.js:239:7)
+    at next (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/connect/index.js:183:5)
+    at logger (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/morgan/index.js:144:5)
+    at call (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/connect/index.js:239:7)
+    at next (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/connect/index.js:183:5)
+    at Function.handle (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/connect/index.js:186:3)
+    at Server.app (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/connect/index.js:51:37)
+    at Server.emit (node:events:402:35)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+[2022-08-19 17:26:44.605] [renderer1] [error] [Extension Host] BadRequestError: Bad Request
+    at SendStream.error (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/send/index.js:270:31)
+    at SendStream.pipe (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/send/index.js:520:10)
+    at /home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/live-server/index.js:135:5
+    at call (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/connect/index.js:239:7)
+    at next (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/connect/index.js:183:5)
+    at cors (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/cors/lib/index.js:188:7)
+    at /home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/cors/lib/index.js:224:17
+    at originCallback (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/cors/lib/index.js:214:15)
+    at /home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/cors/lib/index.js:219:13
+    at optionsCallback (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/cors/lib/index.js:199:9)
+    at corsMiddleware (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/cors/lib/index.js:204:7)
+    at call (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/connect/index.js:239:7)
+    at next (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/connect/index.js:183:5)
+    at logger (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/morgan/index.js:144:5)
+    at call (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/connect/index.js:239:7)
+    at next (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/connect/index.js:183:5)
+    at Function.handle (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/connect/index.js:186:3)
+    at Server.app (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/connect/index.js:51:37)
+    at Server.emit (node:events:402:35)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+[2022-08-19 17:26:44.621] [renderer1] [error] [Extension Host] BadRequestError: Bad Request
+    at SendStream.error (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/send/index.js:270:31)
+    at SendStream.pipe (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/send/index.js:520:10)
+    at /home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/live-server/index.js:135:5
+    at call (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/connect/index.js:239:7)
+    at next (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/connect/index.js:183:5)
+    at cors (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/cors/lib/index.js:188:7)
+    at /home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/cors/lib/index.js:224:17
+    at originCallback (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/cors/lib/index.js:214:15)
+    at /home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/cors/lib/index.js:219:13
+    at optionsCallback (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/cors/lib/index.js:199:9)
+    at corsMiddleware (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/cors/lib/index.js:204:7)
+    at call (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/connect/index.js:239:7)
+    at next (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/connect/index.js:183:5)
+    at logger (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/morgan/index.js:144:5)
+    at call (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/connect/index.js:239:7)
+    at next (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/connect/index.js:183:5)
+    at Function.handle (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/connect/index.js:186:3)
+    at Server.app (/home/bbd/.vscode/extensions/ritwickdey.liveserver-5.7.5/node_modules/connect/index.js:51:37)
+    at Server.emit (node:events:402:35)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)

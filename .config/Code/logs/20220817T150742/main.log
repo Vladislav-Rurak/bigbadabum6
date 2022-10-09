@@ -1,0 +1,7 @@
+[2022-08-17 15:07:42.839] [main] [info] update#setState idle
+[2022-08-17 15:07:45.594] [main] [info] Starting extension host with pid 54967 (fork() took 11 ms).
+[2022-08-17 15:08:12.841] [main] [info] update#setState checking for updates
+[2022-08-17 15:08:12.845] [main] [info] update#setState idle
+[2022-08-17 15:09:25.176] [main] [info] update#setState checking for updates
+[2022-08-17 15:09:25.180] [main] [info] update#setState idle
+[2022-08-17 15:09:35.240] [main] [info] Extension host with pid 54967 exited with code: 0, signal: null.

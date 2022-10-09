@@ -1,0 +1,212 @@
+[2022-08-17 15:44:31.857] [exthost] [info] Extension host with pid 11125 started
+[2022-08-17 15:44:31.857] [exthost] [info] Skipping acquiring lock for /home/bbd/.config/Code/User/workspaceStorage/7f2afa3e866a46178de3ffb5c58a1265.
+[2022-08-17 15:44:32.605] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+[2022-08-17 15:44:32.671] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2022-08-17 15:44:32.760] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-08-17 15:44:32.777] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-08-17 15:44:32.805] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-08-17 15:44:32.828] [exthost] [info] ExtensionService#_doActivateExtension donjayamanne.githistory, startup: true, activationEvent: '*'
+[2022-08-17 15:44:32.938] [exthost] [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css, startup: true, activationEvent: '*'
+[2022-08-17 15:44:33.041] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag, startup: true, activationEvent: '*'
+[2022-08-17 15:44:33.047] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag, startup: true, activationEvent: '*'
+[2022-08-17 15:44:33.396] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-08-17 15:44:33.529] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-08-17 15:44:34.332] [exthost] [info] Eager extensions activated
+[2022-08-17 15:44:34.849] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-17 15:44:34.879] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-17 15:44:34.888] [exthost] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-17 15:44:35.132] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-17 15:44:36.259] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2022-08-17 15:44:36.299] [exthost] [info] ExtensionService#_doActivateExtension CloudStudio.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2022-08-17 15:44:36.877] [exthost] [error] Activating extension CloudStudio.github-authentication failed due to an error:
+[2022-08-17 15:44:36.877] [exthost] [error] Error: An authentication provider with id 'github' is already registered.
+    at y.registerAuthenticationProvider (/snap/code/104/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:57365)
+    at Object.friendlyName [as registerAuthenticationProvider] (/snap/code/104/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:31025)
+    at new github (/home/bbd/.vscode/extensions/cloudstudio.github-authentication-0.0.1/dist/webpack:/github-authentication/src/github.ts:68:82)
+    at t.activate (/home/bbd/.vscode/extensions/cloudstudio.github-authentication-0.0.1/dist/webpack:/github-authentication/src/extension.ts:13:88)
+    at Function._callActivateOptional (/snap/code/104/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:97:17473)
+    at Function._callActivate (/snap/code/104/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:97:17131)
+    at /snap/code/104/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:97:14942
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at v._activate (/snap/code/104/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:8180)
+    at v._waitForDepsThenActivate (/snap/code/104/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:8122)
+    at v._initialize (/snap/code/104/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:7486)
+[2022-08-17 15:46:19.430] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-08-17 15:46:19.434] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-08-17 15:46:19.467] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-08-17 15:53:12.037] [exthost] [error] [ecmel.vscode-html-css] provider FAILED
+[2022-08-17 15:53:12.037] [exthost] [error] undefined
+[2022-08-17 15:53:13.286] [exthost] [error] [ecmel.vscode-html-css] provider FAILED
+[2022-08-17 15:53:13.286] [exthost] [error] undefined
+[2022-08-17 15:53:14.016] [exthost] [error] [ecmel.vscode-html-css] provider FAILED
+[2022-08-17 15:53:14.017] [exthost] [error] undefined
+[2022-08-17 15:53:14.094] [exthost] [error] [ecmel.vscode-html-css] provider FAILED
+[2022-08-17 15:53:14.095] [exthost] [error] undefined
+[2022-08-17 15:53:14.436] [exthost] [error] [ecmel.vscode-html-css] provider FAILED
+[2022-08-17 15:53:14.436] [exthost] [error] undefined
+[2022-08-17 15:53:14.502] [exthost] [error] [ecmel.vscode-html-css] provider FAILED
+[2022-08-17 15:53:14.502] [exthost] [error] undefined
+[2022-08-17 15:53:43.005] [exthost] [error] [ecmel.vscode-html-css] provider FAILED
+[2022-08-17 15:53:43.005] [exthost] [error] undefined
+[2022-08-17 15:53:45.879] [exthost] [error] [ecmel.vscode-html-css] provider FAILED
+[2022-08-17 15:53:45.879] [exthost] [error] undefined
+[2022-08-17 15:54:14.163] [exthost] [error] [ecmel.vscode-html-css] provider FAILED
+[2022-08-17 15:54:14.164] [exthost] [error] undefined
+[2022-08-17 15:54:17.259] [exthost] [error] [ecmel.vscode-html-css] provider FAILED
+[2022-08-17 15:54:17.259] [exthost] [error] undefined
+[2022-08-17 15:54:17.514] [exthost] [error] [ecmel.vscode-html-css] provider FAILED
+[2022-08-17 15:54:17.514] [exthost] [error] undefined
+[2022-08-17 15:54:17.771] [exthost] [error] [ecmel.vscode-html-css] provider FAILED
+[2022-08-17 15:54:17.771] [exthost] [error] undefined
+[2022-08-17 15:54:17.951] [exthost] [error] [ecmel.vscode-html-css] provider FAILED
+[2022-08-17 15:54:17.952] [exthost] [error] undefined
+[2022-08-17 15:54:20.697] [exthost] [error] [ecmel.vscode-html-css] provider FAILED
+[2022-08-17 15:54:20.697] [exthost] [error] undefined
+[2022-08-17 15:54:21.227] [exthost] [error] [ecmel.vscode-html-css] provider FAILED
+[2022-08-17 15:54:21.227] [exthost] [error] undefined
+[2022-08-17 15:54:33.984] [exthost] [error] [ecmel.vscode-html-css] provider FAILED
+[2022-08-17 15:54:33.984] [exthost] [error] undefined
+[2022-08-17 15:55:29.863] [exthost] [error] [ecmel.vscode-html-css] provider FAILED
+[2022-08-17 15:55:29.863] [exthost] [error] undefined
+[2022-08-17 15:55:31.188] [exthost] [error] [ecmel.vscode-html-css] provider FAILED
+[2022-08-17 15:55:31.188] [exthost] [error] undefined
+[2022-08-17 15:55:34.025] [exthost] [error] [ecmel.vscode-html-css] provider FAILED
+[2022-08-17 15:55:34.025] [exthost] [error] undefined
+[2022-08-17 15:55:40.378] [exthost] [error] [ecmel.vscode-html-css] provider FAILED
+[2022-08-17 15:55:40.378] [exthost] [error] undefined
+[2022-08-17 15:55:40.835] [exthost] [error] [ecmel.vscode-html-css] provider FAILED
+[2022-08-17 15:55:40.835] [exthost] [error] undefined
+[2022-08-17 15:55:44.126] [exthost] [error] [ecmel.vscode-html-css] provider FAILED
+[2022-08-17 15:55:44.126] [exthost] [error] undefined
+[2022-08-17 15:55:44.286] [exthost] [error] [ecmel.vscode-html-css] provider FAILED
+[2022-08-17 15:55:44.286] [exthost] [error] undefined
+[2022-08-17 15:55:45.102] [exthost] [error] [ecmel.vscode-html-css] provider FAILED
+[2022-08-17 15:55:45.102] [exthost] [error] undefined
+[2022-08-17 15:55:45.349] [exthost] [error] [ecmel.vscode-html-css] provider FAILED
+[2022-08-17 15:55:45.349] [exthost] [error] undefined
+[2022-08-17 15:55:45.650] [exthost] [error] [ecmel.vscode-html-css] provider FAILED
+[2022-08-17 15:55:45.650] [exthost] [error] undefined
+[2022-08-17 15:55:46.347] [exthost] [error] [ecmel.vscode-html-css] provider FAILED
+[2022-08-17 15:55:46.347] [exthost] [error] undefined
+[2022-08-17 15:55:46.526] [exthost] [error] [ecmel.vscode-html-css] provider FAILED
+[2022-08-17 15:55:46.526] [exthost] [error] undefined
+[2022-08-17 15:55:46.664] [exthost] [error] [ecmel.vscode-html-css] provider FAILED
+[2022-08-17 15:55:46.664] [exthost] [error] undefined
+[2022-08-17 15:55:46.996] [exthost] [error] [ecmel.vscode-html-css] provider FAILED
+[2022-08-17 15:55:46.996] [exthost] [error] undefined
+[2022-08-17 15:55:47.771] [exthost] [error] [ecmel.vscode-html-css] provider FAILED
+[2022-08-17 15:55:47.771] [exthost] [error] undefined
+[2022-08-17 15:55:47.999] [exthost] [error] [ecmel.vscode-html-css] provider FAILED
+[2022-08-17 15:55:47.999] [exthost] [error] undefined
+[2022-08-17 15:55:48.299] [exthost] [error] [ecmel.vscode-html-css] provider FAILED
+[2022-08-17 15:55:48.299] [exthost] [error] undefined
+[2022-08-17 15:55:51.436] [exthost] [error] [ecmel.vscode-html-css] provider FAILED
+[2022-08-17 15:55:51.436] [exthost] [error] undefined
+[2022-08-17 15:56:59.856] [exthost] [error] [ecmel.vscode-html-css] provider FAILED
+[2022-08-17 15:56:59.856] [exthost] [error] undefined
+[2022-08-17 15:57:17.346] [exthost] [error] [ecmel.vscode-html-css] provider FAILED
+[2022-08-17 15:57:17.346] [exthost] [error] undefined
+[2022-08-17 15:57:19.193] [exthost] [error] [ecmel.vscode-html-css] provider FAILED
+[2022-08-17 15:57:19.193] [exthost] [error] undefined
+[2022-08-17 15:57:21.449] [exthost] [error] [ecmel.vscode-html-css] provider FAILED
+[2022-08-17 15:57:21.449] [exthost] [error] undefined
+[2022-08-17 15:57:26.543] [exthost] [error] [ecmel.vscode-html-css] provider FAILED
+[2022-08-17 15:57:26.543] [exthost] [error] undefined
+[2022-08-17 15:57:31.690] [exthost] [error] [ecmel.vscode-html-css] provider FAILED
+[2022-08-17 15:57:31.690] [exthost] [error] undefined
+[2022-08-17 15:57:33.726] [exthost] [error] [ecmel.vscode-html-css] provider FAILED
+[2022-08-17 15:57:33.726] [exthost] [error] undefined
+[2022-08-17 15:57:35.061] [exthost] [error] [ecmel.vscode-html-css] provider FAILED
+[2022-08-17 15:57:35.061] [exthost] [error] undefined
+[2022-08-17 15:57:35.621] [exthost] [error] [ecmel.vscode-html-css] provider FAILED
+[2022-08-17 15:57:35.621] [exthost] [error] undefined
+[2022-08-17 15:57:37.118] [exthost] [error] [ecmel.vscode-html-css] provider FAILED
+[2022-08-17 15:57:37.118] [exthost] [error] undefined
+[2022-08-17 15:57:51.667] [exthost] [error] [ecmel.vscode-html-css] provider FAILED
+[2022-08-17 15:57:51.667] [exthost] [error] undefined
+[2022-08-17 15:57:55.434] [exthost] [error] [ecmel.vscode-html-css] provider FAILED
+[2022-08-17 15:57:55.434] [exthost] [error] undefined
+[2022-08-18 14:22:40.446] [exthost] [error] [ecmel.vscode-html-css] provider FAILED
+[2022-08-18 14:22:40.446] [exthost] [error] undefined
+[2022-08-18 14:22:41.502] [exthost] [error] [ecmel.vscode-html-css] provider FAILED
+[2022-08-18 14:22:41.502] [exthost] [error] undefined
+[2022-08-18 14:22:44.990] [exthost] [error] [ecmel.vscode-html-css] provider FAILED
+[2022-08-18 14:22:44.990] [exthost] [error] undefined
+[2022-08-18 14:22:45.316] [exthost] [error] [ecmel.vscode-html-css] provider FAILED
+[2022-08-18 14:22:45.316] [exthost] [error] undefined
+[2022-08-18 14:22:45.418] [exthost] [error] [ecmel.vscode-html-css] provider FAILED
+[2022-08-18 14:22:45.418] [exthost] [error] undefined
+[2022-08-18 14:22:45.641] [exthost] [error] [ecmel.vscode-html-css] provider FAILED
+[2022-08-18 14:22:45.641] [exthost] [error] undefined
+[2022-08-18 14:22:46.086] [exthost] [error] [ecmel.vscode-html-css] provider FAILED
+[2022-08-18 14:22:46.086] [exthost] [error] undefined
+[2022-08-18 14:22:46.255] [exthost] [error] [ecmel.vscode-html-css] provider FAILED
+[2022-08-18 14:22:46.255] [exthost] [error] undefined
+[2022-08-18 14:22:46.385] [exthost] [error] [ecmel.vscode-html-css] provider FAILED
+[2022-08-18 14:22:46.385] [exthost] [error] undefined
+[2022-08-18 14:22:46.544] [exthost] [error] [ecmel.vscode-html-css] provider FAILED
+[2022-08-18 14:22:46.544] [exthost] [error] undefined
+[2022-08-19 14:57:47.417] [exthost] [error] [ecmel.vscode-html-css] provider FAILED
+[2022-08-19 14:57:47.417] [exthost] [error] undefined
+[2022-08-19 14:57:48.805] [exthost] [error] [ecmel.vscode-html-css] provider FAILED
+[2022-08-19 14:57:48.805] [exthost] [error] undefined
+[2022-08-19 14:58:36.751] [exthost] [error] [ecmel.vscode-html-css] provider FAILED
+[2022-08-19 14:58:36.751] [exthost] [error] undefined
+[2022-08-19 14:58:39.023] [exthost] [error] [ecmel.vscode-html-css] provider FAILED
+[2022-08-19 14:58:39.023] [exthost] [error] undefined
+[2022-08-19 14:58:54.453] [exthost] [error] [ecmel.vscode-html-css] provider FAILED
+[2022-08-19 14:58:54.453] [exthost] [error] undefined
+[2022-08-19 14:59:00.307] [exthost] [error] [ecmel.vscode-html-css] provider FAILED
+[2022-08-19 14:59:00.307] [exthost] [error] undefined
+[2022-08-19 15:01:44.220] [exthost] [error] [ecmel.vscode-html-css] provider FAILED
+[2022-08-19 15:01:44.220] [exthost] [error] undefined
+[2022-08-19 15:05:15.146] [exthost] [error] [ecmel.vscode-html-css] provider FAILED
+[2022-08-19 15:05:15.146] [exthost] [error] undefined
+[2022-08-19 15:10:14.544] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-08-19 15:10:14.615] [exthost] [info] Extension host with pid 11125 exiting with code 0
+[2022-08-19 15:10:18.956] [exthost] [info] Extension host with pid 20155 started
+[2022-08-19 15:10:18.956] [exthost] [info] Skipping acquiring lock for /home/bbd/.config/Code/User/workspaceStorage/3e0a9ca54c760fc3cbf04831cdfa726a.
+[2022-08-19 15:10:19.516] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2022-08-19 15:10:19.552] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-08-19 15:10:19.555] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-08-19 15:10:19.560] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-08-19 15:10:19.567] [exthost] [info] ExtensionService#_doActivateExtension donjayamanne.githistory, startup: true, activationEvent: '*'
+[2022-08-19 15:10:19.596] [exthost] [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css, startup: true, activationEvent: '*'
+[2022-08-19 15:10:19.637] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag, startup: true, activationEvent: '*'
+[2022-08-19 15:10:19.639] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag, startup: true, activationEvent: '*'
+[2022-08-19 15:10:19.982] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-08-19 15:10:20.066] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-08-19 15:10:20.617] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2022-08-19 15:10:20.683] [exthost] [info] ExtensionService#_doActivateExtension CloudStudio.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2022-08-19 15:10:20.884] [exthost] [info] Eager extensions activated
+[2022-08-19 15:10:21.245] [exthost] [error] Activating extension CloudStudio.github-authentication failed due to an error:
+[2022-08-19 15:10:21.245] [exthost] [error] Error: An authentication provider with id 'github' is already registered.
+    at y.registerAuthenticationProvider (/snap/code/104/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:57365)
+    at Object.friendlyName [as registerAuthenticationProvider] (/snap/code/104/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:31025)
+    at new github (/home/bbd/.vscode/extensions/cloudstudio.github-authentication-0.0.1/dist/webpack:/github-authentication/src/github.ts:68:82)
+    at t.activate (/home/bbd/.vscode/extensions/cloudstudio.github-authentication-0.0.1/dist/webpack:/github-authentication/src/extension.ts:13:88)
+    at Function._callActivateOptional (/snap/code/104/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:97:17473)
+    at Function._callActivate (/snap/code/104/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:97:17131)
+    at /snap/code/104/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:97:14942
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at v._activate (/snap/code/104/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:8180)
+    at v._waitForDepsThenActivate (/snap/code/104/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:8122)
+    at v._initialize (/snap/code/104/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:7486)
+[2022-08-19 15:10:21.284] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-19 15:10:21.292] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-19 15:10:21.294] [exthost] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-19 15:10:21.359] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-19 15:10:39.883] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+[2022-08-19 15:10:45.204] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 10002
+[2022-08-19 15:19:04.656] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+[2022-08-19 15:19:04.692] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+[2022-08-19 15:19:04.748] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+[2022-08-19 15:19:04.812] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+[2022-08-19 15:19:06.449] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-08-19 15:21:24.785] [exthost] [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+[2022-08-19 15:21:30.412] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+[2022-08-19 15:21:31.977] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+[2022-08-19 15:25:41.525] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+[2022-08-19 15:25:56.401] [exthost] [info] ExtensionService#_doActivateExtension vscode.image-preview, startup: false, activationEvent: 'onCustomEditor:imagePreview.previewEditor'
+[2022-08-19 17:27:09.802] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-08-19 17:27:10.138] [exthost] [info] Extension host with pid 20155 exiting with code 0

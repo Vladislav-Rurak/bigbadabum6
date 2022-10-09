@@ -1,0 +1,9 @@
+[2022-08-17 15:37:13.814] [renderer1] [warning] [CloudStudio.github-authentication]: Невозможно зарегистрировать "github-enterprise.uri". Это свойство уже зарегистрировано.
+[2022-08-17 15:37:14.124] [renderer1] [error] [CloudStudio.github-authentication]: Идентификатор проверки подлинности "github" уже зарегистрирован.
+[2022-08-17 15:37:14.134] [renderer1] [error] [CloudStudio.github-authentication]: Идентификатор проверки подлинности "github-enterprise" уже зарегистрирован.
+[2022-08-17 15:39:50.803] [renderer1] [info] Settings Sync: Updated current session b77c2d43-a739-4ac3-aea0-cd8160c2e644
+[2022-08-17 15:42:01.124] [renderer1] [error] Произошла неизвестная ошибка. Подробные сведения см. в журнале.
+[2022-08-17 15:42:48.023] [renderer1] [warning] [CloudStudio.github-authentication]: Невозможно зарегистрировать "github-enterprise.uri". Это свойство уже зарегистрировано.
+[2022-08-17 15:42:48.271] [renderer1] [error] [CloudStudio.github-authentication]: Идентификатор проверки подлинности "github" уже зарегистрирован.
+[2022-08-17 15:42:48.271] [renderer1] [error] [CloudStudio.github-authentication]: Идентификатор проверки подлинности "github-enterprise" уже зарегистрирован.
+[2022-08-17 15:44:16.542] [renderer1] [info] Settings Sync: Updated current session b57a3f49-9648-42f3-89a4-05284ab5ee45

@@ -1,0 +1,33 @@
+git log --full-history --pretty=oneline --date-order --decorate=full --skip=0 --max-count=100 master --follow -- snap/react-app/src/components/ThemeButton/index/js  (completed in 0.034s)
+fatal: bad revision 'master'
+
+git rev-list --full-history --count master -- snap/react-app/src/components/ThemeButton/index/js  (completed in 0.069s)
+fatal: bad revision 'master'
+
+git shortlog -e -s -n HEAD  (completed in 0.05s)
+fatal: неоднозначный аргумент «HEAD»: неизвестная редакция или не путь в рабочем каталоге.
+Используйте «--» для отделения путей от редакций, вот так:
+«git <команда> [<редакция>…] -- [<файл>…]»
+
+git log --full-history --pretty=oneline --date-order --decorate=full --skip=0 --max-count=100 master --follow -- snap/react-app/src/components/ThemeButton/index  (completed in 0.043s)
+fatal: bad revision 'master'
+
+git rev-list --full-history --count master -- snap/react-app/src/components/ThemeButton/index  (completed in 0.069s)
+fatal: bad revision 'master'
+
+git shortlog -e -s -n HEAD  (completed in 0.058s)
+fatal: неоднозначный аргумент «HEAD»: неизвестная редакция или не путь в рабочем каталоге.
+Используйте «--» для отделения путей от редакций, вот так:
+«git <команда> [<редакция>…] -- [<файл>…]»
+
+git log --full-history --pretty=oneline --date-order --decorate=full --skip=0 --max-count=100 master --follow -- snap/react-app/src/components/ThemeButton/index  (completed in 0.046s)
+fatal: bad revision 'master'
+
+git rev-list --full-history --count master -- snap/react-app/src/components/ThemeButton/index  (completed in 0.074s)
+fatal: bad revision 'master'
+
+git shortlog -e -s -n HEAD  (completed in 0.049s)
+fatal: неоднозначный аргумент «HEAD»: неизвестная редакция или не путь в рабочем каталоге.
+Используйте «--» для отделения путей от редакций, вот так:
+«git <команда> [<редакция>…] -- [<файл>…]»
+

@@ -1,0 +1,43 @@
+[Client I] isRunningInWeb: "false"
+[Client V] Initializing authentication
+[Authentication I] Did not find existing login session
+[Authentication I] Did not find existing login session
+[API I] Signing out due to unsuccessful sign in attempt
+[Client:extension:dcd3 I] initializing
+[Client:extension:dcd3 I] creating LiveShare ConnectionHub, with type: "main thread"
+[Client:extension:dcd3 I] 1 connections used: > object #0: [object Object]
+[Client:extension:dcd3:resolver I] created with protocol "codespaces"
+[RemoteExplorer I] Updating codespace performance info
+[RemoteExplorer I] Updating codespace performance info
+[Command:SignIn I] Decorator starting: ErrorNotification
+[Command:SignIn I] Decorator starting: Telemetry
+[Authentication W] Failed to load session: Cancelled
+[Authentication E] Failed to sign in: no token available
+[RemoteExplorer I] Updating codespace performance info
+[API I] Signing out due to unsuccessful sign in attempt
+[Command:SignIn I] Command [Sign In]: Sign In Success (37100ms)
+[Command:SignIn I] Decorator finishing: Telemetry. Duration: 4ms (1 + 3)
+[Command:SignIn I] Decorator finishing: ErrorNotification. Duration: 0ms (0 + 0)
+[RemoteExplorer I] Updating codespace performance info
+[Command:SignIn I] Decorator starting: ErrorNotification
+[Command:SignIn I] Decorator starting: Telemetry
+[Client:extension:dcd3:resolver V] disposing reason: 'vscode disposed the resolver', disposing 2 objects
+[Authentication W] Failed to load session: Canceled
+[Authentication E] Failed to sign in: no token available
+[RemoteExplorer I] Updating codespace performance info
+[API I] Signing out due to unsuccessful sign in attempt
+[Command:SignIn I] Command [Sign In]: Sign In Success (7222ms)
+[Command:SignIn I] Decorator finishing: Telemetry. Duration: 4ms (1 + 3)
+[Client E] Failed to update codespaces list: Canceled> object #0: Canceled
+Canceled: Canceled
+    at new D (/snap/code/104/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:42878)
+    at o._remoteCall (/snap/code/104/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:13748)
+    at Proxy.A.<computed>.B.charCodeAt.A.<computed> (/snap/code/104/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:10303)
+    at a._doExecuteCommand (/snap/code/104/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:63289)
+    at a.executeCommand (/snap/code/104/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:62600)
+    at Object.executeCommand (/snap/code/104/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:31928)
+    at setCommandContext (/home/bbd/.vscode/extensions/github.codespaces-1.10.0/src/constants/commandContext.ts:15:31)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at EnvironmentExplorer.resetInitializationForExplorerState (/home/bbd/.vscode/extensions/github.codespaces-1.10.0/src/treeView/EnvironmentExplorer.ts:291:9)
+    at EnvironmentExplorer.updateInitializationStatus (/home/bbd/.vscode/extensions/github.codespaces-1.10.0/src/treeView/EnvironmentExplorer.ts:44:13)
+[Command:SignIn I] Decorator finishing: ErrorNotification. Duration: 1ms (0 + 1)

@@ -1,0 +1,28 @@
+[2022-08-17T12:09:49.094Z] Уровень ведения журнала: Info
+[2022-08-17T12:09:49.099Z] [info] Проверка найденного git в:git
+[2022-08-17T12:09:49.138Z] [info] Используется git 2.23.0 из git
+[2022-08-17T12:09:49.170Z] > git rev-parse --show-toplevel [6ms]
+[2022-08-17T12:09:49.198Z] > git rev-parse --git-dir --git-common-dir [7ms]
+[2022-08-17T12:09:49.216Z] [info] Open repository: /home/bbd/snap/react-intro
+[2022-08-17T12:09:49.376Z] > git status -z -uall [116ms]
+[2022-08-17T12:09:49.422Z] > git symbolic-ref --short HEAD [6ms]
+[2022-08-17T12:09:49.476Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [33ms]
+[2022-08-17T12:09:49.520Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [31ms]
+[2022-08-17T12:09:49.956Z] > git remote --verbose [451ms]
+[2022-08-17T12:09:49.982Z] > git config --get commit.template [4ms]
+[2022-08-17T12:09:50.006Z] > git status -z -uall [5ms]
+[2022-08-17T12:09:50.039Z] > git symbolic-ref --short HEAD [16ms]
+[2022-08-17T12:09:50.071Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [18ms]
+[2022-08-17T12:09:50.140Z] > git remote --verbose [43ms]
+[2022-08-17T12:09:50.140Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [56ms]
+[2022-08-17T12:09:50.162Z] > git config --get commit.template [2ms]
+[2022-08-17T12:10:43.094Z] > git status -z -uall [13ms]
+[2022-08-17T12:10:43.155Z] > git symbolic-ref --short HEAD [39ms]
+[2022-08-17T12:10:43.174Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+[2022-08-17T12:10:43.200Z] > git remote --verbose [3ms]
+[2022-08-17T12:10:43.200Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [14ms]
+[2022-08-17T12:10:43.222Z] > git config --get commit.template [3ms]
+[2022-08-17T12:10:43.806Z] > git check-ignore -v -z --stdin [1ms]
+[2022-08-17T12:10:44.698Z] > git check-ignore -v -z --stdin [2ms]
+[2022-08-17T12:10:45.796Z] > git show --textconv :.vscode/extensions.json [13ms]
+[2022-08-17T12:10:45.797Z] > git ls-files --stage -- /home/bbd/snap/react-intro/.vscode/extensions.json [2ms]

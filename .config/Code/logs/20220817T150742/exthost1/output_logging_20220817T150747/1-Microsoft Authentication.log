@@ -1,0 +1,25 @@
+[Info  - 12:07:48.951] Reading sessions from secret storage...
+[Info  - 12:07:50.492] Got 0 stored sessions
+[Info  - 12:07:50.557] Getting sessions for the following scopes: email offline_access openid profile
+[Trace  - 12:07:50.557] No session found with idtoken scopes... Using fallback scope list of: email offline_access openid profile
+[Info  - 12:07:50.557] Got 0 sessions for scopes: email offline_access openid profile
+[Info  - 12:07:51.765] Getting sessions for all scopes...
+[Info  - 12:07:51.765] Got 0 sessions for all scopes...
+[Info  - 12:07:52.705] Getting sessions for the following scopes: email offline_access openid profile
+[Trace  - 12:07:52.705] No session found with idtoken scopes... Using fallback scope list of: email offline_access openid profile
+[Info  - 12:07:52.705] Got 0 sessions for scopes: email offline_access openid profile
+[Info  - 12:07:52.717] Logging in for the following scopes: email offline_access openid profile
+[Info  - 12:08:00.542] Getting sessions for the following scopes: email offline_access openid profile
+[Trace  - 12:08:00.543] No session found with idtoken scopes... Using fallback scope list of: email offline_access openid profile
+[Info  - 12:08:00.543] Got 0 sessions for scopes: email offline_access openid profile
+[Info  - 12:08:00.563] Logging in for the following scopes: email offline_access openid profile
+[Info  - 12:08:14.94] Getting sessions for all scopes...
+[Info  - 12:08:14.94] Got 0 sessions for all scopes...
+[Info  - 12:09:15.898] Getting sessions for the following scopes: email offline_access openid profile
+[Trace  - 12:09:15.898] No session found with idtoken scopes... Using fallback scope list of: email offline_access openid profile
+[Info  - 12:09:15.898] Got 0 sessions for scopes: email offline_access openid profile
+[Info  - 12:09:16.943] Getting sessions for all scopes...
+[Info  - 12:09:16.943] Got 0 sessions for all scopes...
+[Info  - 12:09:17.851] Getting sessions for the following scopes: email offline_access openid profile
+[Trace  - 12:09:17.852] No session found with idtoken scopes... Using fallback scope list of: email offline_access openid profile
+[Info  - 12:09:17.852] Got 0 sessions for scopes: email offline_access openid profile

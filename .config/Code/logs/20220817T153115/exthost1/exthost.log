@@ -1,0 +1,93 @@
+[2022-08-17 15:31:20.541] [exthost] [info] Extension host with pid 5302 started
+[2022-08-17 15:31:21.295] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2022-08-17 15:31:21.425] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-08-17 15:31:21.440] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-08-17 15:31:21.450] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-08-17 15:31:21.456] [exthost] [info] ExtensionService#_doActivateExtension donjayamanne.githistory, startup: true, activationEvent: '*'
+[2022-08-17 15:31:21.544] [exthost] [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css, startup: true, activationEvent: '*'
+[2022-08-17 15:31:21.660] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag, startup: true, activationEvent: '*'
+[2022-08-17 15:31:21.674] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag, startup: true, activationEvent: '*'
+[2022-08-17 15:31:21.713] [exthost] [info] ExtensionService#_doActivateExtension GitHub.codespaces, startup: true, activationEvent: '*'
+[2022-08-17 15:31:23.005] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-08-17 15:31:23.136] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-08-17 15:31:24.935] [exthost] [info] ExtensionService#_doActivateExtension CloudStudio.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2022-08-17 15:31:26.360] [exthost] [info] Eager extensions activated
+[2022-08-17 15:31:26.374] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-17 15:31:26.386] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-17 15:31:26.390] [exthost] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-17 15:31:26.515] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-17 15:34:43.328] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-08-17 15:34:43.352] [exthost] [info] Extension host with pid 5302 exiting with code 0
+[2022-08-17 15:34:47.622] [exthost] [info] Extension host with pid 6665 started
+[2022-08-17 15:34:48.261] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2022-08-17 15:34:48.308] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-08-17 15:34:48.312] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-08-17 15:34:48.320] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-08-17 15:34:48.325] [exthost] [info] ExtensionService#_doActivateExtension donjayamanne.githistory, startup: true, activationEvent: '*'
+[2022-08-17 15:34:48.360] [exthost] [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css, startup: true, activationEvent: '*'
+[2022-08-17 15:34:48.447] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag, startup: true, activationEvent: '*'
+[2022-08-17 15:34:48.449] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag, startup: true, activationEvent: '*'
+[2022-08-17 15:34:48.922] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-08-17 15:34:49.011] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-08-17 15:34:49.364] [exthost] [info] Eager extensions activated
+[2022-08-17 15:34:49.496] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-17 15:34:49.509] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-17 15:34:49.513] [exthost] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-17 15:34:49.646] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-17 15:34:50.274] [exthost] [info] ExtensionService#_doActivateExtension CloudStudio.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2022-08-17 15:36:13.611] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2022-08-17 15:36:13.764] [exthost] [error] Activating extension vscode.github-authentication failed due to an error:
+[2022-08-17 15:36:13.764] [exthost] [error] Error: An authentication provider with id 'github' is already registered.
+    at y.registerAuthenticationProvider (/snap/code/104/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:57365)
+    at Object.registerAuthenticationProvider (/snap/code/104/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:31025)
+    at new t.GitHubAuthenticationProvider (/snap/code/104/usr/share/code/resources/app/extensions/github-authentication/dist/extension.js:1:703920)
+    at e.activate (/snap/code/104/usr/share/code/resources/app/extensions/github-authentication/dist/extension.js:1:720472)
+    at Function._callActivateOptional (/snap/code/104/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:97:17473)
+    at Function._callActivate (/snap/code/104/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:97:17131)
+    at /snap/code/104/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:97:14942
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at v._activate (/snap/code/104/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:8180)
+    at v._waitForDepsThenActivate (/snap/code/104/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:8122)
+    at v._initialize (/snap/code/104/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:7486)
+[2022-08-17 15:36:48.613] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-08-17 15:36:48.656] [exthost] [info] Extension host with pid 6665 exiting with code 0
+[2022-08-17 15:36:53.230] [exthost] [info] Extension host with pid 7375 started
+[2022-08-17 15:36:53.230] [exthost] [info] Skipping acquiring lock for /home/bbd/.config/Code/User/workspaceStorage/7f2afa3e866a46178de3ffb5c58a1265.
+[2022-08-17 15:36:53.643] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-08-17 15:36:53.654] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-08-17 15:36:53.745] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-08-17 15:36:53.774] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2022-08-17 15:36:53.809] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-08-17 15:36:53.812] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-08-17 15:36:53.816] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-08-17 15:36:53.820] [exthost] [info] ExtensionService#_doActivateExtension donjayamanne.githistory, startup: true, activationEvent: '*'
+[2022-08-17 15:36:53.847] [exthost] [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css, startup: true, activationEvent: '*'
+[2022-08-17 15:36:53.892] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag, startup: true, activationEvent: '*'
+[2022-08-17 15:36:53.906] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag, startup: true, activationEvent: '*'
+[2022-08-17 15:36:53.936] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: true, activationEvent: '*', root cause: GitHub.vscode-pull-request-github
+[2022-08-17 15:36:54.353] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-08-17 15:36:54.481] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-08-17 15:36:54.508] [exthost] [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: true, activationEvent: '*'
+[2022-08-17 15:36:56.281] [exthost] [info] ExtensionService#_doActivateExtension CloudStudio.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2022-08-17 15:36:56.827] [exthost] [error] Activating extension CloudStudio.github-authentication failed due to an error:
+[2022-08-17 15:36:56.827] [exthost] [error] Error: An authentication provider with id 'github' is already registered.
+    at y.registerAuthenticationProvider (/snap/code/104/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:57365)
+    at Object.friendlyName [as registerAuthenticationProvider] (/snap/code/104/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:31025)
+    at new github (/home/bbd/.vscode/extensions/cloudstudio.github-authentication-0.0.1/dist/webpack:/github-authentication/src/github.ts:68:82)
+    at t.activate (/home/bbd/.vscode/extensions/cloudstudio.github-authentication-0.0.1/dist/webpack:/github-authentication/src/extension.ts:13:88)
+    at Function._callActivateOptional (/snap/code/104/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:97:17473)
+    at Function._callActivate (/snap/code/104/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:97:17131)
+    at /snap/code/104/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:97:14942
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at v._activate (/snap/code/104/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:8180)
+    at v._waitForDepsThenActivate (/snap/code/104/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:8122)
+    at v._initialize (/snap/code/104/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:7486)
+[2022-08-17 15:36:57.080] [exthost] [info] Eager extensions activated
+[2022-08-17 15:36:57.085] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-17 15:36:57.095] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-17 15:36:57.098] [exthost] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-17 15:36:57.262] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-17 15:37:04.350] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-08-17 15:37:04.460] [exthost] [error] Error: read ECONNRESET
+    at Pipe.onStreamRead (node:internal/stream_base_commons:220:20)
+[2022-08-17 15:37:04.465] [exthost] [info] Extension host with pid 7375 exiting with code 0
